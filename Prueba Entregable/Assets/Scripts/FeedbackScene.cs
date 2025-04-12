@@ -36,8 +36,16 @@ public class FeedbackScene : MonoBehaviour
     {
         if (ScoreManager.instance != null)
         {
-            Destroy(ScoreManager.instance.gameObject); // Destruye el objeto que quedó con DontDestroyOnLoad
-            ScoreManager.instance = null; // Limpia la instancia para evitar referencias futuras
+            // Aqui mando los resultados a la base de datos (aun no implementado) 
+            //string nombreJugador = nombreJugadorInput != null ? nombreJugadorInput.text : "Anonimo";
+            //int puntuacion = ScoreManager.instance.preguntasCorrectas; // Este es el valor que queremos enviar
+
+            //Debug.Log($"[DB] Enviando datos: Jugador={nombreJugador}, Puntuación={puntuacion}/10");
+
+
+            // Destruimos el ScoreManager si existe esto es importante para evitar que el ScoreManager persista entre escenas
+            Destroy(ScoreManager.instance.gameObject);
+            ScoreManager.instance = null; 
         }
 
         SceneManager.LoadScene("MenuJ"); // Cambia "MenuJ" por el nombre exacto de tu escena de menú si es diferente

@@ -617,31 +617,72 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   QnA:
-  - Pregunta: who is the game development teacher?
+  - Pregunta: "La criptograf\xEDa se usa para proteger los datos en el blockchain."
     Respuestas:
-    - Michel
-    - Roman
-    - Ariel
-    - Leopoldo
+    - Verdadero
+    - Falso
+    RespuestaCorrecta: 1
+  - Pregunta: "Es posible revertir f\xE1cilmente un hash para obtener los datos originales."
+    Respuestas:
+    - Verdadero
+    - Falso
     RespuestaCorrecta: 2
-  - Pregunta: "5 + 20 = \xBF?"
+  - Pregunta: "Los hashes en blockchain son \xFAnicos para cada conjunto de datos."
     Respuestas:
-    - 5
-    - 12
-    - 25
-    - 42
+    - Verdadero
+    - Falso
+    RespuestaCorrecta: 1
+  - Pregunta: Si alguien altera los datos en un bloque, el hash permanece igual.
+    Respuestas:
+    - Verdadero
+    - Falso
+    RespuestaCorrecta: 2
+  - Pregunta: "La criptograf\xEDa permite verificar la autenticidad sin revelar la
+      informaci\xF3n personal."
+    Respuestas:
+    - Verdadero
+    - Falso
+    RespuestaCorrecta: 1
+  - Pregunta: "\xBFQu\xE9 es la criptograf\xEDa en el contexto de blockchain?"
+    Respuestas:
+    - El arte de borrar mensajes
+    - "Una t\xE9cnica para crear redes sociales "
+    - "Un m\xE9todo para proteger la informaci\xF3n"
+    - Un idioma digital
     RespuestaCorrecta: 3
-  - Pregunta: CEDETEC
+  - Pregunta: "\xBFQu\xE9 es un hash criptogr\xE1fico?"
     Respuestas:
-    - 4
-    - 6
-    - 8
-    - 12
-    RespuestaCorrecta: 4
+    - Una clave de acceso
+    - Un tipo de virus
+    - "Un c\xF3digo que representa datos en forma segura"
+    - Un mensaje secreto
+    RespuestaCorrecta: 3
+  - Pregunta: "\xBFQu\xE9 pasa si cambias una sola letra en los datos de entrada
+      de un hash?"
+    Respuestas:
+    - El hash no cambia
+    - Cambia levemente
+    - Cambia completamente
+    - Se elimina el hash
+    RespuestaCorrecta: 3
+  - Pregunta: "\xBFCu\xE1l es una funci\xF3n del hash en blockchain?"
+    Respuestas:
+    - "Guardar contrase\xF1as"
+    - Cifrar direcciones IP
+    - Verificar la integridad de los datos
+    - Crear emojis
+    RespuestaCorrecta: 3
+  - Pregunta: "\xBFPor qu\xE9 es dif\xEDcil descifrar un hash sin la clave correcta?"
+    Respuestas:
+    - "Porque est\xE1 en otro idioma"
+    - "Porque necesita mucha energ\xEDa y recursos computacionales"
+    - Porque cambia cada segundo
+    - Porque lo crea el gobierno
+    RespuestaCorrecta: 2
   options:
   - {fileID: 1372318091}
-  - {fileID: 359384777}
   - {fileID: 1057049812}
+  - {fileID: 359384777}
   - {fileID: 437686534}
   currentQuestion: 0
   questionText: {fileID: 829931079}
@@ -712,6 +753,7 @@ MonoBehaviour:
   - Que mal :c
   - No hay problema :)
   - 3 Errores, Concentrate :O
+  rachaCorrecta: 0
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0

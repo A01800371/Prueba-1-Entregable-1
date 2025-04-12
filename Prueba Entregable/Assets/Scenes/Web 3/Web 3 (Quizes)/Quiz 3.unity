@@ -617,31 +617,73 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   QnA:
-  - Pregunta: who is the game development teacher?
+  - Pregunta: "\xBFQu\xE9 representa un nodo en una red descentralizada?"
     Respuestas:
-    - Michel
-    - Roman
-    - Ariel
-    - Leopoldo
-    RespuestaCorrecta: 2
-  - Pregunta: "5 + 20 = \xBF?"
-    Respuestas:
-    - 5
-    - 12
-    - 25
-    - 42
+    - Un virus
+    - Una empresa controladora
+    - Un dispositivo que participa en la red
+    - Un software antiguo
     RespuestaCorrecta: 3
-  - Pregunta: CEDETEC
+  - Pregunta: "\xBFQu\xE9 sucede si un nodo abandona la red descentralizada?"
     Respuestas:
-    - 4
-    - 6
-    - 8
-    - 12
-    RespuestaCorrecta: 4
+    - La red se detiene
+    - "La red se reestructura autom\xE1ticamente"
+    - "La red contin\xFAa sin problema"
+    - "Se pierde toda la informaci\xF3n"
+    RespuestaCorrecta: 3
+  - Pregunta: "\xBFQu\xE9 hace m\xE1s segura a una red descentralizada?"
+    Respuestas:
+    - Que tenga solo un servidor
+    - Que las decisiones se tomen en secreto
+    - "Que la informaci\xF3n est\xE9 distribuida en muchos lugares"
+    - "Que use contrase\xF1as cortas"
+    RespuestaCorrecta: 3
+  - Pregunta: "\xBFQu\xE9 se necesita para que una decisi\xF3n se registre en una
+      red descentralizada?"
+    Respuestas:
+    - Una orden del banco central
+    - Un acuerdo entre varios participantes
+    - La firma de una empresa
+    - Un pago con tarjeta
+    RespuestaCorrecta: 2
+  - Pregunta: "\xBFQu\xE9 valor promueve la descentralizaci\xF3n en la Web 3?"
+    Respuestas:
+    - Exclusividad
+    - Control total de gobiernos
+    - "Inclusi\xF3n y equidad"
+    - Uso obligatorio de redes sociales
+    RespuestaCorrecta: 3
+  - Pregunta: "En una red descentralizada, todos los usuarios pueden ver la informaci\xF3n
+      que se guarda."
+    Respuestas:
+    - Verdadero
+    - Falso
+    RespuestaCorrecta: 1
+  - Pregunta: "Si todos los nodos de la red desaparecen, la informaci\xF3n a\xFAn
+      se conserva."
+    Respuestas:
+    - Verdadero
+    - Falso
+    RespuestaCorrecta: 2
+  - Pregunta: Descentralizar significa eliminar por completo las reglas.
+    Respuestas:
+    - Verdadero
+    - Falso
+    RespuestaCorrecta: 2
+  - Pregunta: Las redes descentralizadas funcionan gracias al consenso entre usuarios.
+    Respuestas:
+    - Verdadero
+    - Falso
+    RespuestaCorrecta: 1
+  - Pregunta: "La descentralizaci\xF3n permite transacciones globales sin intermediarios."
+    Respuestas:
+    - Verdadero
+    - Falso
+    RespuestaCorrecta: 1
   options:
   - {fileID: 1372318091}
-  - {fileID: 359384777}
   - {fileID: 1057049812}
+  - {fileID: 359384777}
   - {fileID: 437686534}
   currentQuestion: 0
   questionText: {fileID: 829931079}
@@ -712,6 +754,7 @@ MonoBehaviour:
   - Que mal :c
   - No hay problema :)
   - 3 Errores, Concentrate :O
+  rachaCorrecta: 0
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0

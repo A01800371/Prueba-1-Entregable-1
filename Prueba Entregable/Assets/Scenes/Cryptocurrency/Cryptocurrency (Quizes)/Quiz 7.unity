@@ -617,27 +617,79 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   QnA:
-  - Pregunta: who is the game development teacher?
+  - Pregunta: "\xBFQu\xE9 es una criptomoneda?"
     Respuestas:
-    - Michel
-    - Roman
-    - Ariel
-    - Leopoldo
-    RespuestaCorrecta: 2
-  - Pregunta: "5 + 20 = \xBF?"
-    Respuestas:
-    - 5
-    - 12
-    - 25
-    - 42
+    - Un juego digital
+    - "Una moneda f\xEDsica"
+    - "Una moneda digital protegida por criptograf\xEDa"
+    - Un tipo de banco
     RespuestaCorrecta: 3
-  - Pregunta: CEDETEC
+  - Pregunta: "\xBFD\xF3nde se almacenan las transacciones de criptomonedas?"
     Respuestas:
-    - 4
-    - 6
-    - 8
-    - 12
-    RespuestaCorrecta: 4
+    - En una USB
+    - En papel
+    - En la cadena de bloques (blockchain)
+    - En un banco central
+    RespuestaCorrecta: 3
+  - Pregunta: "\xBFCu\xE1l es una de las principales ventajas de las criptomonedas?"
+    Respuestas:
+    - Solo se usan en videojuegos
+    - Necesitan muchos intermediarios
+    - Pueden enviarse directamente entre personas sin bancos
+    - "Est\xE1n controladas por un gobierno"
+    RespuestaCorrecta: 3
+  - Pregunta: "\xBFQu\xE9 representa el valor de una criptomoneda como Bitcoin?"
+    Respuestas:
+    - La cantidad de anuncios que tiene
+    - "La opini\xF3n de un banco"
+    - Su escasez, utilidad y confianza en su uso
+    - "Su n\xFAmero de seguidores en redes"
+    RespuestaCorrecta: 3
+  - Pregunta: "\xBFQu\xE9 significa que una criptomoneda sea descentralizada?"
+    Respuestas:
+    - Que tiene una oficina principal
+    - Que no depende de una sola entidad para funcionar
+    - Que necesita permiso del banco
+    - "Que se usa solo en ciertos pa\xEDses"
+    RespuestaCorrecta: 2
+  - Pregunta: "\xBFCu\xE1l es una caracter\xEDstica del sistema tradicional de dinero
+      (fiat)?"
+    Respuestas:
+    - Es minado por usuarios
+    - "Tiene un n\xFAmero limitado de monedas"
+    - Es emitido por un gobierno central
+    - "Est\xE1 basado en blockchain"
+    RespuestaCorrecta: 3
+  - Pregunta: "\xBFQu\xE9 permite la tecnolog\xEDa de criptomonedas a las personas
+      sin acceso a bancos?"
+    Respuestas:
+    - Comprar autos
+    - "Enviar mensajes an\xF3nimos"
+    - "Participar en la econom\xEDa global sin intermediarios"
+    - Hacer encuestas
+    RespuestaCorrecta: 3
+  - Pregunta: "\xBFQu\xE9 problema busca resolver el uso de criptomonedas?"
+    Respuestas:
+    - La escasez de celulares
+    - La lentitud del internet
+    - "La exclusi\xF3n financiera y la falta de control sobre el dinero"
+    - La falta de redes sociales
+    RespuestaCorrecta: 3
+  - Pregunta: "\xBFQu\xE9 diferencia principal hay entre el dinero tradicional y
+      una criptomoneda?"
+    Respuestas:
+    - "Las criptomonedas siempre est\xE1n respaldadas por oro"
+    - Las criptomonedas se usan solo en videojuegos
+    - Las criptomonedas usan blockchain y no requieren bancos
+    - El dinero tradicional se usa menos en tiendas
+    RespuestaCorrecta: 3
+  - Pregunta: "\xBFQu\xE9 determina el valor de una criptomoneda en el mercado?"
+    Respuestas:
+    - Las decisiones del gobierno
+    - La cantidad de anuncios en TV
+    - La oferta y la demanda
+    - "El n\xFAmero de bancos que la apoyan"
+    RespuestaCorrecta: 3
   options:
   - {fileID: 1372318091}
   - {fileID: 359384777}
@@ -712,6 +764,7 @@ MonoBehaviour:
   - Que mal :c
   - No hay problema :)
   - 3 Errores, Concentrate :O
+  rachaCorrecta: 0
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0

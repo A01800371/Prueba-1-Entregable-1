@@ -617,27 +617,78 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   QnA:
-  - Pregunta: who is the game development teacher?
+  - Pregunta: "\xBFCu\xE1l fue una caracter\xEDstica principal de la Web 1.0?"
     Respuestas:
-    - Michel
-    - Roman
-    - Ariel
-    - Leopoldo
+    - "Se pod\xEDan hacer compras en l\xEDnea"
+    - "Solo se pod\xEDa leer informaci\xF3n"
+    - "Todos los usuarios pod\xEDan crear contenido"
+    - Las redes sociales dominaban el espacio
     RespuestaCorrecta: 2
-  - Pregunta: "5 + 20 = \xBF?"
+  - Pregunta: "\xBFQu\xE9 marc\xF3 la transici\xF3n de la Web 1 a la Web 2?"
     Respuestas:
-    - 5
-    - 12
-    - 25
-    - 42
+    - "La aparici\xF3n de criptomonedas"
+    - El uso de Inteligencia Artificial
+    - La posibilidad de crear contenido y comunicarse
+    - El uso de blockchain
     RespuestaCorrecta: 3
-  - Pregunta: CEDETEC
+  - Pregunta: "\xBFCu\xE1l es una de las principales ventajas de la Web 3?"
     Respuestas:
-    - 4
-    - 6
-    - 8
-    - 12
-    RespuestaCorrecta: 4
+    - Es privada pero centralizada
+    - Permite a los usuarios tener control sobre sus datos
+    - Se basa en redes sociales
+    - "Solo funciona en ciertos pa\xEDses"
+    RespuestaCorrecta: 2
+  - Pregunta: "\xBFQu\xE9 empresa representa un ejemplo de poder centralizado en
+      la Web 2?"
+    Respuestas:
+    - Amazon
+    - Brave
+    - Wikipedia
+    - Bitcoin
+    RespuestaCorrecta: 1
+  - Pregunta: "\xBFQu\xE9 se busca recuperar con la Web 3 seg\xFAn la narradora?"
+    Respuestas:
+    - El anonimato total
+    - "La velocidad de navegaci\xF3n"
+    - El control sobre nuestros datos
+    - Los blogs personales
+    RespuestaCorrecta: 3
+  - Pregunta: "\xBFCu\xE1l de estas afirmaciones representa mejor el prop\xF3sito
+      de la Web 3?"
+    Respuestas:
+    - "Vender m\xE1s publicidad"
+    - Hacer que todos dependan de un servidor
+    - Dar voz a las comunidades y descentralizar el poder
+    - Eliminar las redes sociales
+    RespuestaCorrecta: 3
+  - Pregunta: "\xBFQu\xE9 representa el concepto de \"descentralizaci\xF3n\"?"
+    Respuestas:
+    - Un solo punto de control
+    - Un sistema compartido entre muchas personas
+    - Una empresa global
+    - "Un gobierno \xFAnico"
+    RespuestaCorrecta: 2
+  - Pregunta: "\xBFPor qu\xE9 es importante la transparencia en la Web 3?"
+    Respuestas:
+    - "Para compartir fotos m\xE1s f\xE1cilmente"
+    - "Para saber c\xF3mo se mueven nuestros datos y decisiones"
+    - Para acelerar el internet
+    - Para volver a la Web 1
+    RespuestaCorrecta: 2
+  - Pregunta: "\xBFCu\xE1l fue una de las cr\xEDticas principales hacia la Web 2?"
+    Respuestas:
+    - Falta de emojis
+    - Poco acceso a redes sociales
+    - Exceso de control por grandes empresas
+    - "Demasiada libertad de expresi\xF3n"
+    RespuestaCorrecta: 3
+  - Pregunta: "\xBFQu\xE9 motiv\xF3 el nacimiento de la Web 3 y las criptomonedas?"
+    Respuestas:
+    - Nuevas leyes internacionales
+    - "Una moda tecnol\xF3gica"
+    - "El deseo de recuperar autonom\xEDa digital"
+    - "La ca\xEDda de las redes sociales"
+    RespuestaCorrecta: 3
   options:
   - {fileID: 1372318091}
   - {fileID: 359384777}
@@ -712,6 +763,7 @@ MonoBehaviour:
   - Que mal :c
   - No hay problema :)
   - 3 Errores, Concentrate :O
+  rachaCorrecta: 0
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0

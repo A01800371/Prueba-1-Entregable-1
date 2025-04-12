@@ -95,6 +95,12 @@ public class QuizManager : MonoBehaviour
 
     public void RegresarAlMenu()
     {
+        if (ScoreManager.instance != null)
+        {
+            
+            Destroy(ScoreManager.instance.gameObject);
+            ScoreManager.instance = null; 
+        }
         SceneManager.LoadScene("MenuJ"); // Regresamos al menú
     }
 }

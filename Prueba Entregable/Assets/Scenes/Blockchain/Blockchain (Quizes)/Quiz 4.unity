@@ -617,27 +617,77 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   QnA:
-  - Pregunta: who is the game development teacher?
+  - Pregunta: "\xBFCu\xE1l fue una caracter\xEDstica principal de la Web 1.0?"
     Respuestas:
-    - Michel
-    - Roman
-    - Ariel
-    - Leopoldo
+    - Solo lo puede leer el creador
+    - Solo almacena fotos
+    - Todos los usuarios ven y registran los cambios
+    - Es privado y exclusivo
     RespuestaCorrecta: 2
-  - Pregunta: "5 + 20 = \xBF?"
+  - Pregunta: "\xBFQu\xE9 ocurre cuando una entrada es aceptada en el blockchain?"
     Respuestas:
-    - 5
-    - 12
-    - 25
-    - 42
+    - "Se elimina al d\xEDa siguiente"
+    - Se convierte en permanente
+    - Solo se guarda en un nodo
+    - Se guarda en papel
+    RespuestaCorrecta: 0
+  - Pregunta: "\xBFQu\xE9 se necesita para que una transacci\xF3n sea agregada al
+      blockchain?"
+    Respuestas:
+    - Un permiso del gobierno
+    - Una orden de compra
+    - Un consenso entre los participantes
+    - "Una tarjeta de cr\xE9dito"
     RespuestaCorrecta: 3
-  - Pregunta: CEDETEC
+  - Pregunta: "\xBFCu\xE1l es una ventaja clave del blockchain?"
     Respuestas:
-    - 4
-    - 6
-    - 8
-    - 12
+    - Depende de un servidor central
+    - Es lento pero seguro
+    - Es descentralizado y transparente
+    - No permite ver transacciones anteriores
+    RespuestaCorrecta: 3
+  - Pregunta: "\xBFQu\xE9 tipo de datos puede almacenar un blockchain?"
+    Respuestas:
+    - "Solo im\xE1genes"
+    - Datos bancarios y personales
+    - "Cualquier tipo de informaci\xF3n digital"
+    - "Solo contratos f\xEDsicos"
+    RespuestaCorrecta: 3
+  - Pregunta: "\xBFQu\xE9 funci\xF3n tiene un bloque en la cadena?"
+    Respuestas:
+    - "Archivar contratos f\xEDsicos"
+    - Almacenar un conjunto de transacciones
+    - Bloquear el acceso a la red
+    - Ser el nodo principal
+    RespuestaCorrecta: 2
+  - Pregunta: "\xBFQu\xE9 pasa si se intenta cambiar un dato en un bloque anterior?"
+    Respuestas:
+    - "Se actualiza autom\xE1ticamente"
+    - El sistema lo corrige
+    - Se rompe la cadena y se detecta el cambio
+    - No pasa nada
+    RespuestaCorrecta: 3
+  - Pregunta: "\xBFC\xF3mo se asegura el orden de los bloques?"
+    Respuestas:
+    - Por colores
+    - Por votos
+    - ' Por el hash del bloque anterior'
+    - Por fecha
+    RespuestaCorrecta: 3
+  - Pregunta: "\xBFQu\xE9 es un \"hash\"?"
+    Respuestas:
+    - Un mensaje cifrado
+    - Un bloque corrupto
+    - Un algoritmo visual
+    - "Una firma digital \xFAnica de los datos"
     RespuestaCorrecta: 4
+  - Pregunta: "\xBFPor qu\xE9 es dif\xEDcil falsificar una transacci\xF3n en blockchain?"
+    Respuestas:
+    - Porque se borra al poco tiempo
+    - Porque cada entrada es validada por todos y queda registrada
+    - Porque nadie la ve
+    - Porque solo un nodo puede acceder
+    RespuestaCorrecta: 2
   options:
   - {fileID: 1372318091}
   - {fileID: 359384777}
@@ -712,6 +762,7 @@ MonoBehaviour:
   - Que mal :c
   - No hay problema :)
   - 3 Errores, Concentrate :O
+  rachaCorrecta: 0
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0

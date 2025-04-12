@@ -617,31 +617,63 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   QnA:
-  - Pregunta: who is the game development teacher?
+  - Pregunta: Una wallet es necesaria para enviar, recibir y guardar criptomonedas.
     Respuestas:
-    - Michel
-    - Roman
-    - Ariel
-    - Leopoldo
+    - Verdadero
+    - Falso
+    RespuestaCorrecta: 1
+  - Pregunta: "La clave p\xFAblica de una wallet se comparte con otras personas para
+      recibir fondos."
+    Respuestas:
+    - Verdadero
+    - Falso
+    RespuestaCorrecta: 1
+  - Pregunta: "Si pierdes tu clave privada, puedes recuperarla f\xE1cilmente contactando
+      a soporte."
+    Respuestas:
+    - Verdadero
+    - Falso
     RespuestaCorrecta: 2
-  - Pregunta: "5 + 20 = \xBF?"
+  - Pregunta: "Las wallets solo existen en forma f\xEDsica."
     Respuestas:
-    - 5
-    - 12
-    - 25
-    - 42
-    RespuestaCorrecta: 3
-  - Pregunta: CEDETEC
+    - Verdadero
+    - Falso
+    RespuestaCorrecta: 2
+  - Pregunta: "Una wallet puede ser en l\xEDnea, m\xF3vil, de escritorio o hardware."
     Respuestas:
-    - 4
-    - 6
-    - 8
-    - 12
-    RespuestaCorrecta: 4
+    - Verdadero
+    - Falso
+    RespuestaCorrecta: 1
+  - Pregunta: "Compartir tu clave privada no representa ning\xFAn riesgo."
+    Respuestas:
+    - Verdadero
+    - Falso
+    RespuestaCorrecta: 2
+  - Pregunta: Las transacciones en blockchain son irreversibles.
+    Respuestas:
+    - Verdadero
+    - Falso
+    RespuestaCorrecta: 1
+  - Pregunta: "La clave p\xFAblica y la privada son la misma cosa."
+    Respuestas:
+    - Verdadero
+    - Falso
+    RespuestaCorrecta: 2
+  - Pregunta: Las wallets no permiten ver el historial de transacciones.
+    Respuestas:
+    - Verdadero
+    - Falso
+    RespuestaCorrecta: 2
+  - Pregunta: Existen servicios como ENS que permiten usar nombres legibles en vez
+      de direcciones largas.
+    Respuestas:
+    - Verdadero
+    - Falso
+    RespuestaCorrecta: 1
   options:
   - {fileID: 1372318091}
-  - {fileID: 359384777}
   - {fileID: 1057049812}
+  - {fileID: 359384777}
   - {fileID: 437686534}
   currentQuestion: 0
   questionText: {fileID: 829931079}
@@ -712,6 +744,7 @@ MonoBehaviour:
   - Que mal :c
   - No hay problema :)
   - 3 Errores, Concentrate :O
+  rachaCorrecta: 0
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0

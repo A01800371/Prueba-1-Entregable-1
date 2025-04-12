@@ -617,31 +617,67 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   QnA:
-  - Pregunta: who is the game development teacher?
+  - Pregunta: "La centralizaci\xF3n implica que una sola entidad controla todo el
+      sistema."
     Respuestas:
-    - Michel
-    - Roman
-    - Ariel
-    - Leopoldo
+    - Verdadero
+    - Falso
+    RespuestaCorrecta: 1
+  - Pregunta: "En un sistema centralizado, las decisiones se toman de forma democr\xE1tica
+      por todos los usuarios."
+    Respuestas:
+    - Verdadero
+    - Falso
     RespuestaCorrecta: 2
-  - Pregunta: "5 + 20 = \xBF?"
+  - Pregunta: "La centralizaci\xF3n puede hacer que nuestros datos sean m\xE1s vulnerables."
     Respuestas:
-    - 5
-    - 12
-    - 25
-    - 42
-    RespuestaCorrecta: 3
-  - Pregunta: CEDETEC
+    - Verdadero
+    - Falso
+    RespuestaCorrecta: 1
+  - Pregunta: Las grandes empresas como Google y Meta representan ejemplos de sistemas
+      descentralizados.
     Respuestas:
-    - 4
-    - 6
-    - 8
-    - 12
-    RespuestaCorrecta: 4
+    - Verdadero
+    - Falso
+    RespuestaCorrecta: 2
+  - Pregunta: Si un servidor central falla, todo el sistema puede dejar de funcionar.
+    Respuestas:
+    - Verdadero
+    - Falso
+    RespuestaCorrecta: 1
+  - Pregunta: "La centralizaci\xF3n permite mayor privacidad y anonimato para los
+      usuarios."
+    Respuestas:
+    - Verdadero
+    - Falso
+    RespuestaCorrecta: 2
+  - Pregunta: "Uno de los problemas de la centralizaci\xF3n es que limita el acceso
+      por regi\xF3n geogr\xE1fica."
+    Respuestas:
+    - Verdadero
+    - Falso
+    RespuestaCorrecta: 1
+  - Pregunta: "La Web 3 busca aumentar el nivel de centralizaci\xF3n para mejorar
+      el control."
+    Respuestas:
+    - Verdadero
+    - Falso
+    RespuestaCorrecta: 2
+  - Pregunta: Las bases de datos centralizadas pueden ser blanco de ataques masivos.
+    Respuestas:
+    - Verdadero
+    - Falso
+    RespuestaCorrecta: 1
+  - Pregunta: "En la centralizaci\xF3n, los usuarios suelen tener poco control sobre
+      el uso de su informaci\xF3n."
+    Respuestas:
+    - Verdadero
+    - Falso
+    RespuestaCorrecta: 1
   options:
   - {fileID: 1372318091}
-  - {fileID: 359384777}
   - {fileID: 1057049812}
+  - {fileID: 359384777}
   - {fileID: 437686534}
   currentQuestion: 0
   questionText: {fileID: 829931079}
@@ -712,6 +748,7 @@ MonoBehaviour:
   - Que mal :c
   - No hay problema :)
   - 3 Errores, Concentrate :O
+  rachaCorrecta: 0
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
