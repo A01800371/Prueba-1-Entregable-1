@@ -34,6 +34,7 @@ public class ScoreManager : MonoBehaviour
 
     void Update()
     {
+        
         scoreText.text = preguntasCorrectas + "/" + NumeroDePrguntas.NumeroDePreguntas ;
 
     }
