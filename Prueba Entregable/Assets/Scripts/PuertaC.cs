@@ -7,7 +7,7 @@ public class PuertaC : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            SceneManager.LoadScene("Login");
+            SceneManager.LoadScene("3°Selector Cryptocurrency");
         }
     }
 }

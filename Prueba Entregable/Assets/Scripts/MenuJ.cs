@@ -26,7 +26,7 @@ public class MenuJ : MonoBehaviour
         // pendiente escena settings
         botonS.RegisterCallback<ClickEvent, String>(Jugar,"Settings");
         // pendiente por hacer escena temas 
-        botonJ.RegisterCallback<ClickEvent, String>(Jugar,"LevelSelector");
+        botonJ.RegisterCallback<ClickEvent, String>(Jugar,"Pueblo");
         botonE.RegisterCallback<ClickEvent, String>(Jugar,"Inicio11");
     }
 

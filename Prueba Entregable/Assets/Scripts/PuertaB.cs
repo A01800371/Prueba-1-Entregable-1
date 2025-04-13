@@ -7,7 +7,7 @@ public class PuertaB : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            SceneManager.LoadScene("Login");
+            SceneManager.LoadScene("2°Selector Blockchain");
         }
     }
 }

@@ -7,7 +7,7 @@ public class PuertaW : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            SceneManager.LoadScene("Login");
+            SceneManager.LoadScene("1°Selector Web 3");
         }
     }
 }
