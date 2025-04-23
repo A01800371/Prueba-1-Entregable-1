@@ -1,9 +1,11 @@
-//Aun esta en progreso no agregar hasta terminar
+/*
+ * ScoreManager.cs
+ * Este script gestiona el puntaje del jugador, mostrando el número de preguntas correctas y el total de preguntas.
+ */
 
-using System.Collections.Generic;
+
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.UIElements;
 
 public class ScoreManager : MonoBehaviour
 {
@@ -28,20 +30,22 @@ public class ScoreManager : MonoBehaviour
 
     public void Start()
     {   
-        DontDestroyOnLoad(gameObject);
-        NumeroDePrguntas = GetComponent<QuizManager>();
+        DontDestroyOnLoad(gameObject); // Aseguramos que el objeto no se destruya al cargar una nueva escena esto es importante mandar a la escena de feedback
+        NumeroDePrguntas = GetComponent<QuizManager>(); // Obtenemos la referencia al QuizManager
     }
 
     void Update()
     {
         
-        scoreText.text = preguntasCorrectas + "/" + NumeroDePrguntas.NumeroDePreguntas ;
+        scoreText.text = preguntasCorrectas + "/" + NumeroDePrguntas.NumeroDePreguntas ; // Actualiza el texto del puntaje en la UI
+        // Si el jugador ha respondido todas las preguntas, se puede mostrar el resultado final
 
     }
 
     public void AgregarPunto()
     {
-        preguntasCorrectas++;
+        preguntasCorrectas++; // Incrementa el puntaje por cada respuesta correcta
+        // Aquí puedes agregar lógica adicional, como reproducir un sonido o mostrar una animación de éxito 
     }
 
 

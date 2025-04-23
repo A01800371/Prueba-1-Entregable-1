@@ -10,11 +10,14 @@ public class LoadSceneButton : MonoBehaviour
         if (Application.CanStreamedLevelBeLoaded(sceneToLoad))
         {
             if (ScoreManager.instance != null)
-        {
+            {
+            // Aqui mando los resultados a la base de datos (aun no implementado)
             
+
             Destroy(ScoreManager.instance.gameObject);
             ScoreManager.instance = null; 
-        }
+            }
+
             SceneManager.LoadScene(sceneToLoad);
         }
         else

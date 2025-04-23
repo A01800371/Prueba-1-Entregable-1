@@ -36,11 +36,7 @@ public class FeedbackScene : MonoBehaviour
     {
         if (ScoreManager.instance != null)
         {
-            // Aqui mando los resultados a la base de datos (aun no implementado) 
-            //string nombreJugador = nombreJugadorInput != null ? nombreJugadorInput.text : "Anonimo";
-            //int puntuacion = ScoreManager.instance.preguntasCorrectas; // Este es el valor que queremos enviar
 
-            //Debug.Log($"[DB] Enviando datos: Jugador={nombreJugador}, Puntuación={puntuacion}/10");
 
 
             // Destruimos el ScoreManager si existe esto es importante para evitar que el ScoreManager persista entre escenas

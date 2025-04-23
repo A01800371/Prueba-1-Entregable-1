@@ -1,0 +1,184 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8012982653122242489
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4549607180475216475}
+  - component: {fileID: 4765609482852070721}
+  - component: {fileID: 8015195563387883056}
+  - component: {fileID: 6752912084263785545}
+  - component: {fileID: 3457184041196522832}
+  m_Layer: 0
+  m_Name: QuizManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4549607180475216475
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8012982653122242489}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4765609482852070721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8012982653122242489}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33c3198c66ccd914cb262251ea5960d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  QnA:
+  - Pregunta: "\xBFCu\xE1l fue una caracter\xEDstica principal de la Web 1.0?"
+    Respuestas:
+    - "Se pod\xEDan hacer compras en l\xEDnea"
+    - "Solo se pod\xEDa leer informaci\xF3n"
+    - "Todos los usuarios pod\xEDan crear contenido"
+    - Las redes sociales dominaban el espacio
+    RespuestaCorrecta: 2
+  - Pregunta: "\xBFQu\xE9 marc\xF3 la transici\xF3n de la Web 1 a la Web 2?"
+    Respuestas:
+    - "La aparici\xF3n de criptomonedas"
+    - El uso de Inteligencia Artificial
+    - La posibilidad de crear contenido y comunicarse
+    - El uso de blockchain
+    RespuestaCorrecta: 3
+  - Pregunta: "\xBFCu\xE1l es una de las principales ventajas de la Web 3?"
+    Respuestas:
+    - Es privada pero centralizada
+    - Permite a los usuarios tener control sobre sus datos
+    - Se basa en redes sociales
+    - "Solo funciona en ciertos pa\xEDses"
+    RespuestaCorrecta: 2
+  - Pregunta: "\xBFQu\xE9 empresa representa un ejemplo de poder centralizado en
+      la Web 2?"
+    Respuestas:
+    - Amazon
+    - Brave
+    - Wikipedia
+    - Bitcoin
+    RespuestaCorrecta: 1
+  - Pregunta: "\xBFQu\xE9 se busca recuperar con la Web 3 seg\xFAn la narradora?"
+    Respuestas:
+    - El anonimato total
+    - "La velocidad de navegaci\xF3n"
+    - El control sobre nuestros datos
+    - Los blogs personales
+    RespuestaCorrecta: 3
+  - Pregunta: "\xBFCu\xE1l de estas afirmaciones representa mejor el prop\xF3sito
+      de la Web 3?"
+    Respuestas:
+    - "Vender m\xE1s publicidad"
+    - Hacer que todos dependan de un servidor
+    - Dar voz a las comunidades y descentralizar el poder
+    - Eliminar las redes sociales
+    RespuestaCorrecta: 3
+  - Pregunta: "\xBFQu\xE9 representa el concepto de \"descentralizaci\xF3n\"?"
+    Respuestas:
+    - Un solo punto de control
+    - Un sistema compartido entre muchas personas
+    - Una empresa global
+    - "Un gobierno \xFAnico"
+    RespuestaCorrecta: 2
+  - Pregunta: "\xBFPor qu\xE9 es importante la transparencia en la Web 3?"
+    Respuestas:
+    - "Para compartir fotos m\xE1s f\xE1cilmente"
+    - "Para saber c\xF3mo se mueven nuestros datos y decisiones"
+    - Para acelerar el internet
+    - Para volver a la Web 1
+    RespuestaCorrecta: 2
+  - Pregunta: "\xBFCu\xE1l fue una de las cr\xEDticas principales hacia la Web 2?"
+    Respuestas:
+    - Falta de emojis
+    - Poco acceso a redes sociales
+    - Exceso de control por grandes empresas
+    - "Demasiada libertad de expresi\xF3n"
+    RespuestaCorrecta: 3
+  - Pregunta: "\xBFQu\xE9 motiv\xF3 el nacimiento de la Web 3 y las criptomonedas?"
+    Respuestas:
+    - Nuevas leyes internacionales
+    - "Una moda tecnol\xF3gica"
+    - "El deseo de recuperar autonom\xEDa digital"
+    - "La ca\xEDda de las redes sociales"
+    RespuestaCorrecta: 3
+  options:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  currentQuestion: 0
+  questionText: {fileID: 0}
+  NumeroDePreguntas: 0
+  personajeAnimator: {fileID: 0}
+  GloboAnimator: {fileID: 0}
+--- !u!114 &8015195563387883056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8012982653122242489}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1094fa548ef661e48a108f3c554f5abe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tiempoLimite: 10
+  timerText: {fileID: 0}
+  quizManager: {fileID: 4765609482852070721}
+--- !u!114 &6752912084263785545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8012982653122242489}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b0a6742860f68146b6a3bb5c3d47c7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  preguntasCorrectas: 0
+  scoreText: {fileID: 0}
+  NumeroDePrguntas: {fileID: 0}
+--- !u!114 &3457184041196522832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8012982653122242489}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9047403b8cf606341a2cffaa34b7a821, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  feedbackText: {fileID: 0}
+  mensajesCorrectos:
+  - Sigue Asi
+  - Vas por buen camino :D
+  - 3 Seguidas :O
+  mensajesIncorrectos:
+  - Que mal :c
+  - No hay problema :)
+  - 3 Errores, Concentrate :O
+  rachaCorrecta: 0
