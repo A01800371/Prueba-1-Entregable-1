@@ -1,5 +1,14 @@
 using UnityEngine;
 
+/*
+
+    * La función de este script es gestionar las respuestas del quiz.
+    * Al hacer click en una respuesta, se llama al método 
+    * Respuesta() que verifica si la respuesta es correcta o incorrecta.
+    * Autores: 
+
+*/
+
 public class AnswerScript : MonoBehaviour
 {
     public bool isCorrect = false; // Indica si la respuesta es correcta o no

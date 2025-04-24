@@ -82,7 +82,7 @@ public class QuizManager : MonoBehaviour
         questionText.text = preguntaActual.Pregunta; // Mostramos la pregunta
 
         EstableceRespuestas(); // Establecemos las respuestas según el tipo de pregunta
-        DesbloquearBotones(); // Desbloqueamos los botones de respuesta para la nueva pregunta
+        Invoke("DesbloquearBotones", 1f); // Desbloqueamos los botones de respuesta para la nueva pregunta
     }
 
     // Métodos para verificar la respuesta seleccionada de acuero a si fue correcta o incorrecta o si el tiempo se agotó
