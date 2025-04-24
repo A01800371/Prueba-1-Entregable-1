@@ -12,31 +12,27 @@
 }
 
 .boton:hover {
-    -unity-background-image-tint-color: rgb(184, 183, 183);
+    -unity-background-image-tint-color: rgb(138, 169, 218);
     scale: 1.1 1.1;
     transition-timing-function: ease-in-out-sine;
     transition-duration: 0.2s;
 }
 
 .boton {
-    background-image: url("project://database/Assets/Buttons/PNG/10Button_Midl_Yellow.png?fileID=2800000&guid=d7b4d635d5ebc2a4c967aed03f5c932c&type=3#10Button_Midl_Yellow");
+    background-image: url("project://database/Assets/FotosBotones/Captura_de_pantalla_2025-04-23_195447-removebg-preview.png?fileID=2800000&guid=590b56ebcf3f5ed41b10f5a5caf55fd0&type=3#Captura_de_pantalla_2025-04-23_195447-removebg-preview");
     background-color: rgba(255, 255, 255, 0);
-    -unity-background-image-tint-color: rgb(255, 255, 255);
+    -unity-background-image-tint-color: rgb(226, 133, 190);
     width: 350px;
     height: 150px;
     align-self: flex-end;
     right: 400px;
     bottom: 85px;
-    padding-bottom: 30px;
+    padding-bottom: 13px;
     border-left-color: rgba(255, 255, 255, 0);
     border-right-color: rgba(255, 255, 255, 0);
     border-top-color: rgba(255, 255, 255, 0);
     border-bottom-color: rgba(255, 255, 255, 0);
     margin-bottom: 60px;
-}
-
-.boton2 {
-    background-image: url("project://database/Assets/Buttons/PNG/8Button_Midl_Red.png?fileID=2800000&guid=36fe1d766c5df3343b1eb1b5d524afbd&type=3#8Button_Midl_Red");
-    background-color: rgba(0, 0, 0, 0);
     color: rgb(255, 255, 255);
+    font-size: 32px;
 }

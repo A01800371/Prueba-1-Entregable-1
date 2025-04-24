@@ -22,7 +22,7 @@
     -unity-font-style: bold;
     text-overflow: clip;
     text-shadow: 0 0 0 rgba(0, 0, 0, 0);
-    -unity-font-definition: url("project://database/Library/unity%20default%20resources?fileID=10102&guid=0000000000000000e000000000000000&type=0#LegacyRuntime");
+    -unity-font-definition: url("project://database/Assets/TextMesh%20Pro/Examples%20&%20Extras/Fonts/Electronic%20Highway%20Sign.TTF?fileID=12800000&guid=8a2b9e2a607dd2143b58c44bc32410b4&type=3#Electronic Highway Sign");
     -unity-slice-left: 1;
     -unity-slice-top: 1;
     -unity-slice-right: 1;
@@ -33,24 +33,24 @@
 
 .boton:hover {
     scale: 1.1 1.1;
-    -unity-background-image-tint-color: rgb(118, 113, 113);
+    -unity-background-image-tint-color: rgb(138, 169, 218);
 }
 
 .boton:active {
-    -unity-background-image-tint-color: rgb(211, 70, 70);
+    -unity-background-image-tint-color: rgb(103, 149, 190);
 }
 
 .boton {
     width: 350px;
     height: 150px;
-    background-image: url("project://database/Assets/Buttons/PNG/8Button_Midl_Red.png?fileID=2800000&guid=36fe1d766c5df3343b1eb1b5d524afbd&type=3#8Button_Midl_Red");
+    background-image: url("project://database/Assets/FotosBotones/Captura_de_pantalla_2025-04-23_195447-removebg-preview.png?fileID=2800000&guid=590b56ebcf3f5ed41b10f5a5caf55fd0&type=3#Captura_de_pantalla_2025-04-23_195447-removebg-preview");
     background-color: rgba(255, 255, 255, 0);
     border-bottom-width: 0;
     font-size: 32px;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out-sine;
     -unity-text-outline-color: rgba(255, 255, 255, 0);
-    -unity-background-image-tint-color: rgb(255, 255, 255);
+    -unity-background-image-tint-color: rgb(226, 133, 190);
     border-left-color: rgba(255, 255, 255, 0);
     border-right-color: rgba(255, 255, 255, 0);
     border-top-color: rgba(255, 255, 255, 0);
@@ -61,5 +61,5 @@
     border-bottom-left-radius: 0;
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
-    padding-bottom: 35px;
+    padding-bottom: 9px;
 }
