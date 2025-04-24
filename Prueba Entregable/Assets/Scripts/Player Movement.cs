@@ -1,3 +1,7 @@
+/*
+    * Autor: Daniel Díaz
+*/
+
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour

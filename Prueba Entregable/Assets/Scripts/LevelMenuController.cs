@@ -1,3 +1,7 @@
+/*
+    * Autor: Daniel Díaz
+*/
+
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
