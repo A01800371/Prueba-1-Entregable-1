@@ -3,6 +3,10 @@ using UnityEngine;
 using TMPro;
 using Unity.VisualScripting;
 
+/*
+    * Autor: Daniel Díaz
+*/
+
 public class Dialogue : MonoBehaviour
 {
     [Header("Datos del diálogo")]

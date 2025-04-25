@@ -1,11 +1,11 @@
 <engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
     <Style src="project://database/Assets/UI%20Toolkit/contenedorJoin.uss?fileID=7433441132597879392&amp;guid=5832c44412f8b7d4885fe5dd1dbc65ff&amp;type=3#contenedorJoin" />
-    <engine:VisualElement style="flex-grow: 1;">
-        <engine:VisualElement class="botones" style="flex-grow: 1;">
-            <engine:Button text="JOIN" name="BotonJoin" class="boton boton2" style="font-size: 32px; color: rgb(255, 255, 255); -unity-font-style: bold;" />
-            <engine:Button text="PASSWORD" class="botones boton" style="font-size: 32px; color: rgb(255, 255, 255); -unity-font-style: bold;" />
-            <engine:Button text="USER ID" class="botones boton" style="font-size: 32px; color: rgb(255, 255, 255); -unity-font-style: bold;" />
+    <engine:VisualElement>
+        <engine:VisualElement name="Centro" class="contcen">
+            <engine:TextField label="Usuario" placeholder-text="Usuario" name="Usuario" class="fill" />
+            <engine:TextField label="Password" placeholder-text="password" name="Contrasena" class="fill" />
+            <engine:Button text="JOIN" name="BotonJoin" class="boton" />
         </engine:VisualElement>
     </engine:VisualElement>
-    <engine:Button text="EXIT&#10;" name="Exit" class="boton3 boton" style="bottom: 120px; left: 142px;" />
+    <engine:Button text="EXIT&#10;" name="Exit" class="boton" style="right: 610px; left: 106px; top: 278px;" />
 </engine:UXML>
