@@ -139,6 +139,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -397,7 +410,18 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      CriptoChickLogoConCositas_0: -7676438737857484960
+      CriptoChickLogoConCositas_1: 32345677153518231
+      CriptoChickLogoConCositas_10: 217837753806266184
+      CriptoChickLogoConCositas_2: 2155118416457492440
+      CriptoChickLogoConCositas_3: -7792680292117957718
+      CriptoChickLogoConCositas_4: 3870776963734402869
+      CriptoChickLogoConCositas_5: -3974173277943411528
+      CriptoChickLogoConCositas_6: -1501883165029962930
+      CriptoChickLogoConCositas_7: 5308513451364775935
+      CriptoChickLogoConCositas_8: -254689883016849468
+      CriptoChickLogoConCositas_9: 8496367209362412622
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

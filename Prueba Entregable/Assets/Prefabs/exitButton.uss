@@ -1,0 +1,29 @@
+.exitbutton {
+}
+
+.boton {
+    align-items: flex-start;
+    align-self: flex-start;
+    width: 300px;
+    height: 150px;
+    background-image: url("project://database/Assets/FotosBotones/Captura_de_pantalla_2025-04-23_195447-removebg-preview.png?fileID=2800000&guid=590b56ebcf3f5ed41b10f5a5caf55fd0&type=3#Captura_de_pantalla_2025-04-23_195447-removebg-preview");
+    background-color: rgba(0, 0, 0, 0);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    top: 874px;
+    left: 54px;
+    font-size: 32px;
+    -unity-background-image-tint-color: rgb(226, 133, 190);
+    color: rgb(255, 255, 255);
+    -unity-font-style: bold;
+    -unity-font-definition: url("project://database/Assets/TextMesh%20Pro/Examples%20&%20Extras/Fonts/Electronic%20Highway%20Sign.TTF?fileID=12800000&guid=8a2b9e2a607dd2143b58c44bc32410b4&type=3#Electronic Highway Sign");
+}
+
+.boton:hover {
+    -unity-background-image-tint-color: rgb(138, 169, 218);
+    scale: 1.1 1.1;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+}

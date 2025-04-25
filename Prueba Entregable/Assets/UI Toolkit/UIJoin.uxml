@@ -4,7 +4,7 @@
         <engine:VisualElement name="Centro" class="contcen">
             <engine:TextField label="Usuario" placeholder-text="Usuario" name="Usuario" class="fill" />
             <engine:TextField label="Password" placeholder-text="password" name="Contrasena" class="fill" />
-            <engine:Button text="JOIN" name="BotonJoin" class="boton" />
+            <engine:Button text="JOIN" name="BotonJoin" class="boton" style="margin-left: 104px; left: 26px;" />
         </engine:VisualElement>
     </engine:VisualElement>
     <engine:Button text="EXIT&#10;" name="Exit" class="boton" style="right: 610px; left: 106px; top: 278px;" />
