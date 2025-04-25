@@ -21,6 +21,10 @@ public class LevelMenuController : MonoBehaviour
 
     private int currentLevelIndex = 0;
 
+    [Header("Botones de navegación")]
+public Button nextButton;
+public Button previousButton;
+
     // Método llamado por cada botón de nivel
     public void SelectLevel(int index)
     {
@@ -45,6 +49,21 @@ public class LevelMenuController : MonoBehaviour
         animationButton.onClick.AddListener(() => LoadIntroScene(level.introSceneName));
 
     }
+
+        public void NextLevel()
+    {
+        int nextIndex = currentLevelIndex + 1;
+        if (nextIndex >= levels.Length) nextIndex = 0; // Regresa al primero
+        SelectLevel(nextIndex);
+    }
+
+    public void PreviousLevel()
+    {
+        int prevIndex = currentLevelIndex - 1;
+        if (prevIndex < 0) prevIndex = levels.Length - 1; // Va al último
+        SelectLevel(prevIndex);
+    }
+
 
     void LoadLevel(string sceneName)
     {

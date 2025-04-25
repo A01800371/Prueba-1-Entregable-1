@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      GloboPregunta 1_0: 1850565350888268399
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
