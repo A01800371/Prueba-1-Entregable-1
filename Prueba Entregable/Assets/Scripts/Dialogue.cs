@@ -24,11 +24,25 @@ public class Dialogue : MonoBehaviour
     private bool isPlayerInRange;
     private bool didDialogueStart;
     private int lineIndex;
+    
+    [SerializeField] private GameObject botonMenu; // Asigna el botón de menú aquí// Asigna el objeto del jugador aquí
+    [SerializeField] private GameObject botonSkip; // Asigna el objeto del jugador aquí
+    
+    private void Start()
+    {
+        botonSkip.SetActive(false); // Desactivar el botón de skip al inicio
+    }
 
     void Update()
     {
+        /* if (didDialogueStart && Input.GetButtonDown("Jump")) // Skipea el diálogo con Space
+            {
+                SkipAllDialogue();
+            } */
+        
         if (isPlayerInRange && Input.GetButtonDown("Fire1"))
         {
+
             if (!didDialogueStart)
             {
                 StartDialogue();
@@ -48,6 +62,8 @@ public class Dialogue : MonoBehaviour
 
     private void StartDialogue()
     {
+        botonMenu.SetActive(false);
+        botonSkip.SetActive(true);
         didDialogueStart = true;
         dialoguePanel.SetActive(true);
         dialogueMark.SetActive(false);
@@ -77,6 +93,8 @@ public class Dialogue : MonoBehaviour
             dialoguePanel.SetActive(false);
             dialogueMark.SetActive(true);
             playerMovementScript.enabled = true; // Reactivar el movimiento del jugador
+            botonMenu.SetActive(true);
+            botonSkip.SetActive(false); // Desactivar el botón de skip al finalizar el diálogo
         }
     }
 
@@ -85,7 +103,7 @@ public class Dialogue : MonoBehaviour
         dialogueText.text = string.Empty;
         foreach (char letter in dialogueLines[lineIndex])
         {
-            dialogueText.text += letter;
+            dialogueText.text += letter; // aqui voy a poner el skip de texto
             yield return new WaitForSeconds(typingTime); // Adjust the typing speed here
         }
     }
@@ -107,5 +125,16 @@ public class Dialogue : MonoBehaviour
             isPlayerInRange = false;
             dialogueMark.SetActive(false);
         }
+    }
+
+    public void SkipAllDialogue()
+    {
+        StopAllCoroutines(); 
+        didDialogueStart = false;
+        dialoguePanel.SetActive(false);
+        dialogueMark.SetActive(true);
+        playerMovementScript.enabled = true; 
+        botonMenu.SetActive(true);
+        botonSkip.SetActive(false); // Desactivar el botón de skip al finalizar el diálogo
     }
 }

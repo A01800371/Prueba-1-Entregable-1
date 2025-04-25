@@ -3,8 +3,8 @@
  * Este script gestiona las preguntas y respuestas del quiz, maneja la lógica de las respuestas correctas e incorrectas,
  * y controla la animación del personaje y el globo de diálogo.
  * 
- * Autores:  
- */
+ * Autores: 
+  */
 
 using System.Collections.Generic;
 using UnityEngine;

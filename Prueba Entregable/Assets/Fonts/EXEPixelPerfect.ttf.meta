@@ -1,15 +1,15 @@
 fileFormatVersion: 2
-guid: 608789711e54f8f45b8d526f73f31a0f
+guid: c3cef1fb947b40f4aace4152a0adec21
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
-  fontSize: 20
+  fontSize: 16
   forceTextureCase: -2
   characterSpacing: 0
   characterPadding: 1
   includeFontData: 1
   fontNames:
-  - Medodica
+  - EXEPixelPerfect
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0
