@@ -9,6 +9,7 @@
     -unity-font-style: bold;
     background-image: none;
     margin-bottom: -120px;
+    top: 45px;
 }
 
 .boton:hover {
@@ -35,4 +36,5 @@
     margin-bottom: 60px;
     color: rgb(255, 255, 255);
     font-size: 32px;
+    -unity-font-definition: url("project://database/Assets/TextMesh%20Pro/Examples%20&%20Extras/Fonts/Electronic%20Highway%20Sign.TTF?fileID=12800000&guid=8a2b9e2a607dd2143b58c44bc32410b4&type=3#Electronic Highway Sign");
 }

@@ -2,10 +2,12 @@
     <Style src="project://database/Assets/UI%20Toolkit/contenedorlogin.uss?fileID=7433441132597879392&amp;guid=9202820bab454554f9833c022acc172b&amp;type=3#contenedorlogin" />
     <engine:VisualElement name="Contenedor" class="contenedor" style="flex-grow: 1;">
         <engine:VisualElement name="VisualElement" class="login" style="flex-grow: 1;">
-            <engine:TextField placeholder-text="Nombre Completo" class="textfield" />
-            <engine:TextField placeholder-text="Email" class="textfield" />
-            <engine:TextField placeholder-text="Contraseña" class="textfield" />
-            <engine:TextField placeholder-text="País" is-delayed="false" hide-placeholder-on-focus="false" enabled="true" class="textfield" />
+            <engine:TextField placeholder-text="Full Name" label="Full name" class="textfield" />
+            <engine:TextField placeholder-text="Email" label="Email" class="textfield" />
+            <engine:TextField placeholder-text="Password" label="Password" class="textfield" />
+            <engine:TextField placeholder-text="country" is-delayed="false" hide-placeholder-on-focus="false" enabled="true" label="Country" class="textfield" />
+            <engine:TextField placeholder-text="age" label="age" class="textfield" />
+            <engine:TextField placeholder-text="gender" label="gender" class="textfield" />
         </engine:VisualElement>
         <engine:VisualElement name="Botones" enabled="true" class="contenedor botones" style="flex-grow: 1;">
             <engine:Button text="BACK&#10;" name="Back" class="boton boton2" />

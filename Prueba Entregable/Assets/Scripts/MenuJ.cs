@@ -11,6 +11,8 @@ public class MenuJ : MonoBehaviour
     // private Button botonB;
     private Button botonS;
     private Button botonJ;  
+    private Button botonC;  
+    
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -20,6 +22,7 @@ public class MenuJ : MonoBehaviour
         botonS = root.Q<Button>("Settings");
         botonE = root.Q<Button>("Exit");
         botonJ = root.Q<Button>("Juega");
+        botonC = root.Q<Button>("Credits");
 
 // poner las escenas correspondientes
 
@@ -28,6 +31,7 @@ public class MenuJ : MonoBehaviour
         // pendiente por hacer escena temas 
         botonJ.RegisterCallback<ClickEvent, String>(Jugar,"Pueblo");
         botonE.RegisterCallback<ClickEvent, String>(Jugar,"Inicio11");
+        botonC.RegisterCallback<ClickEvent, String>(Jugar,"Creditos");
     }
 
     private void Jugar(ClickEvent evt, String nombreEscena)
