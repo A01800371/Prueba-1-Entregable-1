@@ -1,40 +1,40 @@
 fileFormatVersion: 2
-guid: 57df6b8c004a3934f94136b82242e88e
+guid: 3645e3025a930654a8b5ef0758d5f47d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -822832402276370503
-    second: Captura_de_pantalla_2025-04-23_233712-removebg-preview_0
+      213: -7676438737857484960
+    second: CriptoChickLogoConCositas_0
   - first:
-      213: 3073415310620764129
-    second: Captura_de_pantalla_2025-04-23_233712-removebg-preview_1
+      213: 32345677153518231
+    second: CriptoChickLogoConCositas_1
   - first:
-      213: 6588472928989655717
-    second: Captura_de_pantalla_2025-04-23_233712-removebg-preview_2
+      213: 2155118416457492440
+    second: CriptoChickLogoConCositas_2
   - first:
-      213: 6714999264296967918
-    second: Captura_de_pantalla_2025-04-23_233712-removebg-preview_3
+      213: -7792680292117957718
+    second: CriptoChickLogoConCositas_3
   - first:
-      213: 838942887812067648
-    second: Captura_de_pantalla_2025-04-23_233712-removebg-preview_4
+      213: 3870776963734402869
+    second: CriptoChickLogoConCositas_4
   - first:
-      213: -2000181784874205865
-    second: Captura_de_pantalla_2025-04-23_233712-removebg-preview_5
+      213: -3974173277943411528
+    second: CriptoChickLogoConCositas_5
   - first:
-      213: 2933595176742118161
-    second: Captura_de_pantalla_2025-04-23_233712-removebg-preview_6
+      213: -1501883165029962930
+    second: CriptoChickLogoConCositas_6
   - first:
-      213: -7684414720654336815
-    second: Captura_de_pantalla_2025-04-23_233712-removebg-preview_7
+      213: 5308513451364775935
+    second: CriptoChickLogoConCositas_7
   - first:
-      213: 3436851514676776200
-    second: Captura_de_pantalla_2025-04-23_233712-removebg-preview_8
+      213: -254689883016849468
+    second: CriptoChickLogoConCositas_8
   - first:
-      213: -1731197925003531249
-    second: Captura_de_pantalla_2025-04-23_233712-removebg-preview_9
+      213: 8496367209362412622
+    second: CriptoChickLogoConCositas_9
   - first:
-      213: 106317242141591281
-    second: Captura_de_pantalla_2025-04-23_233712-removebg-preview_10
+      213: 217837753806266184
+    second: CriptoChickLogoConCositas_10
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -139,30 +139,61 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WindowsStoreApps
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Captura_de_pantalla_2025-04-23_233712-removebg-preview_0
+      name: CriptoChickLogoConCositas_0
       rect:
         serializedVersion: 2
-        x: 73
-        y: 374
+        x: 68
+        y: 348
+        width: 60
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 067e4f1b3afc77590800000000000000
+      internalID: -7676438737857484960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CriptoChickLogoConCositas_1
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 405
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79241c4d83ae27000800000000000000
+      internalID: 32345677153518231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CriptoChickLogoConCositas_2
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 348
         width: 67
-        height: 67
+        height: 89
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -171,20 +202,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9b7b2a82a46b494f0800000000000000
-      internalID: -822832402276370503
+      spriteID: 8d7e9dd08c488ed10800000000000000
+      internalID: 2155118416457492440
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Captura_de_pantalla_2025-04-23_233712-removebg-preview_1
+      name: CriptoChickLogoConCositas_3
       rect:
         serializedVersion: 2
-        x: 170
-        y: 436
-        width: 37
-        height: 36
+        x: 88
+        y: 14
+        width: 296
+        height: 338
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -193,20 +224,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1e72cccf0f6f6aa20800000000000000
-      internalID: 3073415310620764129
+      spriteID: aa33f1ccf86dad390800000000000000
+      internalID: -7792680292117957718
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Captura_de_pantalla_2025-04-23_233712-removebg-preview_2
+      name: CriptoChickLogoConCositas_4
       rect:
         serializedVersion: 2
-        x: 297
-        y: 375
-        width: 75
-        height: 97
+        x: 136
+        y: 327
+        width: 39
+        height: 53
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -215,20 +246,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5a2b4b0c835fe6b50800000000000000
-      internalID: 6588472928989655717
+      spriteID: 5377728e323c7b530800000000000000
+      internalID: 3870776963734402869
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Captura_de_pantalla_2025-04-23_233712-removebg-preview_3
+      name: CriptoChickLogoConCositas_5
       rect:
         serializedVersion: 2
-        x: 96
-        y: 12
-        width: 323
-        height: 367
+        x: 184
+        y: 278
+        width: 82
+        height: 117
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -237,20 +268,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: eee1e67d048703d50800000000000000
-      internalID: 6714999264296967918
+      spriteID: 8bc4554b576e8d8c0800000000000000
+      internalID: -3974173277943411528
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Captura_de_pantalla_2025-04-23_233712-removebg-preview_4
+      name: CriptoChickLogoConCositas_6
       rect:
         serializedVersion: 2
-        x: 148
-        y: 351
-        width: 43
-        height: 60
+        x: 381
+        y: 348
+        width: 39
+        height: 46
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -259,20 +290,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 041f0ee8c1684ab00800000000000000
-      internalID: 838942887812067648
+      spriteID: e4bef3ef73d382be0800000000000000
+      internalID: -1501883165029962930
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Captura_de_pantalla_2025-04-23_233712-removebg-preview_5
+      name: CriptoChickLogoConCositas_7
       rect:
         serializedVersion: 2
-        x: 200
-        y: 299
-        width: 90
-        height: 127
+        x: 53
+        y: 229
+        width: 82
+        height: 109
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -281,20 +312,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 75dbd5a934ded34e0800000000000000
-      internalID: -2000181784874205865
+      spriteID: ff7faf9bbd0aba940800000000000000
+      internalID: 5308513451364775935
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Captura_de_pantalla_2025-04-23_233712-removebg-preview_6
+      name: CriptoChickLogoConCositas_8
       rect:
         serializedVersion: 2
-        x: 414
-        y: 375
-        width: 44
-        height: 50
+        x: 388
+        y: 251
+        width: 59
+        height: 59
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -303,20 +334,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1136388354936b820800000000000000
-      internalID: 2933595176742118161
+      spriteID: 4c715ea96e8277cf0800000000000000
+      internalID: -254689883016849468
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Captura_de_pantalla_2025-04-23_233712-removebg-preview_7
+      name: CriptoChickLogoConCositas_9
       rect:
         serializedVersion: 2
-        x: 58
-        y: 245
-        width: 90
-        height: 120
+        x: 25
+        y: 188
+        width: 39
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -325,20 +356,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1dc9d9c76897b5590800000000000000
-      internalID: -7684414720654336815
+      spriteID: e44d25316f829e570800000000000000
+      internalID: 8496367209362412622
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Captura_de_pantalla_2025-04-23_233712-removebg-preview_8
+      name: CriptoChickLogoConCositas_10
       rect:
         serializedVersion: 2
-        x: 421
-        y: 269
-        width: 67
-        height: 66
+        x: 394
+        y: 173
+        width: 33
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -347,52 +378,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 80d821e4e3622bf20800000000000000
-      internalID: 3436851514676776200
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Captura_de_pantalla_2025-04-23_233712-removebg-preview_9
-      rect:
-        serializedVersion: 2
-        x: 27
-        y: 200
-        width: 44
-        height: 44
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f0c6544d8ac89f7e0800000000000000
-      internalID: -1731197925003531249
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Captura_de_pantalla_2025-04-23_233712-removebg-preview_10
-      rect:
-        serializedVersion: 2
-        x: 429
-        y: 185
-        width: 36
-        height: 36
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1f6495be7f6b97100800000000000000
-      internalID: 106317242141591281
+      spriteID: 84f9a4e684ae50300800000000000000
+      internalID: 217837753806266184
       vertices: []
       indices: 
       edges: []
@@ -410,18 +397,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Captura_de_pantalla_2025-04-23_233712-removebg-preview_0: -822832402276370503
-      Captura_de_pantalla_2025-04-23_233712-removebg-preview_1: 3073415310620764129
-      Captura_de_pantalla_2025-04-23_233712-removebg-preview_10: 106317242141591281
-      Captura_de_pantalla_2025-04-23_233712-removebg-preview_2: 6588472928989655717
-      Captura_de_pantalla_2025-04-23_233712-removebg-preview_3: 6714999264296967918
-      Captura_de_pantalla_2025-04-23_233712-removebg-preview_4: 838942887812067648
-      Captura_de_pantalla_2025-04-23_233712-removebg-preview_5: -2000181784874205865
-      Captura_de_pantalla_2025-04-23_233712-removebg-preview_6: 2933595176742118161
-      Captura_de_pantalla_2025-04-23_233712-removebg-preview_7: -7684414720654336815
-      Captura_de_pantalla_2025-04-23_233712-removebg-preview_8: 3436851514676776200
-      Captura_de_pantalla_2025-04-23_233712-removebg-preview_9: -1731197925003531249
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
