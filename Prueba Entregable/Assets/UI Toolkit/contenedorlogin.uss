@@ -27,44 +27,51 @@
     margin-left: 200px;
     font-size: 32px;
     -unity-font-style: bold;
-    background-image: url("project://database/Assets/Buttons/PNG/9Button_Midl_Green.png?fileID=2800000&guid=70ce67e982fddb74289530c17f57aac3&type=3#9Button_Midl_Green");
-    padding-bottom: 30px;
+    background-image: url("project://database/Assets/FotosBotones/Captura_de_pantalla_2025-04-23_195447-removebg-preview.png?fileID=2800000&guid=590b56ebcf3f5ed41b10f5a5caf55fd0&type=3#Captura_de_pantalla_2025-04-23_195447-removebg-preview");
+    padding-bottom: 11px;
     background-color: rgba(255, 255, 255, 0);
     border-left-color: rgba(255, 255, 255, 0);
     border-right-color: rgba(255, 255, 255, 0);
     border-top-color: rgba(255, 255, 255, 0);
     border-bottom-color: rgba(255, 255, 255, 0);
     left: 150px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    -unity-background-image-tint-color: rgb(226, 133, 190);
+    -unity-font-definition: url("project://database/Assets/TextMesh%20Pro/Examples%20&%20Extras/Fonts/Electronic%20Highway%20Sign.TTF?fileID=12800000&guid=8a2b9e2a607dd2143b58c44bc32410b4&type=3#Electronic Highway Sign");
 }
 
 .boton2 {
-    background-image: url("project://database/Assets/Buttons/PNG/8Button_Midl_Red.png?fileID=2800000&guid=36fe1d766c5df3343b1eb1b5d524afbd&type=3#8Button_Midl_Red");
-    color: rgb(255, 255, 255);
 }
 
 .textfield {
-    margin-bottom: 70px;
-    width: 400px;
-    height: 80px;
-    -unity-text-align: middle-center;
+    margin-bottom: 50px;
+    width: 544px;
+    height: 74px;
+    -unity-text-align: middle-left;
     font-size: 25px;
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
-    border-bottom-right-radius: 30px;
-    border-bottom-left-radius: 30px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
     background-image: none;
-    flex-direction: column;
+    flex-direction: row;
     padding-left: 0;
     white-space: normal;
     text-overflow: clip;
+    -unity-font-definition: url("project://database/Assets/TextMesh%20Pro/Examples%20&%20Extras/Fonts/Electronic%20Highway%20Sign.TTF?fileID=12800000&guid=8a2b9e2a607dd2143b58c44bc32410b4&type=3#Electronic Highway Sign");
+    -unity-font-style: bold;
+    align-self: auto;
+    top: 38px;
+    left: 42px;
 }
 
 .login {
     align-self: flex-end;
     align-items: auto;
-    top: 193px;
-    right: 231px;
-    width: auto;
-    height: auto;
+    top: 76px;
+    right: 285px;
+    width: 409px;
+    height: 192px;
+    flex-direction: column;
+    flex-wrap: nowrap;
 }

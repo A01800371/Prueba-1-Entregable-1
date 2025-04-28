@@ -106,6 +106,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/EscenaFeedback.unity
     guid: ee25aa3d6d3dad8488ac180866c5b1c1
+  - enabled: 1
+    path: Assets/Scenes/Creditos.unity
+    guid: 9c066e080ea8f9c4dabc311d79ea0216
+  - enabled: 1
+    path: Assets/Scenes/Privacidad.unity
+    guid: ba84fbf586ff23547a2a756d363b631f
   m_configObjects:
     com.unity.addressableassets: {fileID: 11400000, guid: caded5ea41b5c184fbf373ae48d34936, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: dab928c71d74be345b271219b6eac8ba
+guid: 3bfc89dadbbf14942b06d760faa244e6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7195782161867758337
-    second: FondoFeeback 1_0
+      213: -5885025584048303704
+    second: CriptoChickLogoConCositas 2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -109,17 +109,30 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: FondoFeeback 1_0
+      name: CriptoChickLogoConCositas 2_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1920
-        height: 1080
+        x: 88
+        y: 14
+        width: 310
+        height: 282
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 10b583750cd8cd360800000000000000
-      internalID: 7195782161867758337
+      spriteID: 8a117b85960345ea0800000000000000
+      internalID: -5885025584048303704
       vertices: []
       indices: 
       edges: []
@@ -148,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      FondoFeeback 1_0: 7195782161867758337
+      CriptoChickLogoConCositas 2_0: -5885025584048303704
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

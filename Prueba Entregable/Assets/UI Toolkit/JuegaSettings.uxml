@@ -2,9 +2,11 @@
     <Style src="project://database/Assets/UI%20Toolkit/MenuJuegoSettings.uss?fileID=7433441132597879392&amp;guid=9166aa73ce227804a9288057d82652ce&amp;type=3#MenuJuegoSettings" />
     <engine:VisualElement name="Contenedor" style="flex-grow: 1;">
         <engine:VisualElement name="Botones" class="botones" style="flex-grow: 1; margin-bottom: -71px;">
-            <engine:Button text="EXIT&#10;" name="Exit" class="boton boton2" />
-            <engine:Button text="SETTINGS" name="Settings" class="boton" />
-            <engine:Button text="PLAY" name="Juega" class="boton" />
+            <engine:Button text="Credits" name="Credits" class="boton" style="right: 25px; bottom: 337px;" />
+            <engine:Button text="privacy &#10;notice" name="Privacidad" class="boton" style="right: 25px; bottom: -88px;" />
+            <engine:Button text="EXIT&#10;" name="Exit" class="boton boton2" style="bottom: -300px;" />
+            <engine:Button text="SETTINGS" name="Settings" class="boton" style="bottom: -300px;" />
+            <engine:Button text="PLAY" name="Juega" class="boton" style="bottom: -300px;" />
         </engine:VisualElement>
     </engine:VisualElement>
 </engine:UXML>

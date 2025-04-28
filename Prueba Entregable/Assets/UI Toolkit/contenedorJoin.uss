@@ -20,7 +20,7 @@
     height: 90px;
     font-size: 26px;
     -unity-font-definition: url("project://database/Assets/TextMesh%20Pro/Examples%20&%20Extras/Fonts/Electronic%20Highway%20Sign.TTF?fileID=12800000&guid=8a2b9e2a607dd2143b58c44bc32410b4&type=3#Electronic Highway Sign");
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 
 .boton:hover {
@@ -48,7 +48,7 @@
     border-right-color: rgba(0, 0, 0, 0);
     border-top-color: rgba(0, 0, 0, 0);
     border-bottom-color: rgba(0, 0, 0, 0);
-    cursor: url("project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=7433338533053954386&guid=33f3b1c1371cf1f48ab1ecc97bd70f07&type=3#check@2x");
+    cursor: initial;
     -unity-font-style: bold;
     color: rgb(255, 255, 255);
 }
