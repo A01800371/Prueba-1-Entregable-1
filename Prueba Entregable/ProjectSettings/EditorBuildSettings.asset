@@ -91,6 +91,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Cryptocurrency/Cryptocurrency (Quizes)/Quiz 9.unity
     guid: cf85b2d3999b96b4ea013793141050b6
   - enabled: 1
+    path: Assets/Scenes/Mapa Pueblo 1.unity
+    guid: 83626c87af0364d4fb7118c8f2d27484
+  - enabled: 1
     path: "Assets/Scenes/Cryptocurrency/Cryptocurrency (Animaciones)/Cryptocurrency_
       3\xB0- Scams/Scams.unity"
     guid: 38bfc3d2558600646843b2debbdfa747

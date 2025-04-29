@@ -105,7 +105,7 @@ public class QuizManager : MonoBehaviour
         QnA.RemoveAt(currentQuestion); // Quitamos la pregunta respondida
         score.AgregarPunto(); // Sumamos un punto
         feedbackManager.RegistrarRespuesta(true); // Retroalimentación
-        Invoke("GeneraPregunta", 0.15f);// Generamos la siguiente pregunta
+        Invoke("GeneraPregunta", 0.2f);// Generamos la siguiente pregunta
     }
 
     public void incorrect()

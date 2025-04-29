@@ -2,11 +2,31 @@
     <Style src="project://database/Assets/UI%20Toolkit/MenuJuegoSettings.uss?fileID=7433441132597879392&amp;guid=9166aa73ce227804a9288057d82652ce&amp;type=3#MenuJuegoSettings" />
     <engine:VisualElement name="Contenedor" style="flex-grow: 1;">
         <engine:VisualElement name="Botones" class="botones" style="flex-grow: 1; margin-bottom: -71px;">
-            <engine:Button text="Credits" name="Credits" class="boton" style="right: 25px; bottom: 337px;" />
-            <engine:Button text="privacy &#10;notice" name="Privacidad" class="boton" style="right: 25px; bottom: -88px;" />
-            <engine:Button text="EXIT&#10;" name="Exit" class="boton boton2" style="bottom: -300px;" />
-            <engine:Button text="SETTINGS" name="Settings" class="boton" style="bottom: -300px;" />
-            <engine:Button text="PLAY" name="Juega" class="boton" style="bottom: -300px;" />
+            <engine:Button text="Credits" name="Credits" class="boton" style="right: 25px; bottom: 337px;">
+                <Bindings>
+                    <UnityEngine.Localization.LocalizedString property="text" table="GUID:d4fb8bb9211e1434292bacef60a3f432" entry="Id(1781965242368)" />
+                </Bindings>
+            </engine:Button>
+            <engine:Button text="privacy &#10;notice" name="Privacidad" class="boton" style="right: 25px; bottom: -88px; font-size: 30px; -unity-text-align: middle-center;">
+                <Bindings>
+                    <UnityEngine.Localization.LocalizedString property="text" table="GUID:d4fb8bb9211e1434292bacef60a3f432" entry="Id(2744608342016)" />
+                </Bindings>
+            </engine:Button>
+            <engine:Button text="EXIT&#10;" name="Exit" class="boton boton2" style="bottom: -300px;">
+                <Bindings>
+                    <UnityEngine.Localization.LocalizedString property="text" table="GUID:d4fb8bb9211e1434292bacef60a3f432" entry="Id(2517042184192)" />
+                </Bindings>
+            </engine:Button>
+            <engine:Button text="SETTINGS" name="Settings" class="boton" style="bottom: -300px;">
+                <Bindings>
+                    <UnityEngine.Localization.LocalizedString property="text" table="GUID:d4fb8bb9211e1434292bacef60a3f432" entry="Id(2568078475264)" />
+                </Bindings>
+            </engine:Button>
+            <engine:Button text="PLAY" name="Juega" class="boton" style="bottom: -300px;">
+                <Bindings>
+                    <UnityEngine.Localization.LocalizedString property="text" table="GUID:d4fb8bb9211e1434292bacef60a3f432" entry="Id(2678740992000)" />
+                </Bindings>
+            </engine:Button>
         </engine:VisualElement>
     </engine:VisualElement>
 </engine:UXML>
