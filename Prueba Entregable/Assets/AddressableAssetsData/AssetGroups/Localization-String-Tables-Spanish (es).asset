@@ -15,8 +15,20 @@ MonoBehaviour:
   m_GroupName: Localization-String-Tables-Spanish (es)
   m_GUID: e9b8ddc27af64b045a32f085fae55489
   m_SerializeEntries:
+  - m_GUID: 31f59b2c2d6535548a4feb976131699d
+    m_Address: PreguntasRespuestas_es
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-es
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 4d9f8dbb6144a9a418b60f273677d349
     m_Address: FeedbackEsceneTable_es
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-es
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b94e6c276140a5e43874f7a93c1863b4
+    m_Address: Timer_es
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-es

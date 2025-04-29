@@ -1,0 +1,1130 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: PreguntasRespuestas_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 65fdba222ce43ae4eac2fab5b93345a5, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 682264571133960
+    m_Localized: D) The use of blockchain
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264571133959
+    m_Localized: C) The ability to create content and communicate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264571133958
+    m_Localized: B) The use of Artificial Intelligence
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264571133957
+    m_Localized: A) The emergence of cryptocurrencies
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264571133956
+    m_Localized: What marked the transition from Web 1 to Web 2?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264571133955
+    m_Localized: D) Social media dominated the space
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264571133954
+    m_Localized: C) All users could create content
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264571133953
+    m_Localized: B) Only information could be read
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264571133952
+    m_Localized: A) Online shopping was available
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264524996608
+    m_Localized: What was a main feature of Web 1.0?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264571133961
+    m_Localized: What is one of the main advantages of Web 3?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264571133962
+    m_Localized: A) It is private but centralized
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264571133963
+    m_Localized: B) It allows users to have control over their data
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264571133964
+    m_Localized: C) It is based on social networks
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264571133965
+    m_Localized: D) It only works in certain countries
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264571133966
+    m_Localized: Which company represents an example of centralized power in Web
+      2?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264571133967
+    m_Localized: A) Amazon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264571133968
+    m_Localized: B) Brave
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264571133969
+    m_Localized: C) Wikipedia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264571133970
+    m_Localized: D) Bitcoin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264571133971
+    m_Localized: What does Web 3 aim to recover according to the narrator?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264571133972
+    m_Localized: A) Total anonymity
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264571133973
+    m_Localized: B) Browsing speed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264571133974
+    m_Localized: C) Control over our data
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264571133975
+    m_Localized: D) Personal blogs
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264571133976
+    m_Localized: Which of the following best represents the purpose of Web 3?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264571133977
+    m_Localized: A) Selling more advertising
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264571133978
+    m_Localized: B) Making everyone dependent on one server
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264571133979
+    m_Localized: C) Empowering communities and decentralizing power
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264571133980
+    m_Localized: D) Eliminating social networks
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328256
+    m_Localized: What does the concept of "decentralization" represent?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328257
+    m_Localized: A) A single point of control
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328258
+    m_Localized: B) A system shared among many people
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328259
+    m_Localized: C) A global company
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328260
+    m_Localized: D) A single government
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328261
+    m_Localized: Why is transparency important in Web 3?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328262
+    m_Localized: A) To share photos more easily
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328263
+    m_Localized: B) To understand how our data and decisions are handled
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328264
+    m_Localized: C) To speed up the internet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328265
+    m_Localized: D) To return to Web 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328266
+    m_Localized: What was one of the main criticisms of Web 2?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328267
+    m_Localized: A) Lack of emojis
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328268
+    m_Localized: B) Limited access to social networks
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328269
+    m_Localized: C) Excessive control by large corporations
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328270
+    m_Localized: D) Too much freedom of expression
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328271
+    m_Localized: What motivated the rise of Web 3 and cryptocurrencies?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328272
+    m_Localized: A) New international laws
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328273
+    m_Localized: B) A tech trend
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328274
+    m_Localized: C) The desire to regain digital autonomy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328275
+    m_Localized: D) The fall of social networks
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328276
+    m_Localized: Centralization means that a single entity controls the entire system.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328277
+    m_Localized: In a centralized system, decisions are made democratically
+    m_Metadata:
+      m_Items: []
+  - m_Id: 702784981155840
+    m_Localized: Centralization can make our data more vulnerable.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328279
+    m_Localized: Large companies like Google and Meta are examples of decentralized
+      systems.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328280
+    m_Localized: If a central server fails, the entire system may stop working.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328281
+    m_Localized: Centralization provides greater privacy and anonymity for users.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328282
+    m_Localized: One problem with centralization is that it limits access by geographic
+      region.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328283
+    m_Localized: Web 3 aims to increase centralization to improve control.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328284
+    m_Localized: Centralized databases can be targets of massive attacks.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328285
+    m_Localized: In centralized systems, users usually have little control over how
+      their information is used.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328286
+    m_Localized: True.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328287
+    m_Localized: False.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328288
+    m_Localized: What does a node represent in a decentralized network?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328289
+    m_Localized: A) The art of erasing messages
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328290
+    m_Localized: B) A technique for creating social networks
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328291
+    m_Localized: C) A method to protect information
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328292
+    m_Localized: D) A digital language
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328293
+    m_Localized: What happens if a node leaves a decentralized network?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328294
+    m_Localized: A) An access key
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328295
+    m_Localized: B) A type of virus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328296
+    m_Localized: C) A code that securely represents data
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328297
+    m_Localized: D) A secret message
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328298
+    m_Localized: What makes a decentralized network more secure?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328299
+    m_Localized: "A) The hash doesn\u2019t change"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328300
+    m_Localized: B) It changes slightly
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328301
+    m_Localized: C) It changes completely
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328302
+    m_Localized: D) The hash is deleted
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328303
+    m_Localized: What is needed for a decision to be recorded on a decentralized
+      network?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328304
+    m_Localized: A) To store passwords
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328305
+    m_Localized: B) To encrypt IP addresses
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328306
+    m_Localized: C) To verify data integrity
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328307
+    m_Localized: D) To create emojis
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328308
+    m_Localized: What value does decentralization promote in Web 3?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328309
+    m_Localized: "A) Because it\u2019s in another language"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328310
+    m_Localized: B) Because it requires a lot of energy and computing resources
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328311
+    m_Localized: C) Because it changes every second
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328312
+    m_Localized: "D) Because it\u2019s created by the government"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328313
+    m_Localized: In a decentralized network, all users can see the information that
+      is stored.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328314
+    m_Localized: If all network nodes disappear, the information is still preserved.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328315
+    m_Localized: Decentralization means completely eliminating rules.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328316
+    m_Localized: Decentralized networks work thanks to user consensus.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328317
+    m_Localized: Decentralization allows global transactions without intermediaries.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328318
+    m_Localized: How is blockchain similar to a notebook?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328319
+    m_Localized: A) Only the creator can read it
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328320
+    m_Localized: B) It only stores photos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328321
+    m_Localized: C) All users can view and record changes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328322
+    m_Localized: D) It is private and exclusive
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328323
+    m_Localized: What happens when an entry is accepted into the blockchain?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328324
+    m_Localized: A) It is deleted the next day
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328325
+    m_Localized: B) It becomes permanent
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328326
+    m_Localized: C) It is stored in only one node
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328327
+    m_Localized: D) It is printed on paper
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328328
+    m_Localized: What is needed for a transaction to be added to the blockchain?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328329
+    m_Localized: A) Government approval
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328330
+    m_Localized: B) A purchase order
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328331
+    m_Localized: C) Consensus among participants
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328332
+    m_Localized: D) A credit card
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328333
+    m_Localized: What is a key advantage of blockchain?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328334
+    m_Localized: A) It depends on a central server
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328335
+    m_Localized: B) It is slow but secure
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328336
+    m_Localized: C) It is decentralized and transparent
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328337
+    m_Localized: D) It does not allow viewing past transactions
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328338
+    m_Localized: What type of data can a blockchain store?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328339
+    m_Localized: A) Only images
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328340
+    m_Localized: B) Banking and personal data
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328341
+    m_Localized: C) Any kind of digital information
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328342
+    m_Localized: D) Only physical contracts
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328343
+    m_Localized: What is the function of a block in the chain?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328344
+    m_Localized: A) To archive physical contracts
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328345
+    m_Localized: B) To store a group of transactions
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328346
+    m_Localized: C) To block access to the network
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328347
+    m_Localized: D) To act as the main node
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328348
+    m_Localized: What happens if someone tries to change data in a previous block?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328349
+    m_Localized: A) It updates automatically
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328350
+    m_Localized: B) The system corrects it
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328351
+    m_Localized: C) The chain breaks and the change is detected
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328352
+    m_Localized: D) Nothing happens
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328353
+    m_Localized: How is the order of blocks ensured?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328354
+    m_Localized: A) By colors
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328355
+    m_Localized: B) By votes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328356
+    m_Localized: C) By the hash of the previous block
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328357
+    m_Localized: D) By date
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328358
+    m_Localized: What is a "hash"?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328359
+    m_Localized: A) An encrypted message
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328360
+    m_Localized: B) A corrupted block
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328361
+    m_Localized: C) A visual algorithm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328362
+    m_Localized: D) A unique digital signature of the data
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328363
+    m_Localized: Why is it hard to fake a blockchain transaction?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328364
+    m_Localized: A) Because it gets deleted quickly
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328365
+    m_Localized: B) Because every entry is validated by everyone and is recorde
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328366
+    m_Localized: C) Because no one sees it
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328367
+    m_Localized: D) Because only one node has access
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328368
+    m_Localized: Blockchain is a database distributed across many devices.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328369
+    m_Localized: All blockchain nodes have different copies of the ledger.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328370
+    m_Localized: If a data center crashes, blockchain information is lost.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328371
+    m_Localized: Each user can own part of the network without fully controlling
+      it.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328372
+    m_Localized: Blockchain information can be deleted if a user requests it.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328373
+    m_Localized: The distributed structure of blockchain makes it more secure against
+      failures or attacks.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328374
+    m_Localized: A node can modify any transaction that has already been validated.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328375
+    m_Localized: Blockchain does not need all nodes to be active at the same time.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328376
+    m_Localized: Traditional databases and blockchain store information in the same
+      way.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328377
+    m_Localized: 'Decentralization prevents a single person from having control over
+      the system.
+
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328378
+    m_Localized: What is cryptography in the context of blockchain?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328379
+    m_Localized: What is a cryptographic hash?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328380
+    m_Localized: What happens if you change a single letter in the hash input data?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328381
+    m_Localized: Cryptography is used to protect data on the blockchain.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328382
+    m_Localized: It is easy to reverse a hash to obtain the original data.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328383
+    m_Localized: Hashes in blockchain are unique to each set of data.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328384
+    m_Localized: If someone alters data in a block, the hash remains the same.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328385
+    m_Localized: Cryptography allows verifying authenticity without revealing personal
+      information.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328386
+    m_Localized: What is a cryptocurrency?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328387
+    m_Localized: A) A digital game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328388
+    m_Localized: B) A physical coin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328389
+    m_Localized: C) A digital currency protected by cryptography
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328390
+    m_Localized: D) A type of bank
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328391
+    m_Localized: Where are cryptocurrency transactions stored?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328392
+    m_Localized: A) On a USB
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328393
+    m_Localized: B) On paper
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328394
+    m_Localized: C) On the blockchain
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328395
+    m_Localized: D) At a central bank
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328396
+    m_Localized: What is one of the main advantages of cryptocurrencies?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328397
+    m_Localized: A) They are only used in video games
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328398
+    m_Localized: B) They require many intermediaries
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328399
+    m_Localized: C) They can be sent directly between people without banks
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328400
+    m_Localized: D) They are controlled by a government
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328401
+    m_Localized: What gives value to a cryptocurrency like Bitcoin?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328402
+    m_Localized: A) The number of ads it has
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328403
+    m_Localized: B) A bank's opinion
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328404
+    m_Localized: C) Its scarcity, utility, and trust in its use
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328405
+    m_Localized: D) Its number of followers on social media
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328406
+    m_Localized: What does it mean for a cryptocurrency to be decentralized?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328407
+    m_Localized: A) It has a main office
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328408
+    m_Localized: "B) It doesn\u2019t depend on a single entity to function"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328409
+    m_Localized: C) It needs permission from a bank
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328410
+    m_Localized: D) It is only used in certain countries
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328411
+    m_Localized: What is a feature of the traditional (fiat) money system?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328412
+    m_Localized: A) It is mined by users
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328413
+    m_Localized: B) It has a limited number of coins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328414
+    m_Localized: C) It is issued by a central government
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328415
+    m_Localized: D) It is based on blockchain
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328416
+    m_Localized: What does cryptocurrency technology enable for people without access
+      to banks?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328417
+    m_Localized: A) Buying cars
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328418
+    m_Localized: B) Sending anonymous messages
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328419
+    m_Localized: C) Participating in the global economy without intermediaries
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328420
+    m_Localized: D) Conducting surveys
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328421
+    m_Localized: What problem does cryptocurrency aim to solve?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328422
+    m_Localized: A) Lack of cellphones
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328423
+    m_Localized: B) Slow internet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328424
+    m_Localized: C) Financial exclusion and lack of control over money
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328425
+    m_Localized: D) Lack of social networks
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328426
+    m_Localized: What is the main difference between traditional money and cryptocurrency?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328427
+    m_Localized: A) Cryptocurrencies are always backed by gold
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328428
+    m_Localized: B) Cryptocurrencies are only used in video games
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328429
+    m_Localized: "C) Cryptocurrencies use blockchain and don\u2019t require banks"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328430
+    m_Localized: D) Traditional money is used less in stores
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328431
+    m_Localized: What determines the market value of a cryptocurrency?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328432
+    m_Localized: A) Government decisions
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328433
+    m_Localized: B) Number of TV ads
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328434
+    m_Localized: C) Supply and demand
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328435
+    m_Localized: D) Number of banks supporting it
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264579522560
+    m_Localized: A wallet is needed to send, receive, and store cryptocurrencies.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264579522561
+    m_Localized: The public key of a wallet is shared with others to receive funds.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264579522562
+    m_Localized: If you lose your private key, you can easily recover it by contacting
+      support.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264579522563
+    m_Localized: Wallets only exist in physical form.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264579522564
+    m_Localized: A wallet can be online, mobile, desktop, or hardware.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264579522565
+    m_Localized: Sharing your private key poses no risk.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264579522566
+    m_Localized: Blockchain transactions are irreversible.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264579522567
+    m_Localized: The public and private keys are the same thing.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264579522568
+    m_Localized: Wallets do not allow viewing the transaction history.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264579522569
+    m_Localized: There are services like ENS that allow using readable names instead
+      of long addresses.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264579522570
+    m_Localized: What is a "pump and dump" scam?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264579522571
+    m_Localized: A) Where cryptocurrencies are given away
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264579522572
+    m_Localized: B) Where a token is created, its value is inflated, and then sold
+      off leaving losses
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264579522573
+    m_Localized: C) Where free Bitcoin is mined
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264579522574
+    m_Localized: D) A legal investment strategy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264579522575
+    m_Localized: What is a "rug pull"?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264579522576
+    m_Localized: A) A type of wallet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264579522577
+    m_Localized: B) A method to secure your key
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264579522578
+    m_Localized: C) When project creators run off with users' funds
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264579522579
+    m_Localized: D) A type of stable token
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264579522580
+    m_Localized: What is a sign that a site or wallet might be fake?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264579522581
+    m_Localized: A) Good design and many features
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264579522582
+    m_Localized: B) Promises of fast profits and lack of transparent information
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264579522583
+    m_Localized: C) Live tech support
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264579522584
+    m_Localized: D) Open-source code
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264579522585
+    m_Localized: What should you do to avoid scams when downloading wallets?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264579522586
+    m_Localized: A) Download any app without checking
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264579522587
+    m_Localized: B) Only use apps with low ratings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264579522588
+    m_Localized: C) Check the official website and user reviews
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264579522589
+    m_Localized: D) Use links from unknown emails
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264579522590
+    m_Localized: "What is \u201Cpig butchering\u201D?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264579522591
+    m_Localized: A) A safe mining method
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264579522592
+    m_Localized: B) A type of hardware wallet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264579522593
+    m_Localized: C) A scam that builds trust and then steals funds
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264579522594
+    m_Localized: D) A trading strategy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264579522595
+    m_Localized: Scammers use emotional tactics to pressure people.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264579522596
+    m_Localized: "If an influencer says a coin is \u201Cgoing to the moon,\u201D
+      it\u2019s always true."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264579522597
+    m_Localized: Fake websites can look identical to real ones.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264579522598
+    m_Localized: Cryptocurrencies cannot be used in any scams.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264579522599
+    m_Localized: You should always research a project before investing in it.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 704117557673984
+    m_Localized: A) A virus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 704117595422720
+    m_Localized: B) A controlling company
+    m_Metadata:
+      m_Items: []
+  - m_Id: 704117595422721
+    m_Localized: C) A device that participates in the network
+    m_Metadata:
+      m_Items: []
+  - m_Id: 704117595422722
+    m_Localized: D) An outdated software
+    m_Metadata:
+      m_Items: []
+  - m_Id: 704117595422723
+    m_Localized: A) The network stops
+    m_Metadata:
+      m_Items: []
+  - m_Id: 704117595422724
+    m_Localized: B) The network automatically restructures
+    m_Metadata:
+      m_Items: []
+  - m_Id: 704117595422725
+    m_Localized: C) The network continues without issue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 704117595422726
+    m_Localized: D) All information is lost
+    m_Metadata:
+      m_Items: []
+  - m_Id: 704117595422727
+    m_Localized: A) Having only one server
+    m_Metadata:
+      m_Items: []
+  - m_Id: 704117595422728
+    m_Localized: B) Making decisions in secret
+    m_Metadata:
+      m_Items: []
+  - m_Id: 704117595422729
+    m_Localized: C) Information being distributed across many locations
+    m_Metadata:
+      m_Items: []
+  - m_Id: 704117595422730
+    m_Localized: D) Using short passwords
+    m_Metadata:
+      m_Items: []
+  - m_Id: 704117595422731
+    m_Localized: A) An order from the central bank
+    m_Metadata:
+      m_Items: []
+  - m_Id: 704117595422732
+    m_Localized: B) An agreement among several participants
+    m_Metadata:
+      m_Items: []
+  - m_Id: 704117595422733
+    m_Localized: "C) A company\u2019s signature"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 704117595422734
+    m_Localized: D) A credit card payment
+    m_Metadata:
+      m_Items: []
+  - m_Id: 704117595422735
+    m_Localized: A) Exclusivity
+    m_Metadata:
+      m_Items: []
+  - m_Id: 704117595422736
+    m_Localized: B) Total government control
+    m_Metadata:
+      m_Items: []
+  - m_Id: 704117595422737
+    m_Localized: C) Inclusion and equity
+    m_Metadata:
+      m_Items: []
+  - m_Id: 704117595422738
+    m_Localized: D) Mandatory use of social networks
+    m_Metadata:
+      m_Items: []
+  - m_Id: 712212107214848
+    m_Localized: What is one function of a hash in blockchain?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 712570619543552
+    m_Localized: Why is it hard to decrypt a hash without the correct key?
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

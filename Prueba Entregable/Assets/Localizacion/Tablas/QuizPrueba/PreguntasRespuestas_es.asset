@@ -1,0 +1,1146 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: PreguntasRespuestas_es
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: es
+  m_SharedData: {fileID: 11400000, guid: 65fdba222ce43ae4eac2fab5b93345a5, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 682264571133960
+    m_Localized: D) El uso de blockchain
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264571133959
+    m_Localized: C) La posibilidad de crear contenido y comunicarse
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264571133958
+    m_Localized: B) El uso de Inteligencia Artificial
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264571133957
+    m_Localized: "A) La aparici\xF3n de criptomonedas"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264571133956
+    m_Localized: "\xBFQu\xE9 marc\xF3 la transici\xF3n de la Web 1 a la Web 2?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264571133955
+    m_Localized: D) Las redes sociales dominaban el espacio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264571133954
+    m_Localized: "C) Todos los usuarios pod\xEDan crear contenido"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264571133953
+    m_Localized: "B) Solo se pod\xEDa leer informaci\xF3n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264571133952
+    m_Localized: "A) Se pod\xEDan hacer compras en l\xEDnea"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264524996608
+    m_Localized: "\xBFCu\xE1l fue una caracter\xEDstica principal de la Web 1.0?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264571133961
+    m_Localized: "\xBFCu\xE1l es una de las principales ventajas de la Web 3?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264571133962
+    m_Localized: A) Es privada pero centralizada
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264571133963
+    m_Localized: B) Permite a los usuarios tener control sobre sus datos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264571133964
+    m_Localized: C) Se basa en redes sociales
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264571133965
+    m_Localized: "D) Solo funciona en ciertos pa\xEDses"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264571133966
+    m_Localized: "\xBFQu\xE9 empresa representa un ejemplo de poder centralizado
+      en la Web 2?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264571133967
+    m_Localized: A) Amazon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264571133968
+    m_Localized: B) Brave
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264571133969
+    m_Localized: C) Wikipedia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264571133970
+    m_Localized: D) Bitcoin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264571133971
+    m_Localized: "\xBFQu\xE9 se busca recuperar con la Web 3 seg\xFAn la narradora?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264571133972
+    m_Localized: A) El anonimato total
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264571133973
+    m_Localized: "B) La velocidad de navegaci\xF3n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264571133974
+    m_Localized: C) El control sobre nuestros datos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264571133975
+    m_Localized: D) Los blogs personales
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264571133976
+    m_Localized: "\xBFCu\xE1l de estas afirmaciones representa mejor el prop\xF3sito
+      de la Web 3?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264571133977
+    m_Localized: "A) Vender m\xE1s publicidad"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264571133978
+    m_Localized: B) Hacer que todos dependan de un servidor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264571133979
+    m_Localized: C) Dar voz a las comunidades y descentralizar el poder
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264571133980
+    m_Localized: D) Eliminar las redes sociales
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328256
+    m_Localized: "\xBFQu\xE9 representa el concepto de \"descentralizaci\xF3n\"?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328257
+    m_Localized: A) Un solo punto de control
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328258
+    m_Localized: B) Un sistema compartido entre muchas personas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328259
+    m_Localized: C) Una empresa global
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328260
+    m_Localized: "D) Un gobierno \xFAnico"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328261
+    m_Localized: "\xBFPor qu\xE9 es importante la transparencia en la Web 3?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328262
+    m_Localized: "A) Para compartir fotos m\xE1s f\xE1cilmente"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328263
+    m_Localized: "B) Para saber c\xF3mo se mueven nuestros datos y decisiones"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328264
+    m_Localized: C) Para acelerar el internet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328265
+    m_Localized: D) Para volver a la Web 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328266
+    m_Localized: "\xBFCu\xE1l fue una de las cr\xEDticas principales hacia la Web
+      2?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328267
+    m_Localized: A) Falta de emojis
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328268
+    m_Localized: B) Poco acceso a redes sociales
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328269
+    m_Localized: C) Exceso de control por grandes empresas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328270
+    m_Localized: "D) Demasiada libertad de expresi\xF3n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328271
+    m_Localized: "\xBFQu\xE9 motiv\xF3 el nacimiento de la Web 3 y las criptomonedas?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328272
+    m_Localized: A) Nuevas leyes internacionales
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328273
+    m_Localized: "B) Una moda tecnol\xF3gica"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328274
+    m_Localized: "C) El deseo de recuperar autonom\xEDa digital"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328275
+    m_Localized: "D) La ca\xEDda de las redes sociales"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328276
+    m_Localized: "La centralizaci\xF3n implica que una sola entidad controla todo
+      el sistema."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328277
+    m_Localized: "En un sistema centralizado, las decisiones se toman de forma democr\xE1tica "
+    m_Metadata:
+      m_Items: []
+  - m_Id: 702784981155840
+    m_Localized: "La centralizaci\xF3n puede hacer que nuestros datos sean m\xE1s
+      vulnerables."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328279
+    m_Localized: Las grandes empresas como Google y Meta representan ejemplos de
+      sistemas descentralizados.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328280
+    m_Localized: Si un servidor central falla, todo el sistema puede dejar de funcionar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328281
+    m_Localized: "La centralizaci\xF3n permite mayor privacidad y anonimato para
+      los usuarios."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328282
+    m_Localized: "Uno de los problemas de la centralizaci\xF3n es que limita el acceso
+      por regi\xF3n geogr\xE1fica."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328283
+    m_Localized: "La Web 3 busca aumentar el nivel de centralizaci\xF3n para mejorar
+      el control."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328284
+    m_Localized: Las bases de datos centralizadas pueden ser blanco de ataques masivos.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328285
+    m_Localized: "En la centralizaci\xF3n, los usuarios suelen tener poco control
+      sobre el uso de su informaci\xF3n."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328286
+    m_Localized: Verdadero
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328287
+    m_Localized: Falso
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328288
+    m_Localized: "\xBFQu\xE9 representa un nodo en una red descentralizada?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328289
+    m_Localized: A) El arte de borrar mensajes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328290
+    m_Localized: "B) Una t\xE9cnica para crear redes sociales"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328291
+    m_Localized: "C) Un m\xE9todo para proteger la informaci\xF3n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328292
+    m_Localized: D) Un idioma digital
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328293
+    m_Localized: "\xBFQu\xE9 sucede si un nodo abandona la red descentralizada?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328294
+    m_Localized: A) Una clave de acceso
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328295
+    m_Localized: B) Un tipo de virus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328296
+    m_Localized: "C) Un c\xF3digo que representa datos en forma segura"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328297
+    m_Localized: D) Un mensaje secreto
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328298
+    m_Localized: "\xBFQu\xE9 hace m\xE1s segura a una red descentralizada?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328299
+    m_Localized: A) El hash no cambia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328300
+    m_Localized: B) Cambia levemente
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328301
+    m_Localized: C) Cambia completamente
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328302
+    m_Localized: D) Se elimina el hash
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328303
+    m_Localized: "\xBFQu\xE9 se necesita para que una decisi\xF3n se registre en
+      una red descentralizada?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328304
+    m_Localized: "A) Guardar contrase\xF1as"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328305
+    m_Localized: B) Cifrar direcciones IP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328306
+    m_Localized: C) Verificar la integridad de los datos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328307
+    m_Localized: D) Crear emojis
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328308
+    m_Localized: "\xBFQu\xE9 valor promueve la descentralizaci\xF3n en la Web 3?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328309
+    m_Localized: "A) Porque est\xE1 en otro idioma"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328310
+    m_Localized: "B) Porque necesita mucha energ\xEDa y recursos computacionales"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328311
+    m_Localized: C) Porque cambia cada segundo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328312
+    m_Localized: D) Porque lo crea el gobierno
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328313
+    m_Localized: "En una red descentralizada, todos los usuarios pueden ver la informaci\xF3n
+      que se guarda."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328314
+    m_Localized: "Si todos los nodos de la red desaparecen, la informaci\xF3n a\xFAn
+      se conserva."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328315
+    m_Localized: Descentralizar significa eliminar por completo las reglas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328316
+    m_Localized: Las redes descentralizadas funcionan gracias al consenso entre usuarios.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328317
+    m_Localized: "La descentralizaci\xF3n permite transacciones globales sin intermediarios."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328318
+    m_Localized: "\xBFC\xF3mo se compara el blockchain con un cuaderno?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328319
+    m_Localized: A) Solo lo puede leer el creador
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328320
+    m_Localized: B) Solo almacena fotos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328321
+    m_Localized: C) Todos los usuarios ven y registran los cambios
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328322
+    m_Localized: D) Es privado y exclusivo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328323
+    m_Localized: "\xBFQu\xE9 ocurre cuando una entrada es aceptada en el blockchain?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328324
+    m_Localized: "A) Se elimina al d\xEDa siguiente"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328325
+    m_Localized: B) Se convierte en permanente
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328326
+    m_Localized: C) Solo se guarda en un nodo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328327
+    m_Localized: D) Se guarda en papel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328328
+    m_Localized: "\xBFQu\xE9 se necesita para que una transacci\xF3n sea agregada
+      al blockchain?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328329
+    m_Localized: A) Un permiso del gobierno
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328330
+    m_Localized: B) Una orden de compra
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328331
+    m_Localized: C) Un consenso entre los participantes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328332
+    m_Localized: "D) Una tarjeta de cr\xE9dito"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328333
+    m_Localized: "\xBFCu\xE1l es una ventaja clave del blockchain?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328334
+    m_Localized: A) Depende de un servidor central
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328335
+    m_Localized: B) Es lento pero seguro
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328336
+    m_Localized: C) Es descentralizado y transparente
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328337
+    m_Localized: D) No permite ver transacciones anteriores
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328338
+    m_Localized: "\xBFQu\xE9 tipo de datos puede almacenar un blockchain?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328339
+    m_Localized: "A) Solo im\xE1genes"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328340
+    m_Localized: B) Datos bancarios y personales
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328341
+    m_Localized: "C) Cualquier tipo de informaci\xF3n digital"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328342
+    m_Localized: "D) Solo contratos f\xEDsicos"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328343
+    m_Localized: "\xBFQu\xE9 funci\xF3n tiene un bloque en la cadena?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328344
+    m_Localized: "A) Archivar contratos f\xEDsicos"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328345
+    m_Localized: B) Almacenar un conjunto de transacciones
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328346
+    m_Localized: C) Bloquear el acceso a la red
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328347
+    m_Localized: D) Ser el nodo principal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328348
+    m_Localized: "\xBFQu\xE9 pasa si se intenta cambiar un dato en un bloque anterior?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328349
+    m_Localized: "A) Se actualiza autom\xE1ticamente"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328350
+    m_Localized: B) El sistema lo corrige
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328351
+    m_Localized: C) Se rompe la cadena y se detecta el cambio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328352
+    m_Localized: D) No pasa nada
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328353
+    m_Localized: "\xBFC\xF3mo se asegura el orden de los bloques?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328354
+    m_Localized: A) Por colores
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328355
+    m_Localized: B) Por votos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328356
+    m_Localized: C) Por el hash del bloque anterior
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328357
+    m_Localized: D) Por fecha
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328358
+    m_Localized: "\xBFQu\xE9 es un \"hash\"?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328359
+    m_Localized: A) Un mensaje cifrado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328360
+    m_Localized: B) Un bloque corrupto
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328361
+    m_Localized: C) Un algoritmo visual
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328362
+    m_Localized: "D) Una firma digital \xFAnica de los datos"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328363
+    m_Localized: "\xBFPor qu\xE9 es dif\xEDcil falsificar una transacci\xF3n en blockchain?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328364
+    m_Localized: A) Porque se borra al poco tiempo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328365
+    m_Localized: B) Porque cada entrada es validada por todos y queda registrada
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328366
+    m_Localized: C) Porque nadie la ve
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328367
+    m_Localized: D) Porque solo un nodo puede acceder
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328368
+    m_Localized: El blockchain es una base de datos distribuida en muchos dispositivos.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328369
+    m_Localized: Todos los nodos del blockchain tienen copias distintas del libro
+      contable.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328370
+    m_Localized: "Si un centro de datos se cae, en blockchain se pierde toda la informaci\xF3n."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328371
+    m_Localized: "Cada usuario puede ser due\xF1o de una parte de la red sin controlarla
+      completamente."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328372
+    m_Localized: "La informaci\xF3n del blockchain puede eliminarse si un usuario
+      lo solicita."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328373
+    m_Localized: "La estructura distribuida del blockchain lo hace m\xE1s seguro
+      ante fallos o ataques."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328374
+    m_Localized: "Un nodo puede modificar cualquier transacci\xF3n que ya haya sido
+      validada."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328375
+    m_Localized: "El blockchain no necesita que todos los nodos est\xE9n activos
+      al mismo tiempo."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328376
+    m_Localized: "Las bases de datos tradicionales y blockchain almacenan informaci\xF3n
+      de la misma forma."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328377
+    m_Localized: "La descentralizaci\xF3n impide que una sola persona tenga control
+      del sistema."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328378
+    m_Localized: "\xBFQu\xE9 es la criptograf\xEDa en el contexto de blockchain?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328379
+    m_Localized: "\xBFQu\xE9 es un hash criptogr\xE1fico?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328380
+    m_Localized: "\xBFQu\xE9 pasa si cambias una sola letra en los datos de entrada
+      de un hash?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328381
+    m_Localized: "La criptograf\xEDa se usa para proteger los datos en el blockchain."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328382
+    m_Localized: "Es posible revertir f\xE1cilmente un hash para obtener los datos
+      originales."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328383
+    m_Localized: "Los hashes en blockchain son \xFAnicos para cada conjunto de datos."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328384
+    m_Localized: Si alguien altera los datos en un bloque, el hash permanece igual.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328385
+    m_Localized: "La criptograf\xEDa permite verificar la autenticidad sin revelar
+      la informaci\xF3n personal."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328386
+    m_Localized: "\xBFQu\xE9 es una criptomoneda?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328387
+    m_Localized: A) Un juego digital
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328388
+    m_Localized: "B) Una moneda f\xEDsica"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328389
+    m_Localized: "C) Una moneda digital protegida por criptograf\xEDa"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328390
+    m_Localized: D) Un tipo de banco
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328391
+    m_Localized: "\xBFD\xF3nde se almacenan las transacciones de criptomonedas?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328392
+    m_Localized: A) En una USB
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328393
+    m_Localized: B) En papel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328394
+    m_Localized: C) En la cadena de bloques (blockchain)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328395
+    m_Localized: D) En un banco central
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328396
+    m_Localized: "\xBFCu\xE1l es una de las principales ventajas de las criptomonedas?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328397
+    m_Localized: A) Solo se usan en videojuegos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328398
+    m_Localized: B) Necesitan muchos intermediarios
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328399
+    m_Localized: C) Pueden enviarse directamente entre personas sin bancos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328400
+    m_Localized: "D) Est\xE1n controladas por un gobierno"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328401
+    m_Localized: "\xBFQu\xE9 representa el valor de una criptomoneda como Bitcoin?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328402
+    m_Localized: A) La cantidad de anuncios que tiene
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328403
+    m_Localized: "B) La opini\xF3n de un banco"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328404
+    m_Localized: C) Su escasez, utilidad y confianza en su uso
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328405
+    m_Localized: "D) Su n\xFAmero de seguidores en redes"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328406
+    m_Localized: "\xBFQu\xE9 significa que una criptomoneda sea descentralizada?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328407
+    m_Localized: A) Que tiene una oficina principal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328408
+    m_Localized: B) Que no depende de una sola entidad para funcionar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328409
+    m_Localized: C) Que necesita permiso del banco
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328410
+    m_Localized: "D) Que se usa solo en ciertos pa\xEDses"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328411
+    m_Localized: "\xBFCu\xE1l es una caracter\xEDstica del sistema tradicional de
+      dinero (fiat)?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328412
+    m_Localized: A) Es minado por usuarios
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328413
+    m_Localized: "B) Tiene un n\xFAmero limitado de monedas"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328414
+    m_Localized: C) Es emitido por un gobierno central
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328415
+    m_Localized: "D) Est\xE1 basado en blockchain"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328416
+    m_Localized: "\xBFQu\xE9 permite la tecnolog\xEDa de criptomonedas a las personas
+      sin acceso a bancos?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328417
+    m_Localized: A) Comprar autos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328418
+    m_Localized: "B) Enviar mensajes an\xF3nimos"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328419
+    m_Localized: "C) Participar en la econom\xEDa global sin intermediarios"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328420
+    m_Localized: D) Hacer encuestas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328421
+    m_Localized: "\xBFQu\xE9 problema busca resolver el uso de criptomonedas?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328422
+    m_Localized: A) La escasez de celulares
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328423
+    m_Localized: B) La lentitud del internet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328424
+    m_Localized: "C) La exclusi\xF3n financiera y la falta de control sobre el dinero"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328425
+    m_Localized: D) La falta de redes sociales
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328426
+    m_Localized: "\xBFQu\xE9 diferencia principal hay entre el dinero tradicional
+      y una criptomoneda?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328427
+    m_Localized: "A) Las criptomonedas siempre est\xE1n respaldadas por oro"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328428
+    m_Localized: B) Las criptomonedas se usan solo en videojuegos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328429
+    m_Localized: C) Las criptomonedas usan blockchain y no requieren bancos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328430
+    m_Localized: D) El dinero tradicional se usa menos en tiendas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328431
+    m_Localized: "\xBFQu\xE9 determina el valor de una criptomoneda en el mercado?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328432
+    m_Localized: A) Las decisiones del gobierno
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328433
+    m_Localized: B) La cantidad de anuncios en TV
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328434
+    m_Localized: C) La oferta y la demanda
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264575328435
+    m_Localized: "D) El n\xFAmero de bancos que la apoyan"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264579522560
+    m_Localized: Una wallet es necesaria para enviar, recibir y guardar criptomonedas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264579522561
+    m_Localized: "La clave p\xFAblica de una wallet se comparte con otras personas
+      para recibir fondos."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264579522562
+    m_Localized: "Si pierdes tu clave privada, puedes recuperarla f\xE1cilmente contactando
+      a soporte."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264579522563
+    m_Localized: "Las wallets solo existen en forma f\xEDsica."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264579522564
+    m_Localized: "Una wallet puede ser en l\xEDnea, m\xF3vil, de escritorio o hardware."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264579522565
+    m_Localized: "Compartir tu clave privada no representa ning\xFAn riesgo."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264579522566
+    m_Localized: Las transacciones en blockchain son irreversibles.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264579522567
+    m_Localized: "La clave p\xFAblica y la privada son la misma cosa."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264579522568
+    m_Localized: Las wallets no permiten ver el historial de transacciones.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264579522569
+    m_Localized: Existen servicios como ENS que permiten usar nombres legibles en
+      vez de direcciones largas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264579522570
+    m_Localized: "\xBFQu\xE9 es una estafa de tipo \"pump and dump\"?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264579522571
+    m_Localized: A) Donde se regalan criptomonedas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264579522572
+    m_Localized: "B) Donde se crea un token, se infla su valor y luego se vende dejando
+      p\xE9rdidas"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264579522573
+    m_Localized: C) Donde se mina Bitcoin gratis
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264579522574
+    m_Localized: "D) Una estrategia de inversi\xF3n legal"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264579522575
+    m_Localized: "\xBFQu\xE9 es una \"rug pull\"?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264579522576
+    m_Localized: A) Un tipo de wallet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264579522577
+    m_Localized: "B) Un m\xE9todo para asegurar tu clave"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264579522578
+    m_Localized: C) Cuando los creadores de un proyecto se van con el dinero de los
+      usuarios
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264579522579
+    m_Localized: D) Un tipo de token estable
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264579522580
+    m_Localized: "\xBFQu\xE9 se\xF1al puede indicar que un sitio o wallet es falso?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264579522581
+    m_Localized: "A) Buen dise\xF1o y muchas funciones"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264579522582
+    m_Localized: "B) Promesas de ganancias r\xE1pidas y falta de informaci\xF3n transparente"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264579522583
+    m_Localized: "C) Soporte t\xE9cnico en vivo"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264579522584
+    m_Localized: "D) C\xF3digo abierto"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264579522585
+    m_Localized: "\xBFQu\xE9 hacer para evitar estafas al descargar wallets?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264579522586
+    m_Localized: A) Descargar cualquier app sin revisar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264579522587
+    m_Localized: "B) Solo usar apps con baja calificaci\xF3n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264579522588
+    m_Localized: C) Verificar el sitio oficial y opiniones de otros usuarios
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264579522589
+    m_Localized: D) Usar enlaces en correos desconocidos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264579522590
+    m_Localized: "\xBFQu\xE9 es el \u201Cpig butchering\u201D?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264579522591
+    m_Localized: "A) Una forma de miner\xEDa segura"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264579522592
+    m_Localized: "B) Un tipo de wallet f\xEDsico"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264579522593
+    m_Localized: C) Una estafa basada en construir confianza y luego robar fondos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264579522594
+    m_Localized: D) Una estrategia de trading
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264579522595
+    m_Localized: "Los estafadores usan t\xE1cticas emocionales para presionar a las
+      personas."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264579522596
+    m_Localized: "Si un influencer dice que una moneda \u201Cir\xE1 a la luna\u201D,
+      siempre es verdad."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264579522597
+    m_Localized: "Los sitios falsos pueden parecer id\xE9nticos a los originales."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264579522598
+    m_Localized: Las criptomonedas no pueden ser usadas en ninguna estafa.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682264579522599
+    m_Localized: "Siempre debes investigar un proyecto antes de invertir en \xE9l."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 704117557673984
+    m_Localized: A) Un virus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 704117595422720
+    m_Localized: B) Una empresa controladora
+    m_Metadata:
+      m_Items: []
+  - m_Id: 704117595422721
+    m_Localized: C) Un dispositivo que participa en la red
+    m_Metadata:
+      m_Items: []
+  - m_Id: 704117595422722
+    m_Localized: D) Un software antiguo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 704117595422723
+    m_Localized: A) La red se detiene
+    m_Metadata:
+      m_Items: []
+  - m_Id: 704117595422724
+    m_Localized: "B) La red se reestructura autom\xE1ticamente"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 704117595422725
+    m_Localized: "C) La red contin\xFAa sin problema"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 704117595422726
+    m_Localized: "D) Se pierde toda la informaci\xF3n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 704117595422727
+    m_Localized: A) Que tenga solo un servidor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 704117595422728
+    m_Localized: B) Que las decisiones se tomen en secreto
+    m_Metadata:
+      m_Items: []
+  - m_Id: 704117595422729
+    m_Localized: "C) Que la informaci\xF3n est\xE9 distribuida en muchos lugares"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 704117595422730
+    m_Localized: "D) Que use contrase\xF1as cortas"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 704117595422731
+    m_Localized: A) Una orden del banco central
+    m_Metadata:
+      m_Items: []
+  - m_Id: 704117595422732
+    m_Localized: B) Un acuerdo entre varios participantes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 704117595422733
+    m_Localized: C) La firma de una empresa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 704117595422734
+    m_Localized: D) Un pago con tarjeta
+    m_Metadata:
+      m_Items: []
+  - m_Id: 704117595422735
+    m_Localized: A) Exclusividad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 704117595422736
+    m_Localized: B) Control total de gobiernos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 704117595422737
+    m_Localized: "C) Inclusi\xF3n y equidad"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 704117595422738
+    m_Localized: D) Uso obligatorio de redes sociales
+    m_Metadata:
+      m_Items: []
+  - m_Id: 712212107214848
+    m_Localized: "\xBFCu\xE1l es una funci\xF3n del hash en blockchain?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 712570619543552
+    m_Localized: "\xBFPor qu\xE9 es dif\xEDcil descifrar un hash sin la clave correcta?"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []
