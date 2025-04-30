@@ -4,6 +4,7 @@
  */
 
 
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -13,8 +14,9 @@ public class ScoreManager : MonoBehaviour
     public int preguntasCorrectas = 0; // numero de preguntas correctas
     public Text scoreText; 
     public QuizManager NumeroDePrguntas;
+    public List<RespuestaUsuario> historialUsuario = new List<RespuestaUsuario>();
 
-    private void Awake()
+    public void Awake()
     {
         if (instance == null)
         {
@@ -34,7 +36,7 @@ public class ScoreManager : MonoBehaviour
         NumeroDePrguntas = GetComponent<QuizManager>(); // Obtenemos la referencia al QuizManager
     }
 
-    void Update()
+    public void Update()
     {
         
         scoreText.text = preguntasCorrectas + "/" + NumeroDePrguntas.NumeroDePreguntas ; // Actualiza el texto del puntaje en la UI

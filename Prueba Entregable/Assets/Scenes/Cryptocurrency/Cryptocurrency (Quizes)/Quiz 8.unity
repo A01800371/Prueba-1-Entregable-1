@@ -289,58 +289,275 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   QnA:
-  - Pregunta: Una wallet es necesaria para enviar, recibir y guardar criptomonedas.
+  - Pregunta:
+      m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264579522560
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
     Respuestas:
-    - Verdadero
-    - Falso
+    - m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264575328286
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264575328287
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
     RespuestaCorrecta: 1
-  - Pregunta: "La clave p\xFAblica de una wallet se comparte con otras personas para
-      recibir fondos."
+  - Pregunta:
+      m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264579522561
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
     Respuestas:
-    - Verdadero
-    - Falso
+    - m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264575328286
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264575328287
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
     RespuestaCorrecta: 1
-  - Pregunta: "Si pierdes tu clave privada, puedes recuperarla f\xE1cilmente contactando
-      a soporte."
+  - Pregunta:
+      m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264579522562
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
     Respuestas:
-    - Verdadero
-    - Falso
+    - m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264575328286
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264575328287
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
     RespuestaCorrecta: 2
-  - Pregunta: "Las wallets solo existen en forma f\xEDsica."
+  - Pregunta:
+      m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264579522563
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
     Respuestas:
-    - Verdadero
-    - Falso
+    - m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264575328286
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264575328287
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
     RespuestaCorrecta: 2
-  - Pregunta: "Una wallet puede ser en l\xEDnea, m\xF3vil, de escritorio o hardware."
+  - Pregunta:
+      m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264579522564
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
     Respuestas:
-    - Verdadero
-    - Falso
+    - m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264575328286
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264575328287
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
     RespuestaCorrecta: 1
-  - Pregunta: "Compartir tu clave privada no representa ning\xFAn riesgo."
+  - Pregunta:
+      m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264579522565
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
     Respuestas:
-    - Verdadero
-    - Falso
+    - m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264575328286
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264575328287
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
     RespuestaCorrecta: 2
-  - Pregunta: Las transacciones en blockchain son irreversibles.
+  - Pregunta:
+      m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264579522566
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
     Respuestas:
-    - Verdadero
-    - Falso
+    - m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264575328286
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264575328287
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
     RespuestaCorrecta: 1
-  - Pregunta: "La clave p\xFAblica y la privada son la misma cosa."
+  - Pregunta:
+      m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264579522567
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
     Respuestas:
-    - Verdadero
-    - Falso
+    - m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264575328286
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264575328287
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
     RespuestaCorrecta: 2
-  - Pregunta: Las wallets no permiten ver el historial de transacciones.
+  - Pregunta:
+      m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264579522568
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
     Respuestas:
-    - Verdadero
-    - Falso
+    - m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264575328286
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264575328287
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
     RespuestaCorrecta: 2
-  - Pregunta: Existen servicios como ENS que permiten usar nombres legibles en vez
-      de direcciones largas.
+  - Pregunta:
+      m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264579522569
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
     Respuestas:
-    - Verdadero
-    - Falso
+    - m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264575328286
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264575328287
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
     RespuestaCorrecta: 1
   options:
   - {fileID: 1455314263}
@@ -352,6 +569,9 @@ MonoBehaviour:
   NumeroDePreguntas: 0
   personajeAnimator: {fileID: 1455314257}
   GloboAnimator: {fileID: 1455314265}
+  references:
+    version: 2
+    RefIds: []
 --- !u!4 &567352543
 Transform:
   m_ObjectHideFlags: 0
@@ -380,8 +600,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tiempoLimite: 10
+  tiempoRestante: 0
+  timerActivo: 0
   timerText: {fileID: 1455314258}
   quizManager: {fileID: 567352542}
+  timer:
+    m_TableReference:
+      m_TableCollectionName: GUID:60e3c19a6d71a914588f802be2de147a
+    m_TableEntryReference:
+      m_KeyId: 7468466176
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  references:
+    version: 2
+    RefIds: []
 --- !u!114 &567352545
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -397,6 +631,10 @@ MonoBehaviour:
   preguntasCorrectas: 0
   scoreText: {fileID: 1455314259}
   NumeroDePrguntas: {fileID: 0}
+  historialUsuario: []
+  references:
+    version: 2
+    RefIds: []
 --- !u!114 &567352546
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -686,6 +924,18 @@ PrefabInstance:
       propertyPath: quizManager
       value: 
       objectReference: {fileID: 567352542}
+    - target: {fileID: 6214152836050601348, guid: fc94fdbeae73bc644bd934fe025dd424, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 567352542}
+    - target: {fileID: 6214152836050601348, guid: fc94fdbeae73bc644bd934fe025dd424, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: RegresarAlMenu
+      objectReference: {fileID: 0}
+    - target: {fileID: 6214152836050601348, guid: fc94fdbeae73bc644bd934fe025dd424, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: QuizManager, CodeManager
+      objectReference: {fileID: 0}
     - target: {fileID: 8137182091792287902, guid: fc94fdbeae73bc644bd934fe025dd424, type: 3}
       propertyPath: quizManager
       value: 

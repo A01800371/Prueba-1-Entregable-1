@@ -223,6 +223,18 @@ PrefabInstance:
       propertyPath: quizManager
       value: 
       objectReference: {fileID: 567352542}
+    - target: {fileID: 6214152836050601348, guid: fc94fdbeae73bc644bd934fe025dd424, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 567352542}
+    - target: {fileID: 6214152836050601348, guid: fc94fdbeae73bc644bd934fe025dd424, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: RegresarAlMenu
+      objectReference: {fileID: 0}
+    - target: {fileID: 6214152836050601348, guid: fc94fdbeae73bc644bd934fe025dd424, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: QuizManager, CodeManager
+      objectReference: {fileID: 0}
     - target: {fileID: 8137182091792287902, guid: fc94fdbeae73bc644bd934fe025dd424, type: 3}
       propertyPath: quizManager
       value: 
@@ -412,62 +424,275 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   QnA:
-  - Pregunta: "La centralizaci\xF3n implica que una sola entidad controla todo el
-      sistema."
+  - Pregunta:
+      m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264575328276
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
     Respuestas:
-    - Verdadero
-    - Falso
+    - m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264575328286
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264575328287
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
     RespuestaCorrecta: 1
-  - Pregunta: "En un sistema centralizado, las decisiones se toman de forma democr\xE1tica
-      por todos los usuarios."
+  - Pregunta:
+      m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264579522561
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
     Respuestas:
-    - Verdadero
-    - Falso
+    - m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264575328286
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264575328287
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
     RespuestaCorrecta: 2
-  - Pregunta: "La centralizaci\xF3n puede hacer que nuestros datos sean m\xE1s vulnerables."
+  - Pregunta:
+      m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 702784981155840
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
     Respuestas:
-    - Verdadero
-    - Falso
+    - m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264575328286
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264575328287
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
     RespuestaCorrecta: 1
-  - Pregunta: Las grandes empresas como Google y Meta representan ejemplos de sistemas
-      descentralizados.
+  - Pregunta:
+      m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264575328279
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
     Respuestas:
-    - Verdadero
-    - Falso
+    - m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264575328286
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264575328287
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
     RespuestaCorrecta: 2
-  - Pregunta: Si un servidor central falla, todo el sistema puede dejar de funcionar.
+  - Pregunta:
+      m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264575328280
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
     Respuestas:
-    - Verdadero
-    - Falso
+    - m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264575328286
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264575328287
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
     RespuestaCorrecta: 1
-  - Pregunta: "La centralizaci\xF3n permite mayor privacidad y anonimato para los
-      usuarios."
+  - Pregunta:
+      m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264575328281
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
     Respuestas:
-    - Verdadero
-    - Falso
+    - m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264575328286
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264575328287
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
     RespuestaCorrecta: 2
-  - Pregunta: "Uno de los problemas de la centralizaci\xF3n es que limita el acceso
-      por regi\xF3n geogr\xE1fica."
+  - Pregunta:
+      m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264575328282
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
     Respuestas:
-    - Verdadero
-    - Falso
+    - m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264575328286
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264575328287
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
     RespuestaCorrecta: 1
-  - Pregunta: "La Web 3 busca aumentar el nivel de centralizaci\xF3n para mejorar
-      el control."
+  - Pregunta:
+      m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264575328283
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
     Respuestas:
-    - Verdadero
-    - Falso
+    - m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264575328286
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264575328287
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
     RespuestaCorrecta: 2
-  - Pregunta: Las bases de datos centralizadas pueden ser blanco de ataques masivos.
+  - Pregunta:
+      m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264575328284
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
     Respuestas:
-    - Verdadero
-    - Falso
+    - m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264575328286
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264575328287
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
     RespuestaCorrecta: 1
-  - Pregunta: "En la centralizaci\xF3n, los usuarios suelen tener poco control sobre
-      el uso de su informaci\xF3n."
+  - Pregunta:
+      m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264575328285
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
     Respuestas:
-    - Verdadero
-    - Falso
+    - m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264575328286
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264575328287
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
     RespuestaCorrecta: 1
   options:
   - {fileID: 1535940633}
@@ -479,6 +704,9 @@ MonoBehaviour:
   NumeroDePreguntas: 0
   personajeAnimator: {fileID: 1616549349}
   GloboAnimator: {fileID: 1599695272}
+  references:
+    version: 2
+    RefIds: []
 --- !u!4 &567352543
 Transform:
   m_ObjectHideFlags: 0
@@ -507,8 +735,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tiempoLimite: 10
+  tiempoRestante: 0
+  timerActivo: 0
   timerText: {fileID: 1300424194}
   quizManager: {fileID: 567352542}
+  timer:
+    m_TableReference:
+      m_TableCollectionName: GUID:60e3c19a6d71a914588f802be2de147a
+    m_TableEntryReference:
+      m_KeyId: 7468466176
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  references:
+    version: 2
+    RefIds: []
 --- !u!114 &567352545
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -524,6 +766,10 @@ MonoBehaviour:
   preguntasCorrectas: 0
   scoreText: {fileID: 2034472928}
   NumeroDePrguntas: {fileID: 0}
+  historialUsuario: []
+  references:
+    version: 2
+    RefIds: []
 --- !u!114 &567352546
 MonoBehaviour:
   m_ObjectHideFlags: 0

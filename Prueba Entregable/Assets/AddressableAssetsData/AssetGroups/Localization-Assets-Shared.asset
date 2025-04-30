@@ -15,8 +15,23 @@ MonoBehaviour:
   m_GroupName: Localization-Assets-Shared
   m_GUID: fe189965b3a026343a36de9725a3ac17
   m_SerializeEntries:
+  - m_GUID: 60e3c19a6d71a914588f802be2de147a
+    m_Address: Assets/Localizacion/Tablas/Timer/Timer Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 65fdba222ce43ae4eac2fab5b93345a5
+    m_Address: Assets/Localizacion/Tablas/QuizPrueba/PreguntasRespuestas Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: be22a8729d8293647a42ad9699b90e76
     m_Address: Assets/Localizacion/Tablas/FeedbackEsceneTable Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d4fb8bb9211e1434292bacef60a3f432
+    m_Address: Assets/Localizacion/Tablas/Inicio/Inicio Shared Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

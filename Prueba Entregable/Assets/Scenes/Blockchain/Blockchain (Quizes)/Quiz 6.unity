@@ -310,67 +310,355 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   QnA:
-  - Pregunta: "La criptograf\xEDa se usa para proteger los datos en el blockchain."
+  - Pregunta:
+      m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264575328381
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
     Respuestas:
-    - Verdadero
-    - Falso
+    - m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264575328286
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264575328287
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
     RespuestaCorrecta: 1
-  - Pregunta: "Es posible revertir f\xE1cilmente un hash para obtener los datos originales."
+  - Pregunta:
+      m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264575328382
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
     Respuestas:
-    - Verdadero
-    - Falso
+    - m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264575328286
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264575328287
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
     RespuestaCorrecta: 2
-  - Pregunta: "Los hashes en blockchain son \xFAnicos para cada conjunto de datos."
+  - Pregunta:
+      m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264575328383
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
     Respuestas:
-    - Verdadero
-    - Falso
+    - m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264575328286
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264575328287
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
     RespuestaCorrecta: 1
-  - Pregunta: Si alguien altera los datos en un bloque, el hash permanece igual.
+  - Pregunta:
+      m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264575328384
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
     Respuestas:
-    - Verdadero
-    - Falso
+    - m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264575328286
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264575328287
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
     RespuestaCorrecta: 2
-  - Pregunta: "La criptograf\xEDa permite verificar la autenticidad sin revelar la
-      informaci\xF3n personal."
+  - Pregunta:
+      m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264575328385
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
     Respuestas:
-    - Verdadero
-    - Falso
+    - m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264575328286
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264575328287
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
     RespuestaCorrecta: 1
-  - Pregunta: "\xBFQu\xE9 es la criptograf\xEDa en el contexto de blockchain?"
+  - Pregunta:
+      m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264575328378
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
     Respuestas:
-    - El arte de borrar mensajes
-    - "Una t\xE9cnica para crear redes sociales "
-    - "Un m\xE9todo para proteger la informaci\xF3n"
-    - Un idioma digital
+    - m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264575328289
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264575328290
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264575328291
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264575328292
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
     RespuestaCorrecta: 3
-  - Pregunta: "\xBFQu\xE9 es un hash criptogr\xE1fico?"
+  - Pregunta:
+      m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264575328379
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
     Respuestas:
-    - Una clave de acceso
-    - Un tipo de virus
-    - "Un c\xF3digo que representa datos en forma segura"
-    - Un mensaje secreto
+    - m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264575328294
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264575328295
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264575328296
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264575328297
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
     RespuestaCorrecta: 3
-  - Pregunta: "\xBFQu\xE9 pasa si cambias una sola letra en los datos de entrada
-      de un hash?"
+  - Pregunta:
+      m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264575328380
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
     Respuestas:
-    - El hash no cambia
-    - Cambia levemente
-    - Cambia completamente
-    - Se elimina el hash
+    - m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264575328299
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264575328300
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264575328301
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264575328302
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
     RespuestaCorrecta: 3
-  - Pregunta: "\xBFCu\xE1l es una funci\xF3n del hash en blockchain?"
+  - Pregunta:
+      m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 712212107214848
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
     Respuestas:
-    - "Guardar contrase\xF1as"
-    - Cifrar direcciones IP
-    - Verificar la integridad de los datos
-    - Crear emojis
+    - m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264575328304
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264575328305
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264575328306
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264575328307
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
     RespuestaCorrecta: 3
-  - Pregunta: "\xBFPor qu\xE9 es dif\xEDcil descifrar un hash sin la clave correcta?"
+  - Pregunta:
+      m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 712570619543552
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
     Respuestas:
-    - "Porque est\xE1 en otro idioma"
-    - "Porque necesita mucha energ\xEDa y recursos computacionales"
-    - Porque cambia cada segundo
-    - Porque lo crea el gobierno
+    - m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264575328309
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264575328310
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264575328311
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264575328312
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
     RespuestaCorrecta: 2
   options:
   - {fileID: 1097894980}
@@ -382,6 +670,9 @@ MonoBehaviour:
   NumeroDePreguntas: 0
   personajeAnimator: {fileID: 532912620}
   GloboAnimator: {fileID: 39159950}
+  references:
+    version: 2
+    RefIds: []
 --- !u!4 &567352543
 Transform:
   m_ObjectHideFlags: 0
@@ -410,8 +701,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tiempoLimite: 10
+  tiempoRestante: 0
+  timerActivo: 0
   timerText: {fileID: 1754556726}
   quizManager: {fileID: 567352542}
+  timer:
+    m_TableReference:
+      m_TableCollectionName: GUID:60e3c19a6d71a914588f802be2de147a
+    m_TableEntryReference:
+      m_KeyId: 7468466176
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  references:
+    version: 2
+    RefIds: []
 --- !u!114 &567352545
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -427,6 +732,10 @@ MonoBehaviour:
   preguntasCorrectas: 0
   scoreText: {fileID: 1796972807}
   NumeroDePrguntas: {fileID: 0}
+  historialUsuario: []
+  references:
+    version: 2
+    RefIds: []
 --- !u!114 &567352546
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -747,6 +1056,18 @@ PrefabInstance:
       propertyPath: quizManager
       value: 
       objectReference: {fileID: 567352542}
+    - target: {fileID: 6214152836050601348, guid: fc94fdbeae73bc644bd934fe025dd424, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 567352542}
+    - target: {fileID: 6214152836050601348, guid: fc94fdbeae73bc644bd934fe025dd424, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: RegresarAlMenu
+      objectReference: {fileID: 0}
+    - target: {fileID: 6214152836050601348, guid: fc94fdbeae73bc644bd934fe025dd424, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: QuizManager, CodeManager
+      objectReference: {fileID: 0}
     - target: {fileID: 8137182091792287902, guid: fc94fdbeae73bc644bd934fe025dd424, type: 3}
       propertyPath: quizManager
       value: 

@@ -223,6 +223,18 @@ PrefabInstance:
       propertyPath: quizManager
       value: 
       objectReference: {fileID: 567352542}
+    - target: {fileID: 6214152836050601348, guid: fc94fdbeae73bc644bd934fe025dd424, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 567352542}
+    - target: {fileID: 6214152836050601348, guid: fc94fdbeae73bc644bd934fe025dd424, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: RegresarAlMenu
+      objectReference: {fileID: 0}
+    - target: {fileID: 6214152836050601348, guid: fc94fdbeae73bc644bd934fe025dd424, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: QuizManager, CodeManager
+      objectReference: {fileID: 0}
     - target: {fileID: 8137182091792287902, guid: fc94fdbeae73bc644bd934fe025dd424, type: 3}
       propertyPath: quizManager
       value: 
@@ -407,67 +419,355 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   QnA:
-  - Pregunta: "\xBFQu\xE9 es una estafa de tipo \"pump and dump\"?"
+  - Pregunta:
+      m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264579522570
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
     Respuestas:
-    - Donde se regalan criptomonedas
-    - "Donde se crea un token, se infla su valor y luego se vende dejando p\xE9rdidas"
-    - Donde se mina Bitcoin gratis
-    - "Una estrategia de inversi\xF3n legal"
+    - m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264579522571
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264579522572
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264579522573
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264579522574
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
     RespuestaCorrecta: 2
-  - Pregunta: "\xBFQu\xE9 es una \"rug pull\"?"
+  - Pregunta:
+      m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264579522575
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
     Respuestas:
-    - Un tipo de wallet
-    - "Un m\xE9todo para asegurar tu clave"
-    - Cuando los creadores de un proyecto se van con el dinero de los usuarios
-    - Un tipo de token estable
+    - m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264579522576
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264579522577
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264579522578
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264579522579
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
     RespuestaCorrecta: 3
-  - Pregunta: "\xBFQu\xE9 se\xF1al puede indicar que un sitio o wallet es falso?"
+  - Pregunta:
+      m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264579522580
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
     Respuestas:
-    - "Buen dise\xF1o y muchas funciones"
-    - "Promesas de ganancias r\xE1pidas y falta de informaci\xF3n transparente"
-    - "Soporte t\xE9cnico en vivo"
-    - "C\xF3digo abierto"
+    - m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264579522581
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264579522582
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264579522583
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264579522584
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
     RespuestaCorrecta: 2
-  - Pregunta: "\xBFQu\xE9 hacer para evitar estafas al descargar wallets?"
+  - Pregunta:
+      m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264579522585
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
     Respuestas:
-    - Descargar cualquier app sin revisar
-    - "Solo usar apps con baja calificaci\xF3n"
-    - Verificar el sitio oficial y opiniones de otros usuarios
-    - Usar enlaces en correos desconocidos
+    - m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264579522586
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264579522587
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264579522588
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264579522589
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
     RespuestaCorrecta: 3
-  - Pregunta: "\xBFQu\xE9 es el \u201Cpig butchering\u201D?"
+  - Pregunta:
+      m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264579522590
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
     Respuestas:
-    - "Una forma de miner\xEDa segura"
-    - "Un tipo de wallet f\xEDsico"
-    - Una estafa basada en construir confianza y luego robar fondos
-    - Una estrategia de trading
+    - m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264579522591
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264579522592
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264579522593
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264579522594
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
     RespuestaCorrecta: 3
-  - Pregunta: "Los estafadores usan t\xE1cticas emocionales para presionar a las
-      personas."
+  - Pregunta:
+      m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264579522595
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
     Respuestas:
-    - Verdadero
-    - Falso
+    - m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264575328286
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264575328287
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
     RespuestaCorrecta: 1
-  - Pregunta: "Si un influencer dice que una moneda \u201Cir\xE1 a la luna\u201D,
-      siempre es verdad."
+  - Pregunta:
+      m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264579522596
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
     Respuestas:
-    - Verdadero
-    - Falso
+    - m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264575328286
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264575328287
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
     RespuestaCorrecta: 2
-  - Pregunta: "Los sitios falsos pueden parecer id\xE9nticos a los originales."
+  - Pregunta:
+      m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264579522597
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
     Respuestas:
-    - Verdadero
-    - Falso
+    - m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264575328286
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264575328287
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
     RespuestaCorrecta: 1
-  - Pregunta: Las criptomonedas no pueden ser usadas en ninguna estafa.
+  - Pregunta:
+      m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264579522598
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
     Respuestas:
-    - Verdadero
-    - Falso
+    - m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264575328286
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264575328287
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
     RespuestaCorrecta: 2
-  - Pregunta: "Siempre debes investigar un proyecto antes de invertir en \xE9l."
+  - Pregunta:
+      m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264579522599
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
     Respuestas:
-    - Verdadero
-    - Falso
+    - m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264575328286
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
+      m_TableEntryReference:
+        m_KeyId: 682264575328287
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
     RespuestaCorrecta: 1
   options:
   - {fileID: 754544685}
@@ -479,6 +779,9 @@ MonoBehaviour:
   NumeroDePreguntas: 0
   personajeAnimator: {fileID: 690161523}
   GloboAnimator: {fileID: 651886015}
+  references:
+    version: 2
+    RefIds: []
 --- !u!4 &567352543
 Transform:
   m_ObjectHideFlags: 0
@@ -507,8 +810,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tiempoLimite: 10
+  tiempoRestante: 0
+  timerActivo: 0
   timerText: {fileID: 1722283824}
   quizManager: {fileID: 567352542}
+  timer:
+    m_TableReference:
+      m_TableCollectionName: GUID:60e3c19a6d71a914588f802be2de147a
+    m_TableEntryReference:
+      m_KeyId: 7468466176
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  references:
+    version: 2
+    RefIds: []
 --- !u!114 &567352545
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -524,6 +841,10 @@ MonoBehaviour:
   preguntasCorrectas: 0
   scoreText: {fileID: 1460567046}
   NumeroDePrguntas: {fileID: 0}
+  historialUsuario: []
+  references:
+    version: 2
+    RefIds: []
 --- !u!114 &567352546
 MonoBehaviour:
   m_ObjectHideFlags: 0

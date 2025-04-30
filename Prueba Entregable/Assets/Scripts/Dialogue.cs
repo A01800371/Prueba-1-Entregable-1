@@ -1,7 +1,7 @@
 using System.Collections;
 using UnityEngine;
 using TMPro;
-using Unity.VisualScripting;
+using UnityEngine.EventSystems; // Necesario para detectar interacciones con la UI
 
 /*
     * Autor: Daniel Díaz
@@ -25,8 +25,8 @@ public class Dialogue : MonoBehaviour
     private bool didDialogueStart;
     private int lineIndex;
     
-    [SerializeField] private GameObject botonMenu; // Asigna el botón de menú aquí// Asigna el objeto del jugador aquí
-    [SerializeField] private GameObject botonSkip; // Asigna el objeto del jugador aquí
+    [SerializeField] private GameObject botonMenu; // Asigna el botón de menú aquí
+    [SerializeField] private GameObject botonSkip; // Asigna el botón de skip aquí
     
     private void Start()
     {
@@ -35,18 +35,15 @@ public class Dialogue : MonoBehaviour
 
     void Update()
     {
-        /* if (didDialogueStart && Input.GetButtonDown("Jump")) // Skipea el diálogo con Space
-            {
-                SkipAllDialogue();
-            } */
-        
+        // Evitar que el diálogo se active si el clic fue sobre un elemento de UI
+        if (EventSystem.current.IsPointerOverGameObject())
+            return;
+
         if (isPlayerInRange && Input.GetButtonDown("Fire1"))
         {
-
             if (!didDialogueStart)
             {
                 StartDialogue();
-
             }
             else if(dialogueText.text == dialogueLines[lineIndex])
             {
@@ -68,15 +65,14 @@ public class Dialogue : MonoBehaviour
         dialoguePanel.SetActive(true);
         dialogueMark.SetActive(false);
 
-        //System.Array.Reverse(dialogueLines); // Invertir el orden de las líneas de diálogo para hacer testing
-
         lineIndex = 0;
 
-        //Desactivar movimiento del jugador y animaciones
-        playerMovementScript.enabled = false; // Desactivar el movimiento del jugador
-        playerAnimator.SetFloat("Horizontal", 0); // Desactivar la animación del jugador (ajusta el parámetro según tu Animator)
-        playerAnimator.SetFloat("Vertical", 0); // Desactivar la animación del jugador (ajusta el parámetro según tu Animator)
-        playerAnimator.SetFloat("Speed", 0); // Desactivar la animación del jugador (ajusta el parámetro según tu Animator)
+        // Desactivar movimiento del jugador y animaciones
+        playerMovementScript.enabled = false;
+        playerAnimator.SetFloat("Horizontal", 0);
+        playerAnimator.SetFloat("Vertical", 0);
+        playerAnimator.SetFloat("Speed", 0);
+
         StartCoroutine(ShowLine());
     }
     
@@ -92,9 +88,9 @@ public class Dialogue : MonoBehaviour
             didDialogueStart = false;
             dialoguePanel.SetActive(false);
             dialogueMark.SetActive(true);
-            playerMovementScript.enabled = true; // Reactivar el movimiento del jugador
+            playerMovementScript.enabled = true;
             botonMenu.SetActive(true);
-            botonSkip.SetActive(false); // Desactivar el botón de skip al finalizar el diálogo
+            botonSkip.SetActive(false);
         }
     }
 
@@ -103,8 +99,8 @@ public class Dialogue : MonoBehaviour
         dialogueText.text = string.Empty;
         foreach (char letter in dialogueLines[lineIndex])
         {
-            dialogueText.text += letter; // aqui voy a poner el skip de texto
-            yield return new WaitForSeconds(typingTime); // Adjust the typing speed here
+            dialogueText.text += letter;
+            yield return new WaitForSeconds(typingTime);
         }
     }
 
@@ -114,7 +110,6 @@ public class Dialogue : MonoBehaviour
         {
             isPlayerInRange = true;
             dialogueMark.SetActive(true);
-            
         }
     }
 
@@ -135,6 +130,6 @@ public class Dialogue : MonoBehaviour
         dialogueMark.SetActive(true);
         playerMovementScript.enabled = true; 
         botonMenu.SetActive(true);
-        botonSkip.SetActive(false); // Desactivar el botón de skip al finalizar el diálogo
+        botonSkip.SetActive(false);
     }
 }

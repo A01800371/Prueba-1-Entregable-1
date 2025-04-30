@@ -1,0 +1,275 @@
+Key,Spanish(es),English(en)
+WQ1,¿Cuál fue una característica principal de la Web 1.0?,What was a main feature of Web 1.0?
+WQ1-A,A) Se podían hacer compras en línea,A) Online shopping was available
+WQ1-B,B) Solo se podía leer información,B) Only information could be read
+WQ1-C,C) Todos los usuarios podían crear contenido,C) All users could create content
+WQ1-D,D) Las redes sociales dominaban el espacio,D) Social media dominated the space
+WQ2,¿Qué marcó la transición de la Web 1 a la Web 2?,What marked the transition from Web 1 to Web 2?
+WQ2-A,A) La aparición de criptomonedas,A) The emergence of cryptocurrencies
+WQ2-B,B) El uso de Inteligencia Artificial,B) The use of Artificial Intelligence
+WQ2-C,C) La posibilidad de crear contenido y comunicarse,C) The ability to create content and communicate
+WQ2-D,D) El uso de blockchain,D) The use of blockchain
+WQ3,¿Cuál es una de las principales ventajas de la Web 3?,What is one of the main advantages of Web 3?
+WQ3-A,A) Es privada pero centralizada,A) It is private but centralized
+WQ3-B,B) Permite a los usuarios tener control sobre sus datos,B) It allows users to have control over their data
+WQ3-C,C) Se basa en redes sociales,C) It is based on social networks
+WQ3-D,D) Solo funciona en ciertos países,D) It only works in certain countries
+WQ4,¿Qué empresa representa un ejemplo de poder centralizado en la Web 2?,Which company represents an example of centralized power in Web 2?
+WQ4-A,A) Amazon,A) Amazon
+WQ4-B,B) Brave,B) Brave
+WQ4-C,C) Wikipedia,C) Wikipedia
+WQ4-D,D) Bitcoin,D) Bitcoin
+WQ5,¿Qué se busca recuperar con la Web 3 según la narradora?,What does Web 3 aim to recover according to the narrator?
+WQ5-A,A) El anonimato total,A) Total anonymity
+WQ5-B,B) La velocidad de navegación,B) Browsing speed
+WQ5-C,C) El control sobre nuestros datos,C) Control over our data
+WQ5-D,D) Los blogs personales,D) Personal blogs
+WQ6,¿Cuál de estas afirmaciones representa mejor el propósito de la Web 3?,Which of the following best represents the purpose of Web 3?
+WQ6-A,A) Vender más publicidad,A) Selling more advertising
+WQ6-B,B) Hacer que todos dependan de un servidor,B) Making everyone dependent on one server
+WQ6-C,C) Dar voz a las comunidades y descentralizar el poder,C) Empowering communities and decentralizing power
+WQ6-D,D) Eliminar las redes sociales,D) Eliminating social networks
+WQ7,"¿Qué representa el concepto de ""descentralización""?","What does the concept of ""decentralization"" represent?"
+WQ7-A,A) Un solo punto de control,A) A single point of control
+WQ7-B,B) Un sistema compartido entre muchas personas,B) A system shared among many people
+WQ7-C,C) Una empresa global,C) A global company
+WQ7-D,D) Un gobierno único,D) A single government
+WQ8,¿Por qué es importante la transparencia en la Web 3?,Why is transparency important in Web 3?
+WQ8-A,A) Para compartir fotos más fácilmente,A) To share photos more easily
+WQ8-B,B) Para saber cómo se mueven nuestros datos y decisiones,B) To understand how our data and decisions are handled
+WQ8-C,C) Para acelerar el internet,C) To speed up the internet
+WQ8-D,D) Para volver a la Web 1,D) To return to Web 1
+WQ9,¿Cuál fue una de las críticas principales hacia la Web 2?,What was one of the main criticisms of Web 2?
+WQ9-A,A) Falta de emojis,A) Lack of emojis
+WQ9-B,B) Poco acceso a redes sociales,B) Limited access to social networks
+WQ9-C,C) Exceso de control por grandes empresas,C) Excessive control by large corporations
+WQ9-D,D) Demasiada libertad de expresión,D) Too much freedom of expression
+WQ10,¿Qué motivó el nacimiento de la Web 3 y las criptomonedas?,What motivated the rise of Web 3 and cryptocurrencies?
+WQ10-A,A) Nuevas leyes internacionales,A) New international laws
+WQ10-B,B) Una moda tecnológica,B) A tech trend
+WQ10-C,C) El deseo de recuperar autonomía digital,C) The desire to regain digital autonomy
+WQ10-D,D) La caída de las redes sociales,D) The fall of social networks
+WQ11,La centralización implica que una sola entidad controla todo el sistema.,Centralization means that a single entity controls the entire system.
+WQ12,"En un sistema centralizado, las decisiones se toman de forma democrática ","In a centralized system, decisions are made democratically"
+WQ13,La centralización puede hacer que nuestros datos sean más vulnerables.,Centralization can make our data more vulnerable.
+WQ14,Las grandes empresas como Google y Meta representan ejemplos de sistemas descentralizados.,Large companies like Google and Meta are examples of decentralized systems.
+WQ15,"Si un servidor central falla, todo el sistema puede dejar de funcionar.","If a central server fails, the entire system may stop working."
+WQ16,La centralización permite mayor privacidad y anonimato para los usuarios.,Centralization provides greater privacy and anonymity for users.
+WQ17,Uno de los problemas de la centralización es que limita el acceso por región geográfica.,One problem with centralization is that it limits access by geographic region.
+WQ18,La Web 3 busca aumentar el nivel de centralización para mejorar el control.,Web 3 aims to increase centralization to improve control.
+WQ19,Las bases de datos centralizadas pueden ser blanco de ataques masivos.,Centralized databases can be targets of massive attacks.
+WQ20,"En la centralización, los usuarios suelen tener poco control sobre el uso de su información.","In centralized systems, users usually have little control over how their information is used."
+IdTrue,Verdadero,True.
+IdFalse,Falso,False.
+WQ21,¿Qué representa un nodo en una red descentralizada?,What does a node represent in a decentralized network?
+WQ21-A,A) Un virus,A) A virus
+WQ21-B,B) Una empresa controladora,B) A controlling company
+WQ21-C,C) Un dispositivo que participa en la red,C) A device that participates in the network
+WQ21-D,D) Un software antiguo,D) An outdated software
+WQ22,¿Qué sucede si un nodo abandona la red descentralizada?,What happens if a node leaves a decentralized network?
+WQ22-A,A) La red se detiene,A) The network stops
+WQ22-B,B) La red se reestructura automáticamente,B) The network automatically restructures
+WQ22-C,C) La red continúa sin problema,C) The network continues without issue
+WQ22-D,D) Se pierde toda la información,D) All information is lost
+WQ23,¿Qué hace más segura a una red descentralizada?,What makes a decentralized network more secure?
+WQ23-A,A) Que tenga solo un servidor,A) Having only one server
+WQ23-B,B) Que las decisiones se tomen en secreto,B) Making decisions in secret
+WQ23-C,C) Que la información esté distribuida en muchos lugares,C) Information being distributed across many locations
+WQ23-D,D) Que use contraseñas cortas,D) Using short passwords
+WQ24,¿Qué se necesita para que una decisión se registre en una red descentralizada?,What is needed for a decision to be recorded on a decentralized network?
+WQ24-A,A) Una orden del banco central,A) An order from the central bank
+WQ24-B,B) Un acuerdo entre varios participantes,B) An agreement among several participants
+WQ24-C,C) La firma de una empresa,C) A company’s signature
+WQ24-D,D) Un pago con tarjeta,D) A credit card payment
+WQ25,¿Qué valor promueve la descentralización en la Web 3?,What value does decentralization promote in Web 3?
+WQ25-A,A) Exclusividad,A) Exclusivity
+WQ25-B,B) Control total de gobiernos,B) Total government control
+WQ25-C,C) Inclusión y equidad,C) Inclusion and equity
+WQ25-D,D) Uso obligatorio de redes sociales,D) Mandatory use of social networks
+WQ26,"En una red descentralizada, todos los usuarios pueden ver la información que se guarda.","In a decentralized network, all users can see the information that is stored."
+WQ27,"Si todos los nodos de la red desaparecen, la información aún se conserva.","If all network nodes disappear, the information is still preserved."
+WQ28,Descentralizar significa eliminar por completo las reglas.,Decentralization means completely eliminating rules.
+WQ29,Las redes descentralizadas funcionan gracias al consenso entre usuarios.,Decentralized networks work thanks to user consensus.
+WQ30,La descentralización permite transacciones globales sin intermediarios.,Decentralization allows global transactions without intermediaries.
+BQ1,¿Cómo se compara el blockchain con un cuaderno?,How is blockchain similar to a notebook?
+BQ1-A,A) Solo lo puede leer el creador,A) Only the creator can read it
+BQ1-B,B) Solo almacena fotos,B) It only stores photos
+BQ1-C,C) Todos los usuarios ven y registran los cambios,C) All users can view and record changes
+BQ1-D,D) Es privado y exclusivo,D) It is private and exclusive
+BQ2,¿Qué ocurre cuando una entrada es aceptada en el blockchain?,What happens when an entry is accepted into the blockchain?
+BQ2-A,A) Se elimina al día siguiente,A) It is deleted the next day
+BQ2-B,B) Se convierte en permanente,B) It becomes permanent
+BQ2-C,C) Solo se guarda en un nodo,C) It is stored in only one node
+BQ2-D,D) Se guarda en papel,D) It is printed on paper
+BQ3,¿Qué se necesita para que una transacción sea agregada al blockchain?,What is needed for a transaction to be added to the blockchain?
+BQ3-A,A) Un permiso del gobierno,A) Government approval
+BQ3-B,B) Una orden de compra,B) A purchase order
+BQ3-C,C) Un consenso entre los participantes,C) Consensus among participants
+BQ3-D,D) Una tarjeta de crédito,D) A credit card
+BQ4,¿Cuál es una ventaja clave del blockchain?,What is a key advantage of blockchain?
+BQ4-A,A) Depende de un servidor central,A) It depends on a central server
+BQ4-B,B) Es lento pero seguro,B) It is slow but secure
+BQ4-C,C) Es descentralizado y transparente,C) It is decentralized and transparent
+BQ4-D,D) No permite ver transacciones anteriores,D) It does not allow viewing past transactions
+BQ5,¿Qué tipo de datos puede almacenar un blockchain?,What type of data can a blockchain store?
+BQ5-A,A) Solo imágenes,A) Only images
+BQ5-B,B) Datos bancarios y personales,B) Banking and personal data
+BQ5-C,C) Cualquier tipo de información digital,C) Any kind of digital information
+BQ5-D,D) Solo contratos físicos,D) Only physical contracts
+BQ6,¿Qué función tiene un bloque en la cadena?,What is the function of a block in the chain?
+BQ6-A,A) Archivar contratos físicos,A) To archive physical contracts
+BQ6-B,B) Almacenar un conjunto de transacciones,B) To store a group of transactions
+BQ6-C,C) Bloquear el acceso a la red,C) To block access to the network
+BQ6-D,D) Ser el nodo principal,D) To act as the main node
+BQ7,¿Qué pasa si se intenta cambiar un dato en un bloque anterior?,What happens if someone tries to change data in a previous block?
+BQ7-A,A) Se actualiza automáticamente,A) It updates automatically
+BQ7-B,B) El sistema lo corrige,B) The system corrects it
+BQ7-C,C) Se rompe la cadena y se detecta el cambio,C) The chain breaks and the change is detected
+BQ7-D,D) No pasa nada,D) Nothing happens
+BQ8,¿Cómo se asegura el orden de los bloques?,How is the order of blocks ensured?
+BQ8-A,A) Por colores,A) By colors
+BQ8-B,B) Por votos,B) By votes
+BQ8-C,C) Por el hash del bloque anterior,C) By the hash of the previous block
+BQ8-D,D) Por fecha,D) By date
+BQ9,"¿Qué es un ""hash""?","What is a ""hash""?"
+BQ9-A,A) Un mensaje cifrado,A) An encrypted message
+BQ9-B,B) Un bloque corrupto,B) A corrupted block
+BQ9-C,C) Un algoritmo visual,C) A visual algorithm
+BQ9-D,D) Una firma digital única de los datos,D) A unique digital signature of the data
+BQ10,¿Por qué es difícil falsificar una transacción en blockchain?,Why is it hard to fake a blockchain transaction?
+BQ10-A,A) Porque se borra al poco tiempo,A) Because it gets deleted quickly
+BQ10-B,B) Porque cada entrada es validada por todos y queda registrada,B) Because every entry is validated by everyone and is recorde
+BQ10-C,C) Porque nadie la ve,C) Because no one sees it
+BQ10-D,D) Porque solo un nodo puede acceder,D) Because only one node has access
+BQ11,El blockchain es una base de datos distribuida en muchos dispositivos.,Blockchain is a database distributed across many devices.
+BQ12,Todos los nodos del blockchain tienen copias distintas del libro contable.,All blockchain nodes have different copies of the ledger.
+BQ13,"Si un centro de datos se cae, en blockchain se pierde toda la información.","If a data center crashes, blockchain information is lost."
+BQ14,Cada usuario puede ser dueño de una parte de la red sin controlarla completamente.,Each user can own part of the network without fully controlling it.
+BQ15,La información del blockchain puede eliminarse si un usuario lo solicita.,Blockchain information can be deleted if a user requests it.
+BQ16,La estructura distribuida del blockchain lo hace más seguro ante fallos o ataques.,The distributed structure of blockchain makes it more secure against failures or attacks.
+BQ17,Un nodo puede modificar cualquier transacción que ya haya sido validada.,A node can modify any transaction that has already been validated.
+BQ18,El blockchain no necesita que todos los nodos estén activos al mismo tiempo.,Blockchain does not need all nodes to be active at the same time.
+BQ19,Las bases de datos tradicionales y blockchain almacenan información de la misma forma.,Traditional databases and blockchain store information in the same way.
+BQ20,La descentralización impide que una sola persona tenga control del sistema.,"Decentralization prevents a single person from having control over the system.
+
+"
+BQ21,¿Qué es la criptografía en el contexto de blockchain?,What is cryptography in the context of blockchain?
+BQ21-A,A) El arte de borrar mensajes,A) The art of erasing messages
+BQ21-B,B) Una técnica para crear redes sociales,B) A technique for creating social networks
+BQ21-C,C) Un método para proteger la información,C) A method to protect information
+BQ21-D,D) Un idioma digital,D) A digital language
+BQ22,¿Qué es un hash criptográfico?,What is a cryptographic hash?
+BQ22-A,A) Una clave de acceso,A) An access key
+BQ22-B,B) Un tipo de virus,B) A type of virus
+BQ22-C,C) Un código que representa datos en forma segura,C) A code that securely represents data
+BQ22-D,D) Un mensaje secreto,D) A secret message
+BQ23,¿Qué pasa si cambias una sola letra en los datos de entrada de un hash?,What happens if you change a single letter in the hash input data?
+BQ23-A,A) El hash no cambia,A) The hash doesn’t change
+BQ23-B,B) Cambia levemente,B) It changes slightly
+BQ23-C,C) Cambia completamente,C) It changes completely
+BQ23-D,D) Se elimina el hash,D) The hash is deleted
+BQ24,¿Cuál es una función del hash en blockchain?,What is one function of a hash in blockchain?
+BQ24-A,A) Guardar contraseñas,A) To store passwords
+BQ24-B,B) Cifrar direcciones IP,B) To encrypt IP addresses
+BQ24-C,C) Verificar la integridad de los datos,C) To verify data integrity
+BQ24-D,D) Crear emojis,D) To create emojis
+BQ25,¿Por qué es difícil descifrar un hash sin la clave correcta?,Why is it hard to decrypt a hash without the correct key?
+BQ25-A,A) Porque está en otro idioma,A) Because it’s in another language
+BQ25-B,B) Porque necesita mucha energía y recursos computacionales,B) Because it requires a lot of energy and computing resources
+BQ25-C,C) Porque cambia cada segundo,C) Because it changes every second
+BQ25-D,D) Porque lo crea el gobierno,D) Because it’s created by the government
+BQ26,La criptografía se usa para proteger los datos en el blockchain.,Cryptography is used to protect data on the blockchain.
+BQ27,Es posible revertir fácilmente un hash para obtener los datos originales.,It is easy to reverse a hash to obtain the original data.
+BQ28,Los hashes en blockchain son únicos para cada conjunto de datos.,Hashes in blockchain are unique to each set of data.
+BQ29,"Si alguien altera los datos en un bloque, el hash permanece igual.","If someone alters data in a block, the hash remains the same."
+BQ30,La criptografía permite verificar la autenticidad sin revelar la información personal.,Cryptography allows verifying authenticity without revealing personal information.
+CQ1,¿Qué es una criptomoneda?,What is a cryptocurrency?
+CQ1-A,A) Un juego digital,A) A digital game
+CQ1-B,B) Una moneda física,B) A physical coin
+CQ1-C,C) Una moneda digital protegida por criptografía,C) A digital currency protected by cryptography
+CQ1-D,D) Un tipo de banco,D) A type of bank
+CQ2,¿Dónde se almacenan las transacciones de criptomonedas?,Where are cryptocurrency transactions stored?
+CQ2-A,A) En una USB,A) On a USB
+CQ2-B,B) En papel,B) On paper
+CQ2-C,C) En la cadena de bloques (blockchain),C) On the blockchain
+CQ2-D,D) En un banco central,D) At a central bank
+CQ3,¿Cuál es una de las principales ventajas de las criptomonedas?,What is one of the main advantages of cryptocurrencies?
+CQ3-A,A) Solo se usan en videojuegos,A) They are only used in video games
+CQ3-B,B) Necesitan muchos intermediarios,B) They require many intermediaries
+CQ3-C,C) Pueden enviarse directamente entre personas sin bancos,C) They can be sent directly between people without banks
+CQ3-D,D) Están controladas por un gobierno,D) They are controlled by a government
+CQ4,¿Qué representa el valor de una criptomoneda como Bitcoin?,What gives value to a cryptocurrency like Bitcoin?
+CQ4-A,A) La cantidad de anuncios que tiene,A) The number of ads it has
+CQ4-B,B) La opinión de un banco,B) A bank's opinion
+CQ4-C,"C) Su escasez, utilidad y confianza en su uso","C) Its scarcity, utility, and trust in its use"
+CQ4-D,D) Su número de seguidores en redes,D) Its number of followers on social media
+CQ5,¿Qué significa que una criptomoneda sea descentralizada?,What does it mean for a cryptocurrency to be decentralized?
+CQ5-A,A) Que tiene una oficina principal,A) It has a main office
+CQ5-B,B) Que no depende de una sola entidad para funcionar,B) It doesn’t depend on a single entity to function
+CQ5-C,C) Que necesita permiso del banco,C) It needs permission from a bank
+CQ5-D,D) Que se usa solo en ciertos países,D) It is only used in certain countries
+CQ6,¿Cuál es una característica del sistema tradicional de dinero (fiat)?,What is a feature of the traditional (fiat) money system?
+CQ6-A,A) Es minado por usuarios,A) It is mined by users
+CQ6-B,B) Tiene un número limitado de monedas,B) It has a limited number of coins
+CQ6-C,C) Es emitido por un gobierno central,C) It is issued by a central government
+CQ6-D,D) Está basado en blockchain,D) It is based on blockchain
+CQ7,¿Qué permite la tecnología de criptomonedas a las personas sin acceso a bancos?,What does cryptocurrency technology enable for people without access to banks?
+CQ7-A,A) Comprar autos,A) Buying cars
+CQ7-B,B) Enviar mensajes anónimos,B) Sending anonymous messages
+CQ7-C,C) Participar en la economía global sin intermediarios,C) Participating in the global economy without intermediaries
+CQ7-D,D) Hacer encuestas,D) Conducting surveys
+CQ8,¿Qué problema busca resolver el uso de criptomonedas?,What problem does cryptocurrency aim to solve?
+CQ8-A,A) La escasez de celulares,A) Lack of cellphones
+CQ8-B,B) La lentitud del internet,B) Slow internet
+CQ8-C,C) La exclusión financiera y la falta de control sobre el dinero,C) Financial exclusion and lack of control over money
+CQ8-D,D) La falta de redes sociales,D) Lack of social networks
+CQ9,¿Qué diferencia principal hay entre el dinero tradicional y una criptomoneda?,What is the main difference between traditional money and cryptocurrency?
+CQ9-A,A) Las criptomonedas siempre están respaldadas por oro,A) Cryptocurrencies are always backed by gold
+CQ9-B,B) Las criptomonedas se usan solo en videojuegos,B) Cryptocurrencies are only used in video games
+CQ9-C,C) Las criptomonedas usan blockchain y no requieren bancos,C) Cryptocurrencies use blockchain and don’t require banks
+CQ9-D,D) El dinero tradicional se usa menos en tiendas,D) Traditional money is used less in stores
+CQ10,¿Qué determina el valor de una criptomoneda en el mercado?,What determines the market value of a cryptocurrency?
+CQ10-A,A) Las decisiones del gobierno,A) Government decisions
+CQ10-B,B) La cantidad de anuncios en TV,B) Number of TV ads
+CQ10-C,C) La oferta y la demanda,C) Supply and demand
+CQ10-D,D) El número de bancos que la apoyan,D) Number of banks supporting it
+CQ11,"Una wallet es necesaria para enviar, recibir y guardar criptomonedas.","A wallet is needed to send, receive, and store cryptocurrencies."
+CQ12,La clave pública de una wallet se comparte con otras personas para recibir fondos.,The public key of a wallet is shared with others to receive funds.
+CQ13,"Si pierdes tu clave privada, puedes recuperarla fácilmente contactando a soporte.","If you lose your private key, you can easily recover it by contacting support."
+CQ14,Las wallets solo existen en forma física.,Wallets only exist in physical form.
+CQ15,"Una wallet puede ser en línea, móvil, de escritorio o hardware.","A wallet can be online, mobile, desktop, or hardware."
+CQ16,Compartir tu clave privada no representa ningún riesgo.,Sharing your private key poses no risk.
+CQ17,Las transacciones en blockchain son irreversibles.,Blockchain transactions are irreversible.
+CQ18,La clave pública y la privada son la misma cosa.,The public and private keys are the same thing.
+CQ19,Las wallets no permiten ver el historial de transacciones.,Wallets do not allow viewing the transaction history.
+CQ20,Existen servicios como ENS que permiten usar nombres legibles en vez de direcciones largas.,There are services like ENS that allow using readable names instead of long addresses.
+CQ21,"¿Qué es una estafa de tipo ""pump and dump""?","What is a ""pump and dump"" scam?"
+CQ21-A,A) Donde se regalan criptomonedas,A) Where cryptocurrencies are given away
+CQ21-B,"B) Donde se crea un token, se infla su valor y luego se vende dejando pérdidas","B) Where a token is created, its value is inflated, and then sold off leaving losses"
+CQ21-C,C) Donde se mina Bitcoin gratis,C) Where free Bitcoin is mined
+CQ21-D,D) Una estrategia de inversión legal,D) A legal investment strategy
+CQ22,"¿Qué es una ""rug pull""?","What is a ""rug pull""?"
+CQ22-A,A) Un tipo de wallet,A) A type of wallet
+CQ22-B,B) Un método para asegurar tu clave,B) A method to secure your key
+CQ22-C,C) Cuando los creadores de un proyecto se van con el dinero de los usuarios,C) When project creators run off with users' funds
+CQ22-D,D) Un tipo de token estable,D) A type of stable token
+CQ23,¿Qué señal puede indicar que un sitio o wallet es falso?,What is a sign that a site or wallet might be fake?
+CQ23-A,A) Buen diseño y muchas funciones,A) Good design and many features
+CQ23-B,B) Promesas de ganancias rápidas y falta de información transparente,B) Promises of fast profits and lack of transparent information
+CQ23-C,C) Soporte técnico en vivo,C) Live tech support
+CQ23-D,D) Código abierto,D) Open-source code
+CQ24,¿Qué hacer para evitar estafas al descargar wallets?,What should you do to avoid scams when downloading wallets?
+CQ24-A,A) Descargar cualquier app sin revisar,A) Download any app without checking
+CQ24-B,B) Solo usar apps con baja calificación,B) Only use apps with low ratings
+CQ24-C,C) Verificar el sitio oficial y opiniones de otros usuarios,C) Check the official website and user reviews
+CQ24-D,D) Usar enlaces en correos desconocidos,D) Use links from unknown emails
+CQ25,¿Qué es el “pig butchering”?,What is “pig butchering”?
+CQ25-A,A) Una forma de minería segura,A) A safe mining method
+CQ25-B,B) Un tipo de wallet físico,B) A type of hardware wallet
+CQ25-C,C) Una estafa basada en construir confianza y luego robar fondos,C) A scam that builds trust and then steals funds
+CQ25-D,D) Una estrategia de trading,D) A trading strategy
+CQ26,Los estafadores usan tácticas emocionales para presionar a las personas.,Scammers use emotional tactics to pressure people.
+CQ27,"Si un influencer dice que una moneda “irá a la luna”, siempre es verdad.","If an influencer says a coin is “going to the moon,” it’s always true."
+CQ28,Los sitios falsos pueden parecer idénticos a los originales.,Fake websites can look identical to real ones.
+CQ29,Las criptomonedas no pueden ser usadas en ninguna estafa.,Cryptocurrencies cannot be used in any scams.
+CQ30,Siempre debes investigar un proyecto antes de invertir en él.,You should always research a project before investing in it.

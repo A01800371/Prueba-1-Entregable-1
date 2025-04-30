@@ -1,26 +1,29 @@
 using UnityEngine;
+using UnityEngine.Localization;
 using UnityEngine.UI;
 
 public class TimerManager : MonoBehaviour
 {
     public float tiempoLimite = 10f; // Tiempo que puede ser modificable
-    private float tiempoRestante; // Tiempo restante en el temporizador
-    private bool timerActivo = false; // Indica si el temporizador está activo o no
+    public float tiempoRestante; // Tiempo restante en el temporizador
+    public bool timerActivo = false; // Indica si el temporizador está activo o no
 
     public Text timerText; // Referencia al texto del temporizador en la UI
     public QuizManager quizManager; // Referencia al QuizManager para acceder a sus métodos
+    [SerializeField] public LocalizedString timer; // Referencia a la cadena localizada para el temporizador
 
     private void Start()
     {
         ReiniciarTimer(); // Inicializa el temporizador al inicio
+        
     }
 
-    private void Update() 
+    public void Update() 
     {
         if (!timerActivo || timerText == null || quizManager == null) return; // Verifica si el temporizador está activo y si las referencias son válidas
 
         tiempoRestante -= Time.deltaTime; // Resta el tiempo transcurrido desde la última actualización
-        timerText.text = "Tiempo: " + Mathf.Ceil(tiempoRestante); // Actualiza el texto del temporizador en la UI
+        timerText.text = string.Format(timer.GetLocalizedString()+": " +Mathf.Ceil(tiempoRestante)); // Actualiza el texto del temporizador en la UI
 
         if (tiempoRestante <= 0) // Si el tiempo se ha agotado
         {

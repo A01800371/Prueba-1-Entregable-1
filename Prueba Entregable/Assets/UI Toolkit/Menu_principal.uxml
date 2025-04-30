@@ -2,8 +2,16 @@
     <Style src="project://database/Assets/UI%20Toolkit/MenuPrincipal.uss?fileID=7433441132597879392&amp;guid=ec0cf8f01bff043469622131147fc6e8&amp;type=3#MenuPrincipal" />
     <engine:VisualElement name="Contenedor" class="contenedor" style="flex-grow: 1;">
         <engine:VisualElement name="Botones" class="botones" style="flex-grow: 1; height: 250px;">
-            <engine:Button text="SIGN UP" name="BotonA" class="boton" style="transform-origin: top; font-size: 32px;" />
-            <engine:Button text="LOGIN" name="BotonB" class="boton" style="font-size: 32px;" />
+            <engine:Button text="SIGN UP" name="signup" class="boton" style="transform-origin: top; font-size: 32px;">
+                <Bindings>
+                    <UnityEngine.Localization.LocalizedString property="text" table="GUID:d4fb8bb9211e1434292bacef60a3f432" entry="Id(123373862912)" />
+                </Bindings>
+            </engine:Button>
+            <engine:Button text="LOGIN" name="login" class="boton" style="font-size: 32px;">
+                <Bindings>
+                    <UnityEngine.Localization.LocalizedString property="text" table="GUID:d4fb8bb9211e1434292bacef60a3f432" entry="Id(6910623744)" />
+                </Bindings>
+            </engine:Button>
         </engine:VisualElement>
     </engine:VisualElement>
 </engine:UXML>

@@ -15,8 +15,8 @@ public class MenuController : MonoBehaviour
         menu = GetComponent<UIDocument>();
         var root = menu.rootVisualElement;
 
-        botonA = root.Q<Button>("BotonA");
-        botonB = root.Q<Button>("BotonB");
+        botonA = root.Q<Button>("signup");
+        botonB = root.Q<Button>("login");
 
         botonA.RegisterCallback<ClickEvent, String>(Jugar,"Signup");
         botonB.RegisterCallback<ClickEvent, String>(Jugar,"Login");

@@ -5,6 +5,7 @@
     align-content: auto;
     flex-wrap: nowrap;
     align-items: auto;
+    width: 137px;
 }
 
 .contenedor {
@@ -44,7 +45,7 @@
 }
 
 .textfield {
-    margin-bottom: 50px;
+    margin-bottom: 15px;
     width: 544px;
     height: 74px;
     -unity-text-align: middle-left;
@@ -63,12 +64,15 @@
     align-self: auto;
     top: 38px;
     left: 42px;
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-left: 15px;
 }
 
 .login {
     align-self: flex-end;
     align-items: auto;
-    top: 76px;
+    top: 41px;
     right: 285px;
     width: 409px;
     height: 192px;

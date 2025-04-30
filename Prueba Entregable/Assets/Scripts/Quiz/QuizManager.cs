@@ -3,7 +3,7 @@
  * Este script gestiona las preguntas y respuestas del quiz, maneja la lógica de las respuestas correctas e incorrectas,
  * y controla la animación del personaje y el globo de diálogo.
  * 
- * Autores: 
+ * Autores: Erick Owen, Brian Axel Velarde.
   */
 
 using System.Collections.Generic;
@@ -24,6 +24,10 @@ public class QuizManager : MonoBehaviour
 
     public Animator personajeAnimator; // Referencia al Animator del personaje
     public Animator GloboAnimator; // Referencia globo de diálogo
+
+
+    
+    
 
 
     private void Start()
@@ -50,7 +54,8 @@ public class QuizManager : MonoBehaviour
             if (i < preguntaActual.Respuestas.Length)
             {
                 options[i].SetActive(true); // Hacemos visibles los botones necesarios
-                options[i].transform.GetChild(0).GetComponent<Text>().text = preguntaActual.Respuestas[i];
+                options[i].transform.GetChild(0).GetComponent<Text>().text = preguntaActual.Respuestas[i].GetLocalizedString(); // Mostramos la respuesta en el botón
+
 
                 // Verificamos si la respuesta es correcta
                 if (preguntaActual.RespuestaCorrecta == i + 1)
@@ -79,7 +84,7 @@ public class QuizManager : MonoBehaviour
         currentQuestion = Random.Range(0, QnA.Count); // Seleccionamos una pregunta al azar
 
         PreguntaRespuesta preguntaActual = QnA[currentQuestion];
-        questionText.text = preguntaActual.Pregunta; // Mostramos la pregunta
+        questionText.text = preguntaActual.Pregunta.GetLocalizedString(); // Mostramos la pregunta
 
         EstableceRespuestas(); // Establecemos las respuestas según el tipo de pregunta
         Invoke("DesbloquearBotones", 1f); // Desbloqueamos los botones de respuesta para la nueva pregunta
@@ -94,11 +99,13 @@ public class QuizManager : MonoBehaviour
         //Animaciones 
         ActivarAnimacionHablar(); 
         globoAnimacion(); 
+
+        ScoreManager.instance.historialUsuario.Add(new RespuestaUsuario(QnA[currentQuestion], true));
         
         QnA.RemoveAt(currentQuestion); // Quitamos la pregunta respondida
         score.AgregarPunto(); // Sumamos un punto
         feedbackManager.RegistrarRespuesta(true); // Retroalimentación
-        Invoke("GeneraPregunta", 0.15f);// Generamos la siguiente pregunta
+        Invoke("GeneraPregunta", 0.2f);// Generamos la siguiente pregunta
     }
 
     public void incorrect()
@@ -109,6 +116,9 @@ public class QuizManager : MonoBehaviour
         //Animaciones 
         ActivarAnimacionHablar(); 
         globoAnimacion(); 
+
+        ScoreManager.instance.historialUsuario.Add(new RespuestaUsuario(QnA[currentQuestion], false));
+
 
         QnA.RemoveAt(currentQuestion); // Quitamos la pregunta respondida
         feedbackManager.RegistrarRespuesta(false); // Retroalimentación
@@ -122,6 +132,8 @@ public class QuizManager : MonoBehaviour
         //Animaciones 
         ActivarAnimacionHablar();
         globoAnimacion(); 
+
+        ScoreManager.instance.historialUsuario.Add(new RespuestaUsuario(QnA[currentQuestion], false));
         
         QnA.RemoveAt(currentQuestion); // Quitamos la pregunta
         feedbackManager.RegistrarRespuesta(false); // Retroalimentación de tiempo agotado
@@ -201,5 +213,4 @@ public class QuizManager : MonoBehaviour
             boton.GetComponent<Button>().interactable = true;
         }
     }
-
-    }
+}
