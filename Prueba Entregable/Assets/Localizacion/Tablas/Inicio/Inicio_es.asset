@@ -46,6 +46,60 @@ MonoBehaviour:
     m_Localized: "ANUNCIO \nDE \nPRIVACIDAD"
     m_Metadata:
       m_Items: []
+  - m_Id: 246168578146304
+    m_Localized: PRIVACIDAD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 247593844588544
+    m_Localized: "Nada en esta presentacion o curso constituye asesoria legal ni
+      financiera.\nEs solo una vision teorica y generalsobre moneda virtual y blockchain.\nIncluye
+      ofertas iniciales de monedas (ICO), tokens y legislacion\nen EE. UU. y Canada.\nTambien
+      se habla de bienes raices y temas relacionados con blockchain.\nNo esta dirigido
+      a casos especificos ni establece relaciones\nlegales o de asesoria.\nConsulte
+      a su abogado o asesor antes de tomar cualquier \ndecision importante.\n\nLas
+      opiniones expresadas pertenecen solo al ponente y no a CryptoChicks.\nEsta
+      presentacion puede tener enlaces a recursos externos \ncomo conveniencia.\nNo
+      implica respaldo ni patrocinio de los sitios o su contenido.\nNo hay relacion
+      con logotipos, marcas ni \npropiedad intelectual de terceros.\nCryptoChicks
+      no se responsabiliza por\nacciones tomadas en base a esta informacion.\n\nProtecci\xF3n
+      de Datos:\r\nSe recopilan y almacenan datos como ubicaci\xF3n geogr\xE1fica,
+      nombre, edad, \ndirecciones electr\xF3nicas y estad\xEDsticas de uso del servicio.
+      El grupo \nCryptoChicks se reserva el derecho de utilizar esta informaci\xF3n
+      conforme\na sus intereses, y el usuario acepta \nestos t\xE9rminos al hacer
+      uso del servicio."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 248635051196416
+    m_Localized: "Este proyecto ha sido desarrollado\n por estudiantes del Tecnol\xF3gico
+      oe Monterrey \n Campus Estado de Mexico\n\n como parte de una colaboracion
+      \nacademica para la organizacion CryptoChicks.\r\n\r\n\n\nEquipo de Desarrollo:\n\r\nErik
+      Owen Castro Flores \u2013 A01800371\r\n\r\nYael Michel Garcia Lopez \u2013
+      A01750911\r\n\r\nAllan Mauricio Brenes Castro \u2013 A01750747\r\n\r\nBrian
+      Axel Velarde Rodriguez \u2013 A01753036\r\n\r\nDaniel Diaz Romero \u2013 A01801486\n\n\r\n\r\nAgradecemos
+      a CryptoChicks por la oportunidad de contribuir\n a su mision educativa y de
+      innovacion tecnologica\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEste proyecto ha
+      sido desarrollado\n por estudiantes del Tecnol\xF3gico oe Monterrey \n Campus
+      Estado de Mexico\n\n como parte de una colaboracion \nacademica para la organizacion
+      CryptoChicks.\r\n\r\n\n\nEquipo de Desarrollo:\n\r\nErik Owen Castro Flores
+      \u2013 A01800371\r\n\r\nYael Michel Garcia Lopez \u2013 A01750911\r\n\r\nAllan
+      Mauricio Brenes Castro \u2013 A01750747\r\n\r\nBrian Axel Velarde Rodriguez
+      \u2013 A01753036\r\n\r\nDaniel Diaz Romero \u2013 A01801486\n\n\r\n\r\nAgradecemos
+      a CryptoChicks por la oportunidad de contribuir\n a su mision educativa y de
+      innovacion tecnologica."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 249663360319488
+    m_Localized: Usuario
+    m_Metadata:
+      m_Items: []
+  - m_Id: 250240777568256
+    m_Localized: "Contrase\xF1a"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 250762070835200
+    m_Localized: Unirse
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

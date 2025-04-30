@@ -10,71 +10,59 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
-  m_Name: Inicio Shared Data
+  m_Name: Selectores Shared Data
   m_EditorClassIdentifier: 
-  m_TableCollectionName: Inicio
-  m_TableCollectionNameGuidString: d4fb8bb9211e1434292bacef60a3f432
+  m_TableCollectionName: Selectores
+  m_TableCollectionNameGuidString: 9646d9c752b0fcb4ab4593c2a8ba445d
   m_Entries:
-  - m_Id: 6910623744
-    m_Key: login
+  - m_Id: 7208419328
+    m_Key: intro
     m_Metadata:
       m_Items: []
-  - m_Id: 123373862912
-    m_Key: signup
+  - m_Id: 1031902052352
+    m_Key: baseDeDatos
     m_Metadata:
       m_Items: []
-  - m_Id: 1781965242368
-    m_Key: credits
+  - m_Id: 1136956784640
+    m_Key: cryptografia
     m_Metadata:
       m_Items: []
-  - m_Id: 2517042184192
-    m_Key: exit
+  - m_Id: 1489538367488
+    m_Key: blockchain
     m_Metadata:
       m_Items: []
-  - m_Id: 2568078475264
-    m_Key: settings
+  - m_Id: 1624586567680
+    m_Key: cryptocurrency
     m_Metadata:
       m_Items: []
-  - m_Id: 2678740992000
-    m_Key: play
+  - m_Id: 1705511469056
+    m_Key: wallet
     m_Metadata:
       m_Items: []
-  - m_Id: 2744608342016
-    m_Key: privacyNotice
+  - m_Id: 1747571949568
+    m_Key: Scams
     m_Metadata:
       m_Items: []
-  - m_Id: 246168578146304
-    m_Key: privacyNotice2
+  - m_Id: 1847765483520
+    m_Key: web1-2-3
     m_Metadata:
       m_Items: []
-  - m_Id: 247593844588544
-    m_Key: privacyNoticeScroll
+  - m_Id: 1983371526144
+    m_Key: "Centralizaci\xF3n"
     m_Metadata:
       m_Items: []
-  - m_Id: 248635051196416
-    m_Key: CreditsScroll
-    m_Metadata:
-      m_Items: []
-  - m_Id: 249663360319488
-    m_Key: user
-    m_Metadata:
-      m_Items: []
-  - m_Id: 250240777568256
-    m_Key: password
-    m_Metadata:
-      m_Items: []
-  - m_Id: 250762070835200
-    m_Key: join
+  - m_Id: 2035951321088
+    m_Key: "Descentralizaci\xF3n"
     m_Metadata:
       m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
-    rid: 1195029079901864054
+    rid: 1195029095296008798
   references:
     version: 2
     RefIds:
-    - rid: 1195029079901864054
+    - rid: 1195029095296008798
       type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
       data:
-        m_CustomEpoch: 1745966296334
+        m_CustomEpoch: 1746026542421

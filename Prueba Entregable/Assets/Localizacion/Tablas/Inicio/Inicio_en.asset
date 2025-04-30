@@ -46,6 +46,103 @@ MonoBehaviour:
     m_Localized: PRIVACY NOTICE
     m_Metadata:
       m_Items: []
+  - m_Id: 246168578146304
+    m_Localized: PRIVACY NOTICE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 247593844588544
+    m_Localized: 'Nothing in this presentation or course constitutes legal or financial
+      advice.
+
+      It is only a theoretical and general overview of virtual currency
+      and blockchain.
+
+      It includes initial coin offerings (ICOs), tokens, and
+      legislation
+
+      in the U.S. and Canada.
+
+      It also covers real estate
+      and topics related to blockchain.
+
+      It is not intended for specific cases
+      nor does it establish
+
+      legal or advisory relationships.
+
+      Consult
+      your lawyer or advisor before making any
+
+      important decisions.
+
+
+      The
+      opinions expressed are solely those of the speaker and not of CryptoChicks.
+
+      This
+      presentation may contain links to external resources
+
+      for convenience.
+
+      It
+      does not imply endorsement or sponsorship of the sites or their content.
+
+      There
+      is no affiliation with logos, brands, or
+
+      third-party intellectual property.
+
+      CryptoChicks
+      is not responsible for
+
+      actions taken based on this information.
+
+
+      Data
+      Protection:
+
+      Data such as geographic location, name, age,
+
+      email
+      addresses, and service usage statistics are collected and stored. The CryptoChicks
+      group reserves the right to use this information according
+
+      to its interests,
+      and the user agrees
+
+      to these terms by using the service.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 248635051196416
+    m_Localized: "This project has been developed\nby students from Tecnol\xF3gico
+      de Monterrey\nCampus Estado de Mexico\n\nas part of an academic collaboration\nwith
+      the organization CryptoChicks.\n\nDevelopment Team:\n\n\n\nErik Owen Castro
+      Flores \u2013 A01800371\n\nYael Michel Garcia Lopez \u2013 A01750911\n\nAllan
+      Mauricio Brenes Castro \u2013 A01750747\n\nBrian Axel Velarde Rodriguez \u2013
+      A01753036\n\nDaniel Diaz Romero \u2013 A01801486\n\n\n\nWe thank CryptoChicks
+      for the opportunity to contribute\nto its mission of education and technological
+      innovation.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThis project has been developed\nby
+      students from Tecnol\xF3gico de Monterrey\nCampus Estado de Mexico\n\nas part
+      of an academic collaboration\nwith the organization CryptoChicks.\n\n\n\nDevelopment
+      Team:\n\nErik Owen Castro Flores \u2013 A01800371\n\nYael Michel Garcia Lopez
+      \u2013 A01750911\n\nAllan Mauricio Brenes Castro \u2013 A01750747\n\nBrian
+      Axel Velarde Rodriguez \u2013 A01753036\n\nDaniel Diaz Romero \u2013 A01801486\n\n\n\nWe
+      thank CryptoChicks for the opportunity to contribute\nto its mission of education
+      and technological innovation."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 249663360319488
+    m_Localized: User
+    m_Metadata:
+      m_Items: []
+  - m_Id: 250240777568256
+    m_Localized: Password
+    m_Metadata:
+      m_Items: []
+  - m_Id: 250762070835200
+    m_Localized: Join
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

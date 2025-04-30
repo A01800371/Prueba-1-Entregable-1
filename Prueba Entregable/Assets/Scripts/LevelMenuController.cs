@@ -41,7 +41,10 @@ public Button previousButton;
 
         // Actualizar UI
         titleText.text = level.levelName;
-        descriptionText.text = level.description;
+        level.description.GetLocalizedStringAsync().Completed += handle =>
+        {
+            descriptionText.text = handle.Result;
+        };
         previewImage.sprite = level.previewImage;
 
         // Actualizar el botón de jugar

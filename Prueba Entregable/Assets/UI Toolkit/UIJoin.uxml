@@ -2,10 +2,28 @@
     <Style src="project://database/Assets/UI%20Toolkit/contenedorJoin.uss?fileID=7433441132597879392&amp;guid=5832c44412f8b7d4885fe5dd1dbc65ff&amp;type=3#contenedorJoin" />
     <engine:VisualElement>
         <engine:VisualElement name="Centro" class="contcen">
-            <engine:TextField label="Usuario" placeholder-text="Usuario" name="Usuario" class="fill" />
-            <engine:TextField label="Password" placeholder-text="password" name="Contrasena" class="fill" />
-            <engine:Button text="JOIN" name="BotonJoin" class="boton" style="margin-left: 104px; left: 26px;" />
+            <engine:TextField label="Usuario" placeholder-text="Usuario" name="Usuario" class="fill">
+                <Bindings>
+                    <UnityEngine.Localization.LocalizedString property="label" table="GUID:d4fb8bb9211e1434292bacef60a3f432" entry="Id(249663360319488)" />
+                    <UnityEngine.Localization.LocalizedString property="placeholderText" table="GUID:d4fb8bb9211e1434292bacef60a3f432" entry="Id(249663360319488)" />
+                </Bindings>
+            </engine:TextField>
+            <engine:TextField label="Password" placeholder-text="password" name="Contrasena" class="fill">
+                <Bindings>
+                    <UnityEngine.Localization.LocalizedString property="label" table="GUID:d4fb8bb9211e1434292bacef60a3f432" entry="Id(250240777568256)" />
+                    <UnityEngine.Localization.LocalizedString property="placeholderText" table="GUID:d4fb8bb9211e1434292bacef60a3f432" entry="Id(250240777568256)" />
+                </Bindings>
+            </engine:TextField>
+            <engine:Button text="JOIN" name="BotonJoin" class="boton" style="margin-left: 104px; left: 26px;">
+                <Bindings>
+                    <UnityEngine.Localization.LocalizedString property="text" table="GUID:d4fb8bb9211e1434292bacef60a3f432" entry="Id(250762070835200)" />
+                </Bindings>
+            </engine:Button>
         </engine:VisualElement>
     </engine:VisualElement>
-    <engine:Button text="EXIT&#10;" name="Exit" class="boton" style="right: 610px; left: 106px; top: 278px;" />
+    <engine:Button text="EXIT&#10;" name="Exit" class="boton" style="right: 610px; left: 106px; top: 278px;">
+        <Bindings>
+            <UnityEngine.Localization.LocalizedString property="text" table="GUID:d4fb8bb9211e1434292bacef60a3f432" entry="Id(2517042184192)" />
+        </Bindings>
+    </engine:Button>
 </engine:UXML>
