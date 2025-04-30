@@ -140,6 +140,18 @@ public class QuizManager : MonoBehaviour
             // Aseguramos que la referencia a ScoreManager sea nula
             ScoreManager.instance = null; 
         }
+        SceneManager.LoadScene("Mapa Pueblo"); // Regresamos al menú
+    }
+
+     public void SalirdelJuego()
+    {
+        if (ScoreManager.instance != null)
+        {
+            
+            Destroy(ScoreManager.instance.gameObject); // Destruimos el ScoreManager para evitar que persista entre escenas
+            // Aseguramos que la referencia a ScoreManager sea nula
+            ScoreManager.instance = null; 
+        }
         SceneManager.LoadScene("MenuJ"); // Regresamos al menú
     }
 
