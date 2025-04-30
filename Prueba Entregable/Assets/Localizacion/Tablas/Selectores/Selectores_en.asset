@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Selectores_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 9646d9c752b0fcb4ab4593c2a8ba445d, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 7208419328
+    m_Localized: 'Welcome to the Level Selector! Choose a level using the arrows
+      below or select a button.
+
+
+      Press "Play" to start the quiz or tap the
+      play button.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1031902052352
+    m_Localized: "Database \u2014 one of the super tools optimized by blockchain."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1136956784640
+    m_Localized: 'The key to Blockchain security!
+
+      Find out what it is and
+      the benefits it brings.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1489538367488
+    m_Localized: Learn about what Blockchain is and the advantages it offers.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1624586567680
+    m_Localized: Discover a brand-new, fully digital economic system!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1705511469056
+    m_Localized: "A digital wallet? It\u2019s more than that\u2026\nDo you think
+      you can figure out what it is?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1747571949568
+    m_Localized: "Even though it\u2019s an innovative technology, there are people
+      with bad intentions...\nStay alert! Learn to spot the most common scams and
+      how to avoid them."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1847765483520
+    m_Localized: Take a quick journey through the history of the internet and learn
+      about Web 1, 2, and 3!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1983371526144
+    m_Localized: Now that you know the types of web... do you know the disadvantages
+      of centralization?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2035951321088
+    m_Localized: "After hearing about the challenges of Centralization...\nNow you\u2019ll
+      discover what Decentralization is!"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

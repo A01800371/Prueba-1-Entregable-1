@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Selectores_es
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: es
+  m_SharedData: {fileID: 11400000, guid: 9646d9c752b0fcb4ab4593c2a8ba445d, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 7208419328
+    m_Localized: "\xA1Bienvenido al Selector de Niveles! Escoge un nivel con las
+      flechas de abajo o selecciona un bot\xF3n. \n\nDale a \"play\" para jugar el
+      quiz o al bot\xF3n de reproducci\xF3n "
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1031902052352
+    m_Localized: Base de datos, una de las super herramientas que el blockchain optimiza
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1136956784640
+    m_Localized: "\xA1La clave de la seguridad del Blockchain! Averigua lo qu\xE9
+      es y los beneficios que aporta"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1624586567680
+    m_Localized: "\xA1Aprende acerca de un nuevo sistema econ\xF3mico completamente
+      digital!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1705511469056
+    m_Localized: "\xBFUna cartera digital? M\xE1s que eso... \xBFCrees que puedas
+      descifrar de qu\xE9 se trata?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1747571949568
+    m_Localized: "Aunque sea una tecnolog\xEDa inovadora, hay gente con malas intenciones...\xA1Hay
+      que tener cuidado! Aprende a identificar las estafas m\xE1s comunes y prevenirlas"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1847765483520
+    m_Localized: "\xA1Ten un breve repaso en la historia del internet y aprende sobre
+      web 1, 2 y 3!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1983371526144
+    m_Localized: "Ahora ya conoces los tipos de web... \xBFpero te sabes las desventajas
+      de la centralizaci\xF3n?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2035951321088
+    m_Localized: "Tras oir de las adversidades de la Centralizaci\xF3n... \xA1Ahora
+      descubriras lo que es la Descentralizaci\xF3n!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1489538367488
+    m_Localized: "Aprende acerca de lo que es la Blockchain y tambi\xE9n las ventajas
+      que tiene"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []
