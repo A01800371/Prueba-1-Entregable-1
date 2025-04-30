@@ -24,7 +24,8 @@ public class QuizManager : MonoBehaviour
 
     public Animator personajeAnimator; // Referencia al Animator del personaje
     public Animator GloboAnimator; // Referencia globo de diálogo
-
+    [SerializeField] public AudioSource error; // Referencia al AudioSource para reproducir sonidos
+    [SerializeField] public AudioSource correcto; // Referencia al AudioSource para reproducir sonidos
 
     
     
@@ -96,9 +97,10 @@ public class QuizManager : MonoBehaviour
         timer.ReiniciarTimer(); // Reiniciamos el timer
         BloquearBotones(); // Bloqueamos los botones de respuesta para evitar múltiples clics
 
-        //Animaciones 
+        //Animaciones s
         ActivarAnimacionHablar(); 
         globoAnimacion(); 
+        correcto.Play(); // Reproducimos el sonido de respuesta correcta
 
         ScoreManager.instance.historialUsuario.Add(new RespuestaUsuario(QnA[currentQuestion], true));
         
@@ -116,6 +118,7 @@ public class QuizManager : MonoBehaviour
         //Animaciones 
         ActivarAnimacionHablar(); 
         globoAnimacion(); 
+        error.Play(); // Reproducimos el sonido de respuesta incorrecta
 
         ScoreManager.instance.historialUsuario.Add(new RespuestaUsuario(QnA[currentQuestion], false));
 
@@ -132,6 +135,7 @@ public class QuizManager : MonoBehaviour
         //Animaciones 
         ActivarAnimacionHablar();
         globoAnimacion(); 
+        error.Play();
 
         ScoreManager.instance.historialUsuario.Add(new RespuestaUsuario(QnA[currentQuestion], false));
         
