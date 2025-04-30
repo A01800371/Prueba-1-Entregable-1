@@ -73,7 +73,7 @@ public class FeedbackScene : MonoBehaviour
         Debug.Log(nota); // Mensaje de depuración
         EnviarDatosLoginJSON(); // Llamamos a la función para enviar los resultados antes de volver al menú
         OnDestroy(); // Llamamos a OnDestroy para asegurarnos de que el ScoreManager se destruya antes de volver al menú
-        SceneManager.LoadScene("Mapa Pueblo"); // Regresamos a la escena del menú
+        SceneManager.LoadScene("Mapa Pueblo 1"); // Regresamos a la escena del menú
     }
 
     private void OnDestroy()
