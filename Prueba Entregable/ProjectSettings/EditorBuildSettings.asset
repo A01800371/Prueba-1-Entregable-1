@@ -21,92 +21,80 @@ EditorBuildSettings:
     path: Assets/Scenes/UI/Ajustes/Privacidad.unity
     guid: ba84fbf586ff23547a2a756d363b631f
   - enabled: 1
+    path: Assets/Scenes/UI/Ajustes/Creditos.unity
+    guid: 9c066e080ea8f9c4dabc311d79ea0216
+  - enabled: 1
     path: Assets/Scenes/Juego/MenuJ.unity
     guid: cd7dee248f4087447a1a7ed71993df8e
   - enabled: 1
-    path: Assets/Scenes/Juego/Mapa/Mapa Pueblo.unity
-    guid: 83626c87af0364d4fb7118c8f2d27484
-  - enabled: 1
-    path: Assets/Scenes/Juego/Selectores de Nivel/Selector Web 3.unity
-    guid: b89cc285eb1507c4f972e6c449b37aa2
-  - enabled: 1
-    path: Assets/Scenes/Juego/Temas/Web 3/Web3 (Animaciones) 1/Web3_ 1 - I, II &
-      III/Web 1, 2 & 3.unity
-    guid: a87dcd57e5564e8468ad2fcd15ea0a4b
-  - enabled: 1
-    path: Assets/Scenes/Juego/Temas/Web 3/Web 3 (Quizes)/Quiz 1.unity
-    guid: 3d599a56a9b24324a85b53b970205054
-  - enabled: 1
-    path: "Assets/Scenes/Juego/Temas/Web 3/Web3 (Animaciones) 1/Web3_ 2 - Centralizaci\xF3n/Centralizaci\xF3n.unity"
-    guid: 9c14e60bdc7a9f34398c5830a0688265
-  - enabled: 1
-    path: Assets/Scenes/Juego/Temas/Web 3/Web 3 (Quizes)/Quiz 2.unity
-    guid: c37d1241c5a4dcd4d8ac2f840fe9cff1
-  - enabled: 1
-    path: "Assets/Scenes/Juego/Temas/Web 3/Web3 (Animaciones) 1/Web3_ 3 - Descentralization/Decentralizaci\xF3n.unity"
-    guid: ff6ff35961e65a545856fbfd442ab10b
-  - enabled: 1
-    path: Assets/Scenes/Juego/Temas/Web 3/Web 3 (Quizes)/Quiz 3.unity
-    guid: 147b48b26e8d95a44a17039a45793baa
-  - enabled: 1
-    path: Assets/Scenes/Juego/Selectores de Nivel/Selector Blockchain.unity
-    guid: 55fcdafb7d9daf54ca4305f6b9798797
+    path: Assets/Scenes/Juego/EscenaFeedback.unity
+    guid: ee25aa3d6d3dad8488ac180866c5b1c1
   - enabled: 1
     path: Assets/Scenes/Juego/Temas/Blockchain/Blockchain (Animaciones)/Blockchain_
       1 - Blockchain/Blockchain.unity
     guid: ed4ca954ac764594ba110f3ff3f814aa
   - enabled: 1
-    path: Assets/Scenes/Juego/Temas/Blockchain/Blockchain (Quizes)/Quiz 4.unity
-    guid: e95051652718b724e92d8be3f12ba7da
-  - enabled: 1
     path: Assets/Scenes/Juego/Temas/Blockchain/Blockchain (Animaciones)/Blockchain_
       2 - DataBase/Base de Datos.unity
     guid: 906a0c183dcc707429add6f269034e60
-  - enabled: 1
-    path: Assets/Scenes/Juego/Temas/Blockchain/Blockchain (Quizes)/Quiz 5.unity
-    guid: 8fa0ebcf63f993d4b8ea5c7613ace012
   - enabled: 1
     path: Assets/Scenes/Juego/Temas/Blockchain/Blockchain (Animaciones)/Blockchain_
       3 - Cryptography/Cryptography.unity
     guid: 63c2fa3d40f8edf44be4dfe966ddb7eb
   - enabled: 1
+    path: Assets/Scenes/Juego/Temas/Blockchain/Blockchain (Quizes)/Quiz 4.unity
+    guid: e95051652718b724e92d8be3f12ba7da
+  - enabled: 1
+    path: Assets/Scenes/Juego/Temas/Blockchain/Blockchain (Quizes)/Quiz 5.unity
+    guid: 8fa0ebcf63f993d4b8ea5c7613ace012
+  - enabled: 1
     path: Assets/Scenes/Juego/Temas/Blockchain/Blockchain (Quizes)/Quiz 6.unity
     guid: 39a1eed90f5562b408289910f8823526
-  - enabled: 1
-    path: Assets/Scenes/Juego/Selectores de Nivel/Selector Cryptocurrency.unity
-    guid: 4a0c0d3fb880202478a2a5fe50f03336
   - enabled: 1
     path: Assets/Scenes/Juego/Temas/Cryptocurrency/Cryptocurrency (Animaciones)/Cryptocurrency_
       1 - Cryptocurrency/Cryptocurrency.unity
     guid: 5a6cf9409107cf54f929f57e698e124d
   - enabled: 1
-    path: Assets/Scenes/Juego/Temas/Cryptocurrency/Cryptocurrency (Quizes)/Quiz 7.unity
-    guid: 05eee91625f542348aae671baf988370
-  - enabled: 1
     path: Assets/Scenes/Juego/Temas/Cryptocurrency/Cryptocurrency (Animaciones)/Cryptocurrency_
       2 - Wallet/Wallet.unity
     guid: 8248f3e869798d94ca5e7b53bbc8b532
-  - enabled: 1
-    path: Assets/Scenes/Juego/Temas/Cryptocurrency/Cryptocurrency (Quizes)/Quiz 8.unity
-    guid: 68073499a1f58c94fa29702112d39390
   - enabled: 1
     path: Assets/Scenes/Juego/Temas/Cryptocurrency/Cryptocurrency (Animaciones)/Cryptocurrency_
       3 - Scams/Scams.unity
     guid: 18bedc95160e14d48bc5e816398610d5
   - enabled: 1
+    path: Assets/Scenes/Juego/Temas/Cryptocurrency/Cryptocurrency (Quizes)/Quiz 7.unity
+    guid: 05eee91625f542348aae671baf988370
+  - enabled: 1
+    path: Assets/Scenes/Juego/Temas/Cryptocurrency/Cryptocurrency (Quizes)/Quiz 8.unity
+    guid: 68073499a1f58c94fa29702112d39390
+  - enabled: 1
     path: Assets/Scenes/Juego/Temas/Cryptocurrency/Cryptocurrency (Quizes)/Quiz 9.unity
     guid: cf85b2d3999b96b4ea013793141050b6
   - enabled: 1
-    path: Assets/Scenes/Juego/EscenaFeedback.unity
-    guid: ee25aa3d6d3dad8488ac180866c5b1c1
+    path: Assets/Scenes/Juego/Temas/Web 3/Web 3 (Quizes)/Quiz 1.unity
+    guid: 3d599a56a9b24324a85b53b970205054
   - enabled: 1
-    path: Assets/Scenes/UI/Ajustes/Creditos.unity
-    guid: 9c066e080ea8f9c4dabc311d79ea0216
-  m_configObjects:
-    com.unity.addressableassets: {fileID: 11400000, guid: caded5ea41b5c184fbf373ae48d34936, type: 2}
-<<<<<<< HEAD
-    com.unity.localization.settings: {fileID: 11400000, guid: 1e2c4eadcf40d6447954856b500107be, type: 2}
-=======
-    com.unity.localization.settings: {fileID: 11400000, guid: 3334e903504b29148b7f045552f1429d, type: 2}
->>>>>>> d3f12bf9030d32a7d3d401876b4c6700cccc9aeb
+    path: Assets/Scenes/Juego/Temas/Web 3/Web 3 (Quizes)/Quiz 2.unity
+    guid: c37d1241c5a4dcd4d8ac2f840fe9cff1
+  - enabled: 1
+    path: Assets/Scenes/Juego/Temas/Web 3/Web 3 (Quizes)/Quiz 3.unity
+    guid: 147b48b26e8d95a44a17039a45793baa
+  - enabled: 1
+    path: Assets/Scenes/Juego/Temas/Web 3/Web3 (Animaciones) 1/Web3_ 1 - I, II &
+      III/Web 1, 2 & 3.unity
+    guid: a87dcd57e5564e8468ad2fcd15ea0a4b
+  - enabled: 1
+    path: "Assets/Scenes/Juego/Temas/Web 3/Web3 (Animaciones) 1/Web3_ 2 - Centralizaci\xF3n/Centralizaci\xF3n.unity"
+    guid: 9c14e60bdc7a9f34398c5830a0688265
+  - enabled: 1
+    path: "Assets/Scenes/Juego/Temas/Web 3/Web3 (Animaciones) 1/Web3_ 3 - Descentralization/Decentralizaci\xF3n.unity"
+    guid: ff6ff35961e65a545856fbfd442ab10b
+  - enabled: 1
+    path: Assets/Scenes/Juego/Mapa/Mapa Pueblo.unity
+    guid: 83626c87af0364d4fb7118c8f2d27484
+  - enabled: 1
+    path: Assets/Scenes/Juego/Mapa/Islas.unity
+    guid: 6145a4ac14f04044cb3054ddebc8a27f
+  m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
