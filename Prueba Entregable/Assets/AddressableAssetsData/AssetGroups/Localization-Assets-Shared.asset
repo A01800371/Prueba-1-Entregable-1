@@ -15,6 +15,11 @@ MonoBehaviour:
   m_GroupName: Localization-Assets-Shared
   m_GUID: fe189965b3a026343a36de9725a3ac17
   m_SerializeEntries:
+  - m_GUID: 261d492d7be21134ba1acff3924a5a96
+    m_Address: Assets/Localizacion/Traducciones ElAmigos Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 60e3c19a6d71a914588f802be2de147a
     m_Address: Assets/Localizacion/Tablas/Timer/Timer Shared Data.asset
     m_ReadOnly: 1
