@@ -55,6 +55,15 @@ EditorBuildSettings:
       1 - Cryptocurrency/Cryptocurrency.unity
     guid: 5a6cf9409107cf54f929f57e698e124d
   - enabled: 1
+    path: Assets/Scenes/Juego/Selectores de Nivel/Selector Web 3.unity
+    guid: b89cc285eb1507c4f972e6c449b37aa2
+  - enabled: 1
+    path: Assets/Scenes/Juego/Selectores de Nivel/Selector Cryptocurrency.unity
+    guid: 4a0c0d3fb880202478a2a5fe50f03336
+  - enabled: 1
+    path: Assets/Scenes/Juego/Selectores de Nivel/Selector Blockchain.unity
+    guid: 55fcdafb7d9daf54ca4305f6b9798797
+  - enabled: 1
     path: Assets/Scenes/Juego/Temas/Cryptocurrency/Cryptocurrency (Animaciones)/Cryptocurrency_
       2 - Wallet/Wallet.unity
     guid: 8248f3e869798d94ca5e7b53bbc8b532
