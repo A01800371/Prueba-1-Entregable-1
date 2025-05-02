@@ -1,0 +1,133 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Base de Datos_es
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: es
+  m_SharedData: {fileID: 11400000, guid: 4ff6a1a75003dab45885b93d10042f49, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 9118732288
+    m_Localized: "NPC: El blockchain tambi\xE9n funciona como una base de datos\u2026
+      pero diferente a las tradicionales.\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 72691798016
+    m_Localized: 'NPC: Es una base de datos distribuida: se guarda en muchos dispositivos
+      a la vez.
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3537975431168
+    m_Localized: "NPC: Todos los nodos tienen una copia id\xE9ntica del registro.
+      No hay versiones distintas.\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3548553465856
+    m_Localized: "NPC: Si un servidor cae, la informaci\xF3n no se pierde porque
+      vive en toda la red.\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3809657278464
+    m_Localized: 'NPC: A eso se le llama resiliencia: el sistema resiste fallos o
+      ataques.
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3826551934976
+    m_Localized: "NPC: Nadie puede modificar una transacci\xF3n una vez que fue validada.\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3839583637504
+    m_Localized: "NPC: Y tampoco puedes borrar tus datos si ya est\xE1n en la cadena.\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3852363681792
+    m_Localized: "NPC: As\xED se asegura que la historia del sistema no pueda ser
+      alterada.\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3865168891904
+    m_Localized: 'NPC: Un usuario puede participar y tener su propia copia, pero
+      no controla todo.
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882571059200
+    m_Localized: 'NPC: Las bases de datos tradicionales dependen de un servidor central.
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3913306918912
+    m_Localized: "NPC: El blockchain no: es descentralizado, sin un punto \xFAnico
+      de control.\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3920663728128
+    m_Localized: "NPC: Y eso lo hace m\xE1s seguro frente a manipulaciones externas.\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3921385148416
+    m_Localized: "NPC: Adem\xE1s, los nodos no necesitan estar activos todos al mismo
+      tiempo.\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3922010099712
+    m_Localized: "NPC: Si un nodo se desconecta, la red sigue funcionando con los
+      dem\xE1s.\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3922601496576
+    m_Localized: "NPC: Y si vuelve a conectarse, se sincroniza autom\xE1ticamente
+      con el resto.\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3923163533312
+    m_Localized: 'NPC: Esta arquitectura distribuye la confianza en muchas partes.
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3923863982080
+    m_Localized: 'NPC: Nadie puede tomar decisiones por todos sin consenso.
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4013668225024
+    m_Localized: "NPC: Por eso, blockchain no almacena la informaci\xF3n como una
+      base de datos normal.\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4015610187776
+    m_Localized: "NPC: Lo hace de forma abierta, segura y con m\xFAltiples copias
+      iguales.\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4016633597952
+    m_Localized: "NPC: Veamos ahora c\xF3mo la criptograf\xEDa protege todos esos
+      datos.\n\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4017375989760
+    m_Localized: "\xA1Bienvenido a la explicaci\xF3n de Base de Daros!"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

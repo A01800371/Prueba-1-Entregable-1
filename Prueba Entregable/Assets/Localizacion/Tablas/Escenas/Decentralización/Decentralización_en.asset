@@ -1,0 +1,118 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: "Decentralizaci\xF3n_en"
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 513d99bc4f8cf454eb62bb5d292dd662, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 14181257216
+    m_Localized: 'NPC: We''ve already talked about centralization. Now let''s look
+      at its opposite: decentralization.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 76496031744
+    m_Localized: 'NPC: Here, no one has complete control. All users are part of the
+      network.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89502568448
+    m_Localized: 'NPC: Every connected device is a node that helps keep the network
+      active.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 103939362816
+    m_Localized: 'NPC: If one node fails, the others continue to function. The network
+      doesn''t stop.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 117554073600
+    m_Localized: 'NPC: This structure makes it more secure, resilient, and transparent.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 121819680768
+    m_Localized: 'NPC: For something to be recorded, several users must agree. This
+      is called consensus.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 126336946176
+    m_Localized: 'NPC: Decisions are not made by a company, but by the community.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 131294613504
+    m_Localized: 'NPC: That''s why these networks are said to be more democratic.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133886693376
+    m_Localized: 'NPC: Plus, you can make transactions without banks or intermediaries.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 136218726400
+    m_Localized: 'NPC: Everything is recorded on the blockchain, and anyone can see
+      the information.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 137980334080
+    m_Localized: 'NPC: But even though the network is open, your personal identity
+      remains protected.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 138701754368
+    m_Localized: 'NPC: One node can''t alter the network without the others noticing.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 139309928448
+    m_Localized: 'NPC: And if all the nodes disappear... yes, the network crashes,
+      but that''s very unlikely.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 139955851264
+    m_Localized: 'NPC: Decentralization doesn''t mean chaos. There are rules, but
+      they''re shared.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288182554624
+    m_Localized: ' NPC: It''s a more equitable system, designed to include more people.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292070674432
+    m_Localized: 'NPC: No matter where you are, you can participate if you have internet.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 294209769472
+    m_Localized: 'NPC: That''s why Web3 is based on decentralized networks: so that
+      no one has more power than anyone else.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 296214646784
+    m_Localized: 'NPC: Fairness, security, and collaboration are its foundation.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 298123055104
+    m_Localized: 'NPC: Can you imagine a world where everyone can decide and protect
+      their data?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 299528146944
+    m_Localized: 'NPC: Welcome to decentralization. Let''s build together.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 302376079360
+    m_Localized: Welcome to the Decentralization explication!
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

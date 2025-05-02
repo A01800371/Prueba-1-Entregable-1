@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5be51871efa6c3e4eae1703925c8f5ac, type: 3}
+  m_Name: Blockchain
+  m_EditorClassIdentifier: 
+  m_SharedTableData: {fileID: 11400000, guid: fac599a882e1a6f41bd7eeb8b123cd8a, type: 2}
+  m_Tables:
+  - {fileID: 11400000, guid: 35981e82dac2abc448fb80e71b6490c0, type: 2}
+  - {fileID: 11400000, guid: 929c7aa73cf11ca4f9863f2ffbaf623e, type: 2}
+  m_Extensions: []
+  m_Group: String Table
+  references:
+    version: 2
+    RefIds: []

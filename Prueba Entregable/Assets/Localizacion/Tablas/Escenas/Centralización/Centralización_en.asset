@@ -1,0 +1,118 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: "Centralizaci\xF3n_en"
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 5404e271d0f93984ab748edf537aa702, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 138064220160
+    m_Localized: Welcome to the Cemtralization Translation!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31344349184
+    m_Localized: 'NPC: Let''s talk about centralization, a model where a single entity
+      controls everything.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 110906101760
+    m_Localized: 'NPC: Do companies like Google or Meta sound familiar? They decide
+      what you see, how, and when.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 117159809024
+    m_Localized: 'NPC: In this system, you use the platform, but you don''t decide
+      anything.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 119932243968
+    m_Localized: 'NPC: All data goes through a central server. If that server goes
+      down, everything shuts down.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122641764352
+    m_Localized: 'NPC: Plus, your data isn''t really secure: it can be vulnerable
+      or sold.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125183512576
+    m_Localized: 'NPC: Decisions aren''t made by users, but by a single organization.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 127058366464
+    m_Localized: 'NPC: And if you live in a restricted area, you might not even have
+      access.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 128304074752
+    m_Localized: 'NPC: Privacy is also affected. Your activity can be easily tracked.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 129075826688
+    m_Localized: 'NPC: Unlike Web3, here you don''t own your information.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 129709166592
+    m_Localized: 'NPC: Centralization is also an easy target for cyberattacks.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 130392838144
+    m_Localized: 'NPC: A single point of failure means all users are at risk.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 131084898304
+    m_Localized: 'NPC: In short, centralization connects you, but takes away your
+      control.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132431269888
+    m_Localized: 'NPC: That''s why Web3 is betting on the opposite: decentralization.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133207216128
+    m_Localized: 'NPC: A model where no one is in charge, and everyone participates.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133869916160
+    m_Localized: 'NPC: This way we can protect our data and decide how it''s used.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 134532616192
+    m_Localized: 'NPC: If you care about your privacy and digital freedom, it''s
+      time to look beyond.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135308562432
+    m_Localized: 'NPC: Centralization was helpful in the beginning... but now we
+      need more than that.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 136109674496
+    m_Localized: 'NPC: Regaining control is possible, and it starts with knowing
+      how everything works.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 136713654272
+    m_Localized: 'NPC: You''re not a product. You''re part of a network that can
+      decide together.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 137363771392
+    m_Localized: 'NPC: Let''s see what a decentralized system would look like?'
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

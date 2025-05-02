@@ -1,0 +1,130 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: "Decentralizaci\xF3n_es"
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: es
+  m_SharedData: {fileID: 11400000, guid: 513d99bc4f8cf454eb62bb5d292dd662, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 302376079360
+    m_Localized: "\xA1Bienvenido a la explicaci\xF3n de la Decentralizaci\xF3n!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14181257216
+    m_Localized: "NPC: Ya hablamos de centralizaci\xF3n. Ahora veamos su opuesto:
+      la descentralizaci\xF3n."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 76496031744
+    m_Localized: "NPC: Aqu\xED, nadie tiene el control total. Todos los usuarios
+      forman parte de la red.\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89502568448
+    m_Localized: 'NPC: Cada dispositivo conectado es un nodo que ayuda a mantener
+      la red activa.
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 103939362816
+    m_Localized: "NPC: Si un nodo falla, los dem\xE1s siguen funcionando. La red
+      no se detiene.\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 117554073600
+    m_Localized: "NPC: Esa estructura la hace m\xE1s segura, resistente y transparente.\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 121819680768
+    m_Localized: 'NPC: Para que algo se registre, varios usuarios deben estar de
+      acuerdo. A eso se le llama consenso.
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 126336946176
+    m_Localized: 'NPC: Las decisiones no las toma una empresa, sino la comunidad.
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 131294613504
+    m_Localized: "NPC: Por eso se dice que estas redes son m\xE1s democr\xE1ticas.\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133886693376
+    m_Localized: "NPC: Adem\xE1s, puedes hacer transacciones sin necesidad de bancos
+      ni intermediarios.\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 136218726400
+    m_Localized: "NPC: Todo se registra en blockchain, y cualquiera puede ver la
+      informaci\xF3n.\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 137980334080
+    m_Localized: 'NPC: Pero aunque la red sea abierta, tu identidad personal se mantiene
+      protegida.
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 138701754368
+    m_Localized: "NPC: Un nodo no puede alterar la red sin que los dem\xE1s lo noten.\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 139309928448
+    m_Localized: "NPC: Y si desaparecen todos los nodos\u2026 s\xED, la red se cae,
+      pero eso es muy poco probable.\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 139955851264
+    m_Localized: 'NPC: Descentralizar no significa caos. Hay reglas, pero son compartidas.
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288182554624
+    m_Localized: "NPC: Es un sistema m\xE1s equitativo, pensado para incluir a m\xE1s
+      personas.\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292070674432
+    m_Localized: "NPC: No importa d\xF3nde est\xE9s, puedes participar si tienes
+      internet.\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 294209769472
+    m_Localized: "NPC: Por eso Web3 se basa en redes descentralizadas: para que nadie
+      tenga m\xE1s poder que los dem\xE1s.\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 296214646784
+    m_Localized: "NPC: La equidad, la seguridad y la colaboraci\xF3n son su base.\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 298123055104
+    m_Localized: "NPC: \xBFTe imaginas un mundo donde todos puedan decidir y proteger
+      sus datos?\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 299528146944
+    m_Localized: "NPC: Bienvenida a la descentralizaci\xF3n. Vamos a construir juntas.\n\n"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

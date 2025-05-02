@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Wallet_es
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: es
+  m_SharedData: {fileID: 11400000, guid: 1872fb9dcfe75884abe3f8a096f672da, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 7831080960
+    m_Localized: 'NPC: Para usar criptomonedas, necesitas una wallet, una billetera
+      digital.
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78379274240
+    m_Localized: 'NPC: Con ella puedes guardar, recibir y enviar tus monedas.
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90240765952
+    m_Localized: "NPC: Pero no es una billetera com\xFAn: funciona con dos claves.\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 102140006400
+    m_Localized: "NPC: La clave p\xFAblica se comparte. Es como tu n\xFAmero de cuenta.\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 106275590144
+    m_Localized: 'NPC: La clave privada no se comparte nunca. Es tu llave secreta.
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 108590845952
+    m_Localized: "NPC: Si la pierdes, no hay forma de recuperarla. Y perder\xE1s
+      tu acceso.\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 110830604288
+    m_Localized: "NPC: Algunas wallets son f\xEDsicas, pero la mayor\xEDa son apps
+      o extensiones web.\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113049391104
+    m_Localized: "NPC: Hay varios tipos: m\xF3viles, de escritorio, en l\xEDnea y
+      hardware.\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115473698816
+    m_Localized: "NPC: Todas sirven, pero debes elegir seg\xFAn tu nivel de experiencia.\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 120259399680
+    m_Localized: 'NPC: Compartir tu clave privada es como entregar tu cartera con
+      todo dentro.
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 120670441472
+    m_Localized: 'NPC: En blockchain, las transacciones no se pueden deshacer.
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 123681951744
+    m_Localized: "NPC: Si env\xEDas a la direcci\xF3n equivocada, no hay bot\xF3n
+      de \u201Ccancelar\u201D.\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125074460672
+    m_Localized: "NPC: Las wallets tambi\xE9n muestran tu historial de transacciones.
+      Todo queda registrado.\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 126303391744
+    m_Localized: 'NPC: Y si no quieres copiar direcciones largas, puedes usar servicios
+      como ENS.
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 127616208896
+    m_Localized: "NPC: ENS convierte tu clave p\xFAblica en un nombre f\xE1cil, como
+      lucia.eth.\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 129147129856
+    m_Localized: "NPC: Existen wallets donde t\xFA tienes el control total, y otras
+      donde un tercero guarda tu clave.\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 130787102720
+    m_Localized: "NPC: Las primeras son m\xE1s seguras, pero requieren m\xE1s responsabilidad.\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132414492672
+    m_Localized: 'NPC: Recuerda: tu wallet es tu identidad en Web3. Cuidarla es esencial.
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 134092214272
+    m_Localized: "NPC: T\xFA eres tu propio banco. T\xFA decides, t\xFA proteges.\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135774130176
+    m_Localized: "NPC: Vamos a ver c\xF3mo usarla correctamente sin caer en errores.\n\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 137758035968
+    m_Localized: "\xA1Bienvenido a la explicaci\xF3n de Wallet!"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []
