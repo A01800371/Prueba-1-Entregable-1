@@ -26,11 +26,7 @@ public class QuizManager : MonoBehaviour
     public Animator GloboAnimator; // Referencia globo de diálogo
     [SerializeField] public AudioSource error; // Referencia al AudioSource para reproducir sonidos
     [SerializeField] public AudioSource correcto; // Referencia al AudioSource para reproducir sonidos
-
     
-    
-
-
     private void Start()
     {
         timer = GetComponent<TimerManager>(); 
@@ -39,6 +35,7 @@ public class QuizManager : MonoBehaviour
         NumeroDePreguntas = QnA.Count; // Guardamos el número total de preguntas para usarlo 
         ActivarAnimacionHablar(); // Activamos la animación de hablar al inicio
         GeneraPregunta(); // Genera la primera pregunta
+
     }
 
     void EstableceRespuestas()

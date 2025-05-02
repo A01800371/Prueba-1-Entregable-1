@@ -764,6 +764,46 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1609038584}
     - target: {fileID: 4765609482852070721, guid: 5f5619834e64c5143820caa767abf10b, type: 3}
+      propertyPath: QnA.Array.data[0].dbId
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4765609482852070721, guid: 5f5619834e64c5143820caa767abf10b, type: 3}
+      propertyPath: QnA.Array.data[1].dbId
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4765609482852070721, guid: 5f5619834e64c5143820caa767abf10b, type: 3}
+      propertyPath: QnA.Array.data[2].dbId
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4765609482852070721, guid: 5f5619834e64c5143820caa767abf10b, type: 3}
+      propertyPath: QnA.Array.data[3].dbId
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4765609482852070721, guid: 5f5619834e64c5143820caa767abf10b, type: 3}
+      propertyPath: QnA.Array.data[4].dbId
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4765609482852070721, guid: 5f5619834e64c5143820caa767abf10b, type: 3}
+      propertyPath: QnA.Array.data[5].dbId
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4765609482852070721, guid: 5f5619834e64c5143820caa767abf10b, type: 3}
+      propertyPath: QnA.Array.data[6].dbId
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4765609482852070721, guid: 5f5619834e64c5143820caa767abf10b, type: 3}
+      propertyPath: QnA.Array.data[7].dbId
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4765609482852070721, guid: 5f5619834e64c5143820caa767abf10b, type: 3}
+      propertyPath: QnA.Array.data[8].dbId
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4765609482852070721, guid: 5f5619834e64c5143820caa767abf10b, type: 3}
+      propertyPath: QnA.Array.data[9].dbId
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4765609482852070721, guid: 5f5619834e64c5143820caa767abf10b, type: 3}
       propertyPath: QnA.Array.data[0].Pregunta.m_TableEntryReference.m_KeyId
       value: 682264524996608
       objectReference: {fileID: 0}
