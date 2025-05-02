@@ -180,18 +180,19 @@ MonoBehaviour:
   m_text: "Este proyecto ha sido desarrollado\n por estudiantes del Tecnol\xF3gico
     oe Monterrey \n Campus Estado de Mexico\n\n como parte de una colaboracion \nacademica
     para la organizacion CryptoChicks.\r\n\r\n\n\nEquipo de Desarrollo:\n\r\nErik
-    Owen Castro Flores \u2013 A01800371\r\n\r\nYael Michel Garcia Lopez \u2013 A01750911\r\n\r\nAllan
+    Owen Castro Flores \u2013 A01800371@tec.mx\r\n\r\nYael Michel Garcia Lopez \u2013
+    A01750911@tec.mx\r\n\r\nAllan Mauricio Brenes Castro \u2013 A01750747@tec.mx\r\n\r\nBrian
+    Axel Velarde Rodriguez \u2013 A01753036@tec.mx\r\n\r\nDaniel Diaz Romero \u2013
+    A01801486@tec.mx\n\n\r\n\r\nAgradecemos a CryptoChicks por la oportunidad de
+    contribuir\n a su mision educativa y de innovacion tecnologica\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEste
+    proyecto ha sido desarrollado\n por estudiantes del Tecnol\xF3gico oe Monterrey
+    \n Campus Estado de Mexico\n\n como parte de una colaboracion \nacademica para
+    la organizacion CryptoChicks.\r\n\r\n\n\nEquipo de Desarrollo:\n\r\nErik Owen
+    Castro Flores \u2013 A01800371\r\n\r\nYael Michel Garcia Lopez \u2013 A01750911\r\n\r\nAllan
     Mauricio Brenes Castro \u2013 A01750747\r\n\r\nBrian Axel Velarde Rodriguez \u2013
     A01753036\r\n\r\nDaniel Diaz Romero \u2013 A01801486\n\n\r\n\r\nAgradecemos a
     CryptoChicks por la oportunidad de contribuir\n a su mision educativa y de innovacion
-    tecnologica\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEste proyecto ha sido desarrollado\n
-    por estudiantes del Tecnol\xF3gico oe Monterrey \n Campus Estado de Mexico\n\n
-    como parte de una colaboracion \nacademica para la organizacion CryptoChicks.\r\n\r\n\n\nEquipo
-    de Desarrollo:\n\r\nErik Owen Castro Flores \u2013 A01800371\r\n\r\nYael Michel
-    Garcia Lopez \u2013 A01750911\r\n\r\nAllan Mauricio Brenes Castro \u2013 A01750747\r\n\r\nBrian
-    Axel Velarde Rodriguez \u2013 A01753036\r\n\r\nDaniel Diaz Romero \u2013 A01801486\n\n\r\n\r\nAgradecemos
-    a CryptoChicks por la oportunidad de contribuir\n a su mision educativa y de
-    innovacion tecnologica."
+    tecnologica."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
   m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
