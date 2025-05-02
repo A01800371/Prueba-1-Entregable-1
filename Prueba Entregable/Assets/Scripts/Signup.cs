@@ -64,9 +64,9 @@ public class Signup : MonoBehaviour
     {
         genderDrop.choices = new List<string>
         {
-            "Femenino",
-            "Masculino",
-            "Otro"
+            "H",
+            "M",
+            "N"
         };
         genderDrop.value = "Otro"; 
     }
@@ -74,16 +74,15 @@ public class Signup : MonoBehaviour
     {
         countryDrop.choices = new List<string>
         {
-            "Selecciona tu país",
-            "Colombia",
-            "Argentina",     
-            "México",
-            "Chile",
-            "Perú",
-            "Estados Unidos",
-            "España",
-            "Canada",
-            "Otro"
+            "---", // Placeholder
+            "ARG", // Argentina
+            "CAN", // Canada
+            "CHL", // Chile
+            "COL", // Colombia
+            "ESP", // España
+            "USA", // Estados Unidos
+            "MEX", // México
+            "PER"  // Perú
         };
         countryDrop.value = "Selecciona tu país";
     }

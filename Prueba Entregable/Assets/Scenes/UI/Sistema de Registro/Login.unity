@@ -183,7 +183,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd731a22e1cc4194a94e148f4ca12572, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1001 &941208368
+--- !u!1001 &1180701826
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -191,47 +191,47 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 3256611960665686341, guid: cd7aa77837438b846a0e27df5f7a8983, type: 3}
+    - target: {fileID: 4187936804755252964, guid: 2d6ae6fda93eaf141aeb2a4bd17d96cf, type: 3}
       propertyPath: m_Name
-      value: ChatGPT_Image_Apr_24__2025__06_29_06_PM-removebg-preview
+      value: CryptoAdventures
       objectReference: {fileID: 0}
-    - target: {fileID: 3769385142572360873, guid: cd7aa77837438b846a0e27df5f7a8983, type: 3}
+    - target: {fileID: 8686170627292807363, guid: 2d6ae6fda93eaf141aeb2a4bd17d96cf, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 0.26
       objectReference: {fileID: 0}
-    - target: {fileID: 3769385142572360873, guid: cd7aa77837438b846a0e27df5f7a8983, type: 3}
+    - target: {fileID: 8686170627292807363, guid: 2d6ae6fda93eaf141aeb2a4bd17d96cf, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3
+      value: 2.91
       objectReference: {fileID: 0}
-    - target: {fileID: 3769385142572360873, guid: cd7aa77837438b846a0e27df5f7a8983, type: 3}
+    - target: {fileID: 8686170627292807363, guid: 2d6ae6fda93eaf141aeb2a4bd17d96cf, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3769385142572360873, guid: cd7aa77837438b846a0e27df5f7a8983, type: 3}
+    - target: {fileID: 8686170627292807363, guid: 2d6ae6fda93eaf141aeb2a4bd17d96cf, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 3769385142572360873, guid: cd7aa77837438b846a0e27df5f7a8983, type: 3}
+    - target: {fileID: 8686170627292807363, guid: 2d6ae6fda93eaf141aeb2a4bd17d96cf, type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3769385142572360873, guid: cd7aa77837438b846a0e27df5f7a8983, type: 3}
+    - target: {fileID: 8686170627292807363, guid: 2d6ae6fda93eaf141aeb2a4bd17d96cf, type: 3}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3769385142572360873, guid: cd7aa77837438b846a0e27df5f7a8983, type: 3}
+    - target: {fileID: 8686170627292807363, guid: 2d6ae6fda93eaf141aeb2a4bd17d96cf, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3769385142572360873, guid: cd7aa77837438b846a0e27df5f7a8983, type: 3}
+    - target: {fileID: 8686170627292807363, guid: 2d6ae6fda93eaf141aeb2a4bd17d96cf, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3769385142572360873, guid: cd7aa77837438b846a0e27df5f7a8983, type: 3}
+    - target: {fileID: 8686170627292807363, guid: 2d6ae6fda93eaf141aeb2a4bd17d96cf, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3769385142572360873, guid: cd7aa77837438b846a0e27df5f7a8983, type: 3}
+    - target: {fileID: 8686170627292807363, guid: 2d6ae6fda93eaf141aeb2a4bd17d96cf, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
@@ -239,7 +239,7 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: cd7aa77837438b846a0e27df5f7a8983, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 2d6ae6fda93eaf141aeb2a4bd17d96cf, type: 3}
 --- !u!1 &1391689856
 GameObject:
   m_ObjectHideFlags: 0
@@ -471,4 +471,4 @@ SceneRoots:
   - {fileID: 1391689859}
   - {fileID: 898643126}
   - {fileID: 1911557137}
-  - {fileID: 941208368}
+  - {fileID: 1180701826}
