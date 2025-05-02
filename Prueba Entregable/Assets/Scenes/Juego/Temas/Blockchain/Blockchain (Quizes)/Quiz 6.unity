@@ -310,7 +310,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   QnA:
-  - Pregunta:
+  - dbId: 56
+    Pregunta:
       m_TableReference:
         m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
       m_TableEntryReference:
@@ -337,7 +338,8 @@ MonoBehaviour:
       m_WaitForCompletion: 0
       m_LocalVariables: []
     RespuestaCorrecta: 1
-  - Pregunta:
+  - dbId: 57
+    Pregunta:
       m_TableReference:
         m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
       m_TableEntryReference:
@@ -364,7 +366,8 @@ MonoBehaviour:
       m_WaitForCompletion: 0
       m_LocalVariables: []
     RespuestaCorrecta: 2
-  - Pregunta:
+  - dbId: 58
+    Pregunta:
       m_TableReference:
         m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
       m_TableEntryReference:
@@ -391,7 +394,8 @@ MonoBehaviour:
       m_WaitForCompletion: 0
       m_LocalVariables: []
     RespuestaCorrecta: 1
-  - Pregunta:
+  - dbId: 59
+    Pregunta:
       m_TableReference:
         m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
       m_TableEntryReference:
@@ -418,7 +422,8 @@ MonoBehaviour:
       m_WaitForCompletion: 0
       m_LocalVariables: []
     RespuestaCorrecta: 2
-  - Pregunta:
+  - dbId: 60
+    Pregunta:
       m_TableReference:
         m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
       m_TableEntryReference:
@@ -445,7 +450,8 @@ MonoBehaviour:
       m_WaitForCompletion: 0
       m_LocalVariables: []
     RespuestaCorrecta: 1
-  - Pregunta:
+  - dbId: 51
+    Pregunta:
       m_TableReference:
         m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
       m_TableEntryReference:
@@ -488,7 +494,8 @@ MonoBehaviour:
       m_WaitForCompletion: 0
       m_LocalVariables: []
     RespuestaCorrecta: 3
-  - Pregunta:
+  - dbId: 52
+    Pregunta:
       m_TableReference:
         m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
       m_TableEntryReference:
@@ -531,7 +538,8 @@ MonoBehaviour:
       m_WaitForCompletion: 0
       m_LocalVariables: []
     RespuestaCorrecta: 3
-  - Pregunta:
+  - dbId: 53
+    Pregunta:
       m_TableReference:
         m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
       m_TableEntryReference:
@@ -574,7 +582,8 @@ MonoBehaviour:
       m_WaitForCompletion: 0
       m_LocalVariables: []
     RespuestaCorrecta: 3
-  - Pregunta:
+  - dbId: 54
+    Pregunta:
       m_TableReference:
         m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
       m_TableEntryReference:
@@ -617,7 +626,8 @@ MonoBehaviour:
       m_WaitForCompletion: 0
       m_LocalVariables: []
     RespuestaCorrecta: 3
-  - Pregunta:
+  - dbId: 55
+    Pregunta:
       m_TableReference:
         m_TableCollectionName: GUID:65fdba222ce43ae4eac2fab5b93345a5
       m_TableEntryReference:
@@ -734,6 +744,7 @@ MonoBehaviour:
   preguntasCorrectas: 0
   scoreText: {fileID: 1796972807}
   NumeroDePrguntas: {fileID: 0}
+  quizID: 0
   historialUsuario: []
   references:
     version: 2

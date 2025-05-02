@@ -14,7 +14,7 @@ public class LoginScript : MonoBehaviour
     public struct DatosUsuario
     {
         public string usuario;
-        public string constrasena;
+        public string contrasena;
     }
 
     void OnEnable()
@@ -37,7 +37,7 @@ public class LoginScript : MonoBehaviour
     {
         DatosUsuario datos;
         datos.usuario = tfUsuario.value;
-        datos.constrasena = tfContrasena.value;
+        datos.contrasena = tfContrasena.value;
 
         string datosJSON = JsonUtility.ToJson(datos);
 
