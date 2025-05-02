@@ -1,3 +1,5 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Audio;
 
@@ -8,6 +10,6 @@ public class VolumeC : MonoBehaviour
 
     public void VolumeControl (float slider)
     {
-        audioMixer.SetFloat("MusicVolume", Mathf.Log10(slider)*20);
+        audioMixer.SetFloat("MusicVolume", Mathf.Log10(slider) * 20);
     }
 }
