@@ -104,10 +104,6 @@ public class FeedbackScene : MonoBehaviour
 
     public void VolverAlMenu()
     {
-        Debug.Log(nota); // Mensaje de depuración
-        EnviarDatosLoginJSON(); // Llamamos a la función para enviar los resultados antes de volver al menú
-        OnDestroy(); // Llamamos a OnDestroy para asegurarnos de que el ScoreManager se destruya antes de volver al menú
-        SceneManager.LoadScene("Mapa Pueblo"); // Regresamos a la escena del menú
         StartCoroutine(VolverDespuesDeEnviar());
     }
     private IEnumerator VolverDespuesDeEnviar()
