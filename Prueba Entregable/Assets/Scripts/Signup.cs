@@ -1,11 +1,10 @@
-using System;
-using UnityEditor;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 using UnityEngine.UIElements;
 using UnityEngine.Networking;
+using UnityEngine.SceneManagement;
 using System.Collections;
-
+using System.Collections.Generic;
+using System.Text.RegularExpressions;
 public class Signup : MonoBehaviour
 {
     private UIDocument join;
@@ -15,24 +14,23 @@ public class Signup : MonoBehaviour
     private TextField tfsecondname;
     private TextField tfemail;
     private TextField tfpassword;
-    private TextField tfcountry;
     private TextField tfage;
-    private Button tfhombre;
-    private Button tfmujer;
-    private Button tfotro;
-    public struct DatosUsuario
-    {
-        public string nombre;
-        public string apellido;
-        public string correo;
-        public string contrasena;
-        public string pais;
-        public string fecha_nacimiento; // cambiar a fecha de nacimiento
-        public string genero;
-    }
+    private DropdownField genderDrop;
+    private DropdownField countryDrop;
+    private const float REQUEST_TIMEOUT = 5f;
+    // public struct DatosUsuario
+    // {
+    //     public string nombre;
+    //     public string apellido;
+    //     public string correo;
+    //     public string contrasena;
+    //     public string pais;
+    //     public string fecha_nacimiento; // cambiar a fecha de nacimiento
+    //     public string genero;
+    // }
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    void OnEnable()
     {
         join = GetComponent<UIDocument>();
         var root = join.rootVisualElement;
@@ -41,71 +39,176 @@ public class Signup : MonoBehaviour
         tfsecondname = root.Q<TextField>("secondname");
         tfemail = root.Q<TextField>("email");
         tfpassword = root.Q<TextField>("password");
-        tfcountry = root.Q<TextField>("country");
+        countryDrop = root.Q<DropdownField>("country");
         tfage = root.Q<TextField>("age");
-
-        tfhombre = root.Q<Button>("hombre");
-        tfmujer = root.Q<Button>("mujer");  
-        tfotro = root.Q<Button>("otro"); 
-        
         botonB = root.Q<Button>("Back");
         botonR = root.Q<Button>("Register");
-        botonR.RegisterCallback<ClickEvent, String>(Jugar,"Login");
-        botonB.RegisterCallback<ClickEvent, String>(Jugar,"Inicio11");
-    }
+        genderDrop = root.Q<DropdownField>("gender");
+        // botonR.RegisterCallback<ClickEvent, String>(Jugar,"Login");
+        // botonB.RegisterCallback<ClickEvent, String>(Jugar,"Inicio11");
 
-    void Update()
-    {
+        ConfigCountry();
+        ConfigGender();
+
+        botonR.clicked+=OnBotonRClicked;
+        botonB.clicked+=OnBotonBClicked;
         
     }
-
-
-    private void Jugar(ClickEvent evt, String nombreEscena)
+     private void OnDisable()
     {
-        if (nombreEscena == "Inicio11")
+        
+        botonR.clicked+=OnBotonRClicked;
+        botonB.clicked+=OnBotonBClicked;
+    }
+    private void ConfigGender()
+    {
+        genderDrop.choices = new List<string>
         {
-            SceneManager.LoadSceneAsync("Inicio11");
+            "Femenino",
+            "Masculino",
+            "Otro"
+        };
+        genderDrop.value = "Otro"; 
+    }
+    private void ConfigCountry()
+    {
+        countryDrop.choices = new List<string>
+        {
+            "Selecciona tu país",
+            "Colombia",
+            "Argentina",     
+            "México",
+            "Chile",
+            "Perú",
+            "Estados Unidos",
+            "España",
+            "Canada",
+            "Otro"
+        };
+        countryDrop.value = "Selecciona tu país";
+    }
+    private void OnBotonBClicked()
+    {
+        SceneManager.LoadScene("Login");
+    }
+     private void OnBotonRClicked()
+    {
+        if (!ValidateForm())
+            return;
+
+        StartCoroutine(RegisterUserWithTimeout());
+    }
+private bool ValidateForm()
+    {
+        // Validar campos vacíos
+        if (string.IsNullOrEmpty(tfname.value))
+        {
+            Debug.LogError("Por favor ingresa tu nombre");
+            return false;
         }
-        else if (nombreEscena == "Login")
+
+        if (string.IsNullOrEmpty(tfsecondname.value))
         {
-            botonR.clicked += EnviarDatosLoginJSON;
-            SceneManager.LoadSceneAsync("Login");
+            Debug.LogError("Por favor ingresa tu apellido");
+            return false;
+        }
+
+        if (string.IsNullOrEmpty(tfage.value))
+        {
+            Debug.LogError("Por favor ingresa tu fecha de nacimiento");
+            return false;
+        }
+
+        if (string.IsNullOrEmpty(tfemail.value))
+        {
+            Debug.LogError("Por favor ingresa tu correo electrónico");
+            return false;
+        }
+
+        if (string.IsNullOrEmpty(tfpassword.value))
+        {
+            Debug.LogError("Por favor ingresa una contraseña");
+            return false;
+        }
+
+        // Validar selección de país
+        if (countryDrop.value == "Selecciona tu país")
+        {
+            Debug.LogError("Por favor selecciona un país válido");
+            return false;
+        }
+
+        // Validar formato de fecha (YYYY-MM-DD)
+        if (!Regex.IsMatch(tfage.value, @"^\d{4}-\d{2}-\d{2}$"))
+        {
+            Debug.LogError("Formato de fecha incorrecto. Debe ser YYYY-MM-DD");
+            return false;
+        }
+
+        // Validar formato de email
+        if (!Regex.IsMatch(tfemail.value, @"^[^@\s]+@[^@\s]+\.[^@\s]+$"))
+        {
+            Debug.LogError("Formato de email inválido. Debe ser ejemplo@dominio.com");
+            return false;
+        }
+
+        return true;
+    }
+
+
+
+    private IEnumerator RegisterUserWithTimeout()
+    {
+        // Mostrar estado de carga
+        // ShowAlert("Conectando con el servidor...", false, true);
+
+        // Preparar datos del formulario
+        WWWForm formData = new WWWForm();
+        formData.AddField("nombre", tfname.value);
+        formData.AddField("apellido", tfsecondname.value);
+        formData.AddField("fecha_nacimiento", tfage.value);
+        formData.AddField("correo", tfemail.value);
+        formData.AddField("contrasena", tfpassword.value);
+        formData.AddField("pais", countryDrop.value);
+        formData.AddField("genero", genderDrop.value);
+        // Configurar la solicitud
+        using (UnityWebRequest request = UnityWebRequest.Post("http://35.169.93.195:8080/registrar", formData))
+        {
+            request.timeout = (int)REQUEST_TIMEOUT;
             
+            // Iniciar temporizador
+            float startTime = Time.time;
+            bool requestCompleted = false;
+            
+            // Enviar la solicitud
+            var asyncOperation = request.SendWebRequest();
+            
+            // Esperar con timeout
+            while (!asyncOperation.isDone)
+            {
+                if (Time.time - startTime >= REQUEST_TIMEOUT)
+                {
+                    request.Abort();
+                    // ShowAlert("Error de conexión: Tiempo de espera agotado. Por favor intenta nuevamente");
+                    yield break;
+                }
+                yield return null;
+            }
+            // Procesar respuesta
+            if (request.result == UnityWebRequest.Result.Success)
+            {
+                // ShowAlert("¡Registro exitoso! Redirigiendo...", true);
+                yield return new WaitForSeconds(0.5f);
+                SceneManager.LoadScene("Login");
+            }
+            else
+            {
+                Debug.LogError($"Error {request.responseCode}: {request.error}");
+                Debug.LogError("Respuesta del servidor: " + request.downloadHandler.text);
+            }
         }
     }
 
     
-    private void EnviarDatosLoginJSON()
-    {
-        StartCoroutine(RegistrarUsuario());
-    }
-    private IEnumerator RegistrarUsuario()
-    {
-        string tfborraraqui = "hola"; // puse esto para que no de error, cambiar por tfhombre.value, tfmujer.value o tfotro.value según el botón seleccionado
-        DatosUsuario datos;
-        datos.nombre = tfname.value;
-        datos.apellido = tfsecondname.value;
-        datos.correo = tfemail.value;
-        datos.contrasena = tfpassword.value;
-        datos.pais = tfcountry.value;
-        datos.fecha_nacimiento = tfage.value;
-        datos.genero = tfborraraqui; // Cambiar a tfhombre.value, tfmujer.value o tfotro.value según el botón seleccionado
-
-        string datosJSON = JsonUtility.ToJson(datos);
-        UnityWebRequest request = UnityWebRequest.Post("http://98.80.206.204:8080/register", datosJSON, "application/JSON"); //Cambiar la URL por la del servidor
-
-        yield return request.SendWebRequest();
-
-        if (request.result == UnityWebRequest.Result.Success)
-        {
-            print("\nConexión exitosa.\n\n");
-            SceneManager.LoadScene("login");
-        }
-        else
-        {
-            print("Error en la conexión: " + request.responseCode);
-        }
-
-    }
 }
 
