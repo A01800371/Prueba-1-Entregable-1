@@ -15,8 +15,35 @@ MonoBehaviour:
   m_GroupName: Localization-Assets-Shared
   m_GUID: fe189965b3a026343a36de9725a3ac17
   m_SerializeEntries:
+  - m_GUID: 1872fb9dcfe75884abe3f8a096f672da
+    m_Address: Assets/Localizacion/Tablas/Escenas/Wallet/Wallet Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 261d492d7be21134ba1acff3924a5a96
     m_Address: Assets/Localizacion/Traducciones ElAmigos Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4ae7ae1783218064eaa0b9b1d1315842
+    m_Address: Assets/Localizacion/Tablas/Escenas/Scams/Scams Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4ff6a1a75003dab45885b93d10042f49
+    m_Address: Assets/Localizacion/Tablas/Escenas/DataBase/Base de Datos Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 513d99bc4f8cf454eb62bb5d292dd662
+    m_Address: "Assets/Localizacion/Tablas/Escenas/Decentralizaci\xF3n/Decentralizaci\xF3n
+      Shared Data.asset"
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5404e271d0f93984ab748edf537aa702
+    m_Address: "Assets/Localizacion/Tablas/Escenas/Centralizaci\xF3n/Centralizaci\xF3n
+      Shared Data.asset"
     m_ReadOnly: 1
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -27,6 +54,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 65fdba222ce43ae4eac2fab5b93345a5
     m_Address: Assets/Localizacion/Tablas/QuizPrueba/PreguntasRespuestas Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7a29d5abef446a249a27deb770768f1b
+    m_Address: Assets/Localizacion/Tablas/Escenas/Web 1, 2 & 3 Shared Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -42,6 +74,23 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: d4fb8bb9211e1434292bacef60a3f432
     m_Address: Assets/Localizacion/Tablas/Inicio/Inicio Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d9582dd4143517c4f9ba2711b03fe3e3
+    m_Address: Assets/Localizacion/Tablas/Escenas/Cryptography/Cryptography Shared
+      Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dfbb521cbde72ed4498b68144c80f195
+    m_Address: Assets/Localizacion/Tablas/Escenas/Cryptocurrency/Cryptocurrency Shared
+      Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fac599a882e1a6f41bd7eeb8b123cd8a
+    m_Address: Assets/Localizacion/Tablas/Escenas/Blockchain/Blockchain Shared Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

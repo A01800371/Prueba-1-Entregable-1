@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Wallet Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: Wallet
+  m_TableCollectionNameGuidString: 1872fb9dcfe75884abe3f8a096f672da
+  m_Entries:
+  - m_Id: 7831080960
+    m_Key: Crp_2-01
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78379274240
+    m_Key: Crp_2-02
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90240765952
+    m_Key: Crp_2-03
+    m_Metadata:
+      m_Items: []
+  - m_Id: 102140006400
+    m_Key: Crp_2-04
+    m_Metadata:
+      m_Items: []
+  - m_Id: 106275590144
+    m_Key: Crp_2-05
+    m_Metadata:
+      m_Items: []
+  - m_Id: 108590845952
+    m_Key: Crp_2-06
+    m_Metadata:
+      m_Items: []
+  - m_Id: 110830604288
+    m_Key: Crp_2-07
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113049391104
+    m_Key: Crp_2-08
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115473698816
+    m_Key: Crp_2-09
+    m_Metadata:
+      m_Items: []
+  - m_Id: 120259399680
+    m_Key: Crp_2-10
+    m_Metadata:
+      m_Items: []
+  - m_Id: 120670441472
+    m_Key: Crp_2-11
+    m_Metadata:
+      m_Items: []
+  - m_Id: 123681951744
+    m_Key: Crp_2-12
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125074460672
+    m_Key: Crp_2-13
+    m_Metadata:
+      m_Items: []
+  - m_Id: 126303391744
+    m_Key: Crp_2-14
+    m_Metadata:
+      m_Items: []
+  - m_Id: 127616208896
+    m_Key: Crp_2-15
+    m_Metadata:
+      m_Items: []
+  - m_Id: 129147129856
+    m_Key: Crp_2-16
+    m_Metadata:
+      m_Items: []
+  - m_Id: 130787102720
+    m_Key: Crp_2-17
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132414492672
+    m_Key: Crp_2-18
+    m_Metadata:
+      m_Items: []
+  - m_Id: 134092214272
+    m_Key: Crp_2-19
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135774130176
+    m_Key: Crp_2-20
+    m_Metadata:
+      m_Items: []
+  - m_Id: 137758035968
+    m_Key: Crp_2-Cr
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 3552412175172894868
+  references:
+    version: 2
+    RefIds:
+    - rid: 3552412175172894868
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1746214710456

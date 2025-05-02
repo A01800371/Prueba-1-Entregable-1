@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: "Centralizaci\xF3n_es"
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: es
+  m_SharedData: {fileID: 11400000, guid: 5404e271d0f93984ab748edf537aa702, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 31344349184
+    m_Localized: "NPC: Hablemos de centralizaci\xF3n, un modelo donde una sola entidad
+      controla todo."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 110906101760
+    m_Localized: "NPC: \xBFTe suenan empresas como Google o Meta? Ellas deciden qu\xE9
+      ves, c\xF3mo y cu\xE1ndo."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 117159809024
+    m_Localized: "NPC: En este sistema, t\xFA usas la plataforma, pero no decides
+      nada."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 119932243968
+    m_Localized: 'NPC: Todos los datos pasan por un servidor central. Si ese servidor
+      cae, todo se apaga.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122641764352
+    m_Localized: "NPC: Adem\xE1s, tus datos no est\xE1n realmente seguros: pueden
+      ser vulnerables o vendidos."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125183512576
+    m_Localized: "NPC: Las decisiones no las toman los usuarios, sino una sola organizaci\xF3n."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 127058366464
+    m_Localized: 'NPC: Y si vives en una zona restringida, puede que ni siquiera
+      tengas acceso.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 128304074752
+    m_Localized: "NPC: La privacidad tambi\xE9n se ve afectada. Tu actividad puede
+      ser rastreada f\xE1cilmente."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 129075826688
+    m_Localized: "NPC: A diferencia de Web3, aqu\xED t\xFA no eres due\xF1o de tu
+      informaci\xF3n."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 129709166592
+    m_Localized: "NPC: La centralizaci\xF3n tambi\xE9n es un blanco f\xE1cil para
+      ciberataques."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 130392838144
+    m_Localized: "NPC: Un solo punto de falla significa que todos los usuarios est\xE1n
+      en riesgo."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 131084898304
+    m_Localized: "NPC: En resumen, la centralizaci\xF3n te conecta, pero te quita
+      el control."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132431269888
+    m_Localized: "NPC: Por eso Web3 apuesta por lo contrario: la descentralizaci\xF3n."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133207216128
+    m_Localized: 'NPC: Un modelo donde nadie manda solo, y todos participamos.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133869916160
+    m_Localized: "NPC: As\xED podemos proteger nuestros datos y decidir c\xF3mo se
+      usan."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 134532616192
+    m_Localized: "NPC: Si te importa tu privacidad y tu libertad digital, es hora
+      de mirar m\xE1s all\xE1."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135308562432
+    m_Localized: "NPC: La centralizaci\xF3n fue \xFAtil al inicio... pero ahora necesitamos
+      m\xE1s que eso."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 136109674496
+    m_Localized: "NPC: Recuperar el control es posible, y empieza con saber c\xF3mo
+      funciona todo."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 136713654272
+    m_Localized: "NPC: T\xFA no eres un producto. Eres parte de una red que puede
+      decidir junta."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 137363771392
+    m_Localized: "NPC: \xBFVamos a ver c\xF3mo ser\xEDa un sistema descentralizado?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 138064220160
+    m_Localized: "\xA1Bienvenido a la explicaci\xF3n de Centralizaci\xF3n!"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

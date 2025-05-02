@@ -1,11 +1,14 @@
+/*
+    * Autor: Daniel Díaz
+*/
+
 using System.Collections;
 using UnityEngine;
 using TMPro;
 using UnityEngine.EventSystems; // Necesario para detectar interacciones con la UI
-
-/*
-    * Autor: Daniel Díaz
-*/
+using UnityEngine.Localization;
+using UnityEngine.Localization.Components;
+using UnityEngine.Localization.Settings;
 
 public class Dialogue : MonoBehaviour
 {
@@ -13,20 +16,25 @@ public class Dialogue : MonoBehaviour
     [SerializeField] private GameObject dialogueMark;
     [SerializeField] private GameObject dialoguePanel;
     [SerializeField] private TMP_Text dialogueText;
-    [SerializeField, TextArea(4, 6)] private string[] dialogueLines;
+    [SerializeField] private LocalizedString[] dialogueLines;
+
 
     [Header("Ajustes del jugador")]
     [SerializeField] private PlayerMovement playerMovementScript; // Asigna el script de movimiento del jugador aquí
-    [SerializeField] private Animator playerAnimator; // Asigna el Animator del jugador aquí  
+    [SerializeField] private Animator playerAnimator; // Asigna el Animator del jugador aquí 
+    
+    [SerializeField] private GameObject botonMenu; // Asigna el botón de menú aquí
+    [SerializeField] private GameObject botonSkip; // Asigna el botón de skip aquí 
 
     private float typingTime = 0.05f; // Tiempo entre letras
 
     private bool isPlayerInRange;
     private bool didDialogueStart;
     private int lineIndex;
-    
-    [SerializeField] private GameObject botonMenu; // Asigna el botón de menú aquí
-    [SerializeField] private GameObject botonSkip; // Asigna el botón de skip aquí
+    private string lastLineShown = string.Empty; // Almacena la última línea mostrada
+    private bool isTyping = false; // Indica si se está escribiendo el texto
+    private LocalizedString.ChangeHandler currentChangeHandler;
+    private Coroutine typingCoroutine; // Nueva referencia para controlar el coroutine
     
     private void Start()
     {
@@ -36,8 +44,7 @@ public class Dialogue : MonoBehaviour
     void Update()
     {
         // Evitar que el diálogo se active si el clic fue sobre un elemento de UI
-        if (EventSystem.current.IsPointerOverGameObject())
-            return;
+        if (EventSystem.current.IsPointerOverGameObject()) return;
 
         if (isPlayerInRange && Input.GetButtonDown("Fire1"))
         {
@@ -45,14 +52,14 @@ public class Dialogue : MonoBehaviour
             {
                 StartDialogue();
             }
-            else if(dialogueText.text == dialogueLines[lineIndex])
+            else if(dialogueText.text == lastLineShown)
             {
                 NextDialogueLine();
             }
             else
             {
-                StopAllCoroutines(); // Detener la escritura actual
-                dialogueText.text = dialogueLines[lineIndex]; // Mostrar línea completa
+                StopCurrentTyping(); // Detener la escritura actual mejor que StopAllCoroutines()
+                dialogueText.text = lastLineShown; // Mostrar línea completa
             }    
         }
     }
@@ -64,6 +71,8 @@ public class Dialogue : MonoBehaviour
         didDialogueStart = true;
         dialoguePanel.SetActive(true);
         dialogueMark.SetActive(false);
+        playerMovementScript.canMove = false;
+
 
         lineIndex = 0;
 
@@ -73,7 +82,7 @@ public class Dialogue : MonoBehaviour
         playerAnimator.SetFloat("Vertical", 0);
         playerAnimator.SetFloat("Speed", 0);
 
-        StartCoroutine(ShowLine());
+        ShowLocalizedLine();
     }
     
     private void NextDialogueLine()
@@ -81,27 +90,76 @@ public class Dialogue : MonoBehaviour
         lineIndex++;
         if (lineIndex < dialogueLines.Length)
         {
-            StartCoroutine(ShowLine());
+            ShowLocalizedLine();
         }
         else
         {
-            didDialogueStart = false;
-            dialoguePanel.SetActive(false);
-            dialogueMark.SetActive(true);
-            playerMovementScript.enabled = true;
-            botonMenu.SetActive(true);
-            botonSkip.SetActive(false);
+            EndDialogue();
         }
     }
 
-    private IEnumerator ShowLine()
+    private void ShowLocalizedLine()
     {
+        StopCurrentTyping();
         dialogueText.text = string.Empty;
-        foreach (char letter in dialogueLines[lineIndex])
+        lastLineShown = string.Empty;
+
+        // Desuscribimos el anterior, si existe
+        if (currentChangeHandler != null)
+            dialogueLines[lineIndex].StringChanged -= currentChangeHandler;
+
+        // Creamos y guardamos el nuevo callback
+        currentChangeHandler = (localizedText) =>
         {
+            StopCurrentTyping();
+            lastLineShown = localizedText;
+            typingCoroutine = StartCoroutine(TypeText(localizedText));
+        };
+
+        dialogueLines[lineIndex].StringChanged += currentChangeHandler;
+        dialogueLines[lineIndex].RefreshString();
+    }
+
+
+    private IEnumerator TypeText(string line)
+    {
+        isTyping = true; // Indica que se está escribiendo
+        dialogueText.text = string.Empty;
+
+        foreach (char letter in line)
+        {
+            if (!isTyping) yield break; // Si se detiene la escritura, salimos del bucle
+
             dialogueText.text += letter;
             yield return new WaitForSeconds(typingTime);
         }
+
+        isTyping = false; // La escritura ha terminado
+        typingCoroutine = null; // Corrutina ha terminado
+    }
+
+    private void StopCurrentTyping()
+    {
+        if (typingCoroutine != null)
+        {
+            StopCoroutine(typingCoroutine);
+            typingCoroutine = null;
+        }
+
+        isTyping = false; // Aseguramos que la escritura se detenga
+    }
+
+    private void EndDialogue()
+    {
+        StopCurrentTyping();
+        didDialogueStart = false;
+        dialoguePanel.SetActive(false);
+        dialogueMark.SetActive(true);
+        playerMovementScript.enabled = true;
+        botonMenu.SetActive(true);
+        botonSkip.SetActive(false);
+        playerMovementScript.canMove = true;
+
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -124,12 +182,7 @@ public class Dialogue : MonoBehaviour
 
     public void SkipAllDialogue()
     {
-        StopAllCoroutines(); 
-        didDialogueStart = false;
-        dialoguePanel.SetActive(false);
-        dialogueMark.SetActive(true);
-        playerMovementScript.enabled = true; 
-        botonMenu.SetActive(true);
-        botonSkip.SetActive(false);
+        StopAllCoroutines();
+        EndDialogue();
     }
 }

@@ -1,0 +1,122 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Cryptography_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: d9582dd4143517c4f9ba2711b03fe3e3, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 164345729024
+    m_Localized: Welcome to the Cryptography explanation!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11203301376
+    m_Localized: "NPC: Ahora vamos con la criptograf\xEDa, la tecnolog\xEDa que mantiene
+      seguro todo el blockchain."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 80593866752
+    m_Localized: "NPC: Criptograf\xEDa significa convertir informaci\xF3n en algo
+      que solo t\xFA puedas entender."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118057390080
+    m_Localized: ' NPC: Se usa para proteger tus datos y evitar que terceros accedan
+      sin permiso.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122788564992
+    m_Localized: "NPC: Uno de los elementos clave es el hash criptogr\xE1fico."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125074460672
+    m_Localized: "NPC: Un hash es un c\xF3digo \xFAnico que representa un conjunto
+      de datos."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 127519739904
+    m_Localized: 'NPC: Si cambias una sola letra de esos datos, el hash cambia por
+      completo.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 130027933696
+    m_Localized: "NPC: As\xED es como blockchain detecta si alguien altera un bloque."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 134318706688
+    m_Localized: 'NPC: Cada bloque tiene su hash, que enlaza con el anterior como
+      una cadena.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 136801734656
+    m_Localized: 'NPC: Esa cadena es lo que asegura el orden y la integridad de toda
+      la red.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 138752086016
+    m_Localized: 'NPC: Los hashes son irreversibles: no se pueden descifrar para
+      ver los datos originales.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140580802560
+    m_Localized: "NPC: Solo quien tenga la clave correcta puede acceder a cierta
+      informaci\xF3n."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 142287884288
+    m_Localized: "NPC: Y como los hashes son \xFAnicos, ayudan a verificar que la
+      informaci\xF3n es aut\xE9ntica."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143927857152
+    m_Localized: 'NPC: Pero no revelan tus datos personales: validan sin mostrar.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145588801536
+    m_Localized: 'NPC: Eso protege tu privacidad y tu identidad dentro del sistema.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 147342020608
+    m_Localized: "NPC: Adem\xE1s, romper un hash requiere much\xEDsima energ\xEDa
+      y potencia de c\xF3mputo."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 149170737152
+    m_Localized: "NPC: Por eso se dice que es pr\xE1cticamente imposible falsificar
+      algo en blockchain."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 151238529024
+    m_Localized: "NPC: La criptograf\xEDa tambi\xE9n se usa para generar tus claves
+      p\xFAblicas y privadas."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153092411392
+    m_Localized: "NPC: As\xED puedes firmar transacciones y demostrar que eres t\xFA,
+      sin mostrar tu nombre."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 154975653888
+    m_Localized: "NPC: Todo eso ocurre sin que t\xFA lo veas\u2026 pero gracias a
+      eso puedes confiar en la red."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 156758233088
+    m_Localized: "NPC: Sin criptograf\xEDa, el blockchain simplemente no funcionar\xEDa.  "
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

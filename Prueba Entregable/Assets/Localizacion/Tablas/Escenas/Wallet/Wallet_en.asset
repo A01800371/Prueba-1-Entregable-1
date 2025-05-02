@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Wallet_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 1872fb9dcfe75884abe3f8a096f672da, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 126303391744
+    m_Localized: 'NPC: And if you don''t want to copy long addresses, you can use
+      services like ENS.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 127616208896
+    m_Localized: 'NPC: ENS converts your public key into an easy-to-use name, like
+      lucia.eth.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 129147129856
+    m_Localized: 'NPC: There are wallets where you have full control, and others
+      where a third party holds your key.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7831080960
+    m_Localized: 'NPC: To use cryptocurrency, you need a wallet, a digital wallet.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78379274240
+    m_Localized: 'NPC: With it, you can store, receive, and send your coins.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90240765952
+    m_Localized: 'NPC: But it''s not a regular wallet: it works with two keys.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 102140006400
+    m_Localized: 'NPC: The public key is shared. It''s like your account number.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 106275590144
+    m_Localized: 'NPC: The private key is never shared. It''s your secret key.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 108590845952
+    m_Localized: 'NPC: If you lose it, there''s no way to recover it. And you''ll
+      lose your access.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 110830604288
+    m_Localized: 'NPC: Some wallets are physical, but most are apps or web extensions.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113049391104
+    m_Localized: 'NPC: There are several types: mobile, desktop, online, and hardware.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115473698816
+    m_Localized: 'NPC: They all work, but you should choose based on your experience
+      level.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 120259399680
+    m_Localized: 'NPC: Sharing your private key is like handing over your wallet
+      with everything inside.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 120670441472
+    m_Localized: 'NPC: On the blockchain, transactions can''t be undone.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 123681951744
+    m_Localized: 'NPC: If you send to the wrong address, there''s no "cancel" button.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125074460672
+    m_Localized: 'NPC: Wallets also show your transaction history. Everything is
+      recorded.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 130787102720
+    m_Localized: 'NPC: The former are more secure, but require more responsibility.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132414492672
+    m_Localized: 'NPC: Remember: your wallet is your identity in Web3. Taking care
+      of it is essential.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 134092214272
+    m_Localized: 'NPC: You are your own bank. You decide, you protect.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135774130176
+    m_Localized: 'NPC: Let''s see how to use it correctly without making mistakes. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 137758035968
+    m_Localized: Welcome to the Wallet explication!
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

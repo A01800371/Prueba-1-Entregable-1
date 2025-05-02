@@ -1,0 +1,124 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Cryptocurrency_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: dfbb521cbde72ed4498b68144c80f195, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 20885549666304
+    m_Localized: Welcome to Cryptocurrency explanation!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9991147520
+    m_Localized: 'NPC: Let''s get down to basics: What is a cryptocurrency? It''s
+      digital money protected by cryptography.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19945916518400
+    m_Localized: 'NPC: It''s not a physical currency, nor is it controlled by a central
+      bank.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19978632089600
+    m_Localized: 'NPC: It works thanks to blockchain technology, where everything
+      is recorded.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20327963086848
+    m_Localized: 'NPC: You can use it to send, receive, or store value, without intermediaries.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20343037415424
+    m_Localized: 'NPC: The best part? You can make a transaction without the need
+      for banks.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20358287904768
+    m_Localized: 'NPC: That helps people without access to traditional financial
+      systems.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20381616623616
+    m_Localized: 'NPC: Many cryptocurrencies are decentralized. No one has complete
+      control over them.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20396498014208
+    m_Localized: 'NPC: Instead of a government, trust is based on code and community.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20411954024448
+    m_Localized: 'NPC: Bitcoin, for example, has a limit on the number of coins that
+      can exist.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20429893062656
+    m_Localized: 'NPC: Its value isn''t decided by a bank, but by market supply and
+      demand.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20512504074240
+    m_Localized: 'NPC: The more useful or reliable a cryptocurrency is, the more
+      valuable it can be.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20629382549504
+    m_Localized: 'NPC: But be careful: not all cryptocurrencies are the same or serve
+      the same purpose.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20643936784384
+    m_Localized: 'NPC: Some are used as money, others to access services or participate
+      in votes.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20655173324800
+    m_Localized: 'NPC: In Web3, cryptocurrencies allow you to have control over your
+      digital economy.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20666435031040
+    m_Localized: 'NPC: Unlike fiat money, cryptocurrencies don''t depend on the printing
+      of banknotes.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20680200736768
+    m_Localized: 'NPC: They are protected by cryptography, not by the promise of
+      a government.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20692360024064
+    m_Localized: 'NPC: You can have your own wallet and move your money around without
+      asking anyone''s permission.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20780050337792
+    m_Localized: 'NPC: But you also have to take good care of it, because you are
+      the one who manages it.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20817589358592
+    m_Localized: 'NPC: It''s more freedom... but also more responsibility.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20868193636352
+    m_Localized: 'NPC: Ready to use your first cryptocurrency? Let''s take it step
+      by step.'
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

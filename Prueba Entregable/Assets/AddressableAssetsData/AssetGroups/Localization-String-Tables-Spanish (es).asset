@@ -15,8 +15,20 @@ MonoBehaviour:
   m_GroupName: Localization-String-Tables-Spanish (es)
   m_GUID: e9b8ddc27af64b045a32f085fae55489
   m_SerializeEntries:
+  - m_GUID: 16c2a897a7c69c647826a2ece7d43922
+    m_Address: Base de Datos_es
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-es
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 178d988f4b763c745b2aae51dc618d93
     m_Address: Inicio_es
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-es
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2f80305b0825bae4db14691b4394d74c
+    m_Address: Cryptography_es
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-es
@@ -33,8 +45,50 @@ MonoBehaviour:
     m_SerializedLabels:
     - Locale-es
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 525139c420b0ab54798e0bd580b1ddbb
+    m_Address: "Decentralizaci\xF3n_es"
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-es
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 60cc4241e8534734a9d5408735d970d9
+    m_Address: Cryptocurrency_es
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-es
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6b0c9fdd023ee1e42a14568edbc35198
+    m_Address: "Centralizaci\xF3n_es"
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-es
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 71ee6cda47a6dda458b1de1897c8d2aa
+    m_Address: Web 1, 2 & 3_es
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-es
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 929c7aa73cf11ca4f9863f2ffbaf623e
+    m_Address: Blockchain_es
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-es
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a9fa205ffd449f945a39e8704b05606e
+    m_Address: Scams_es
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-es
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: b94e6c276140a5e43874f7a93c1863b4
     m_Address: Timer_es
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-es
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d3055ed721d887a4d8fbe25f6572f8c7
+    m_Address: Wallet_es
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-es

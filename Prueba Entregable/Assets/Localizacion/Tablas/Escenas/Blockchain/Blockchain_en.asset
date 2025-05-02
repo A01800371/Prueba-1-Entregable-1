@@ -1,0 +1,118 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Blockchain_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: fac599a882e1a6f41bd7eeb8b123cd8a, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 13740855296
+    m_Localized: 'NPC: The blockchain is like a large digital notebook shared by
+      many people.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206980829184
+    m_Localized: 'NPC: Each page in that notebook is a block, and each block contains
+      several transactions.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 239570571264
+    m_Localized: 'NPC: Once a block is written, it cannot be erased or modified.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 254783311872
+    m_Localized: 'NPC: Everything is recorded and validated by consensus among users.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 267580133376
+    m_Localized: 'NPC: If the majority agrees, the transaction is added to the blockchain.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 283254247424
+    m_Localized: 'NPC: This validation makes the system more reliable and secure.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 296659243008
+    m_Localized: 'NPC: The blockchain is connected by something called a hash, like
+      a fingerprint.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 339269177344
+    m_Localized: 'NPC: If someone changes the data in a block, the hash also changes,
+      and the attempt is detected.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 355312390144
+    m_Localized: 'NPC: That''s why falsifying a transaction on the blockchain is
+      almost impossible.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 369531080704
+    m_Localized: 'NPC: Another advantage: the blockchain is decentralized; there''s
+      no single owner or central server.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 403458805760
+    m_Localized: 'NPC: Each node keeps a complete copy of the ledger, just like the
+      others.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 417291620352
+    m_Localized: 'NPC: If one fails, the others keep everything running smoothly.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 430616924160
+    m_Localized: 'NPC: The order of the blocks is maintained thanks to the hash of
+      the previous block.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 443518603264
+    m_Localized: 'NPC: Furthermore, the blockchain doesn''t just store money: it
+      can record any digital data.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 467996561408
+    m_Localized: 'NPC: Everything is organized in a transparent, visible, and public
+      way.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 483519680512
+    m_Localized: 'NPC: So everyone can verify that the records are true.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 496610103296
+    m_Localized: 'NPC: You don''t need to trust a company: you trust the code and
+      the network.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 509444673536
+    m_Localized: 'NPC: That''s why the blockchain is so important for Web 3.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 522769977344
+    m_Localized: 'NPC: It allows us to build more secure systems without intermediaries.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 536154001408
+    m_Localized: 'NPC: Now let''s see how it works as a distributed database.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2714964905984
+    m_Localized: Welcome to the Blockchain explication!
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

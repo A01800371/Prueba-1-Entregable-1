@@ -1,0 +1,116 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Web 1, 2 & 3_es
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: es
+  m_SharedData: {fileID: 11400000, guid: 7a29d5abef446a249a27deb770768f1b, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 123048611840
+    m_Localized: "NPC: Vamos a repasar c\xF3mo ha cambiado el internet con los a\xF1os."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 399889453056
+    m_Localized: "NPC: Web 1 fue la primera etapa. Solo pod\xEDas leer, no interactuar."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 421905354752
+    m_Localized: "NPC: Eran p\xE1ginas est\xE1ticas, como un peri\xF3dico digital. "
+    m_Metadata:
+      m_Items: []
+  - m_Id: 459201105920
+    m_Localized: "NPC: Luego lleg\xF3 Web 2, donde todos pudimos crear contenido.\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 478520070144
+    m_Localized: 'NPC: Nacieron redes sociales, foros, memes y videos virales.
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 482798260224
+    m_Localized: "NPC: Pero tambi\xE9n lleg\xF3 el problema: las grandes empresas
+      se adue\xF1aron de nuestros datos.\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 487189696512
+    m_Localized: "NPC: En Web 2, t\xFA creas, pero ellos controlan.\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 490712911872
+    m_Localized: "NPC: As\xED que naci\xF3 Web 3, una nueva forma de usar internet.\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 492654874624
+    m_Localized: "NPC: En Web 3, t\xFA tienes el control de tus datos e identidad.\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 494412288000
+    m_Localized: "NPC: Est\xE1 basada en blockchain, sin intermediarios.\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 496970813440
+    m_Localized: "NPC: Aqu\xED no hay un solo due\xF1o. Todos participamos por igual.\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 498627563520
+    m_Localized: "NPC: Tus datos est\xE1n protegidos, y puedes saber c\xF3mo se usan.\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 501462913024
+    m_Localized: "NPC: La descentralizaci\xF3n es clave: sin jefes, sin censura.\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 503211937792
+    m_Localized: 'NPC: Ahora las decisiones no las toman las grandes empresas.
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 505183260672
+    m_Localized: 'NPC: En Web 3, recuperamos el control de nuestra vida digital.
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 507011977216
+    m_Localized: "NPC: Y eso permite m\xE1s privacidad, seguridad y autonom\xEDa.\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 509025243136
+    m_Localized: 'NPC: Web 1 fue leer. Web 2 fue leer y escribir.
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 511059480576
+    m_Localized: "NPC: Web 3 es leer, escribir... y ser due\xF1o de lo que haces.\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 512833671168
+    m_Localized: "NPC: Es m\xE1s que tecnolog\xEDa: es recuperar nuestra voz.\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 515400585216
+    m_Localized: "NPC: \xBFListo para descubrir c\xF3mo funciona este nuevo internet?\n\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19619633221632
+    m_Localized: "\xA1Bienvenido a la explicaci\xF3n de Web 1, 2 & 3!"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []
