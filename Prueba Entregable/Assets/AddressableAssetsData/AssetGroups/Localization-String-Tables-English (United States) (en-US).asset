@@ -14,13 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_GroupName: Localization-String-Tables-English (United States) (en-US)
   m_GUID: b56712647b27e754ea7d164a7e3dfc1a
-  m_SerializeEntries:
-  - m_GUID: 524c8055c58506d4ba15fbce1aef6a59
-    m_Address: Traducciones ElAmigos_en-US
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-en-US
-    FlaggedDuringContentUpdateRestriction: 0
+  m_SerializeEntries: []
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: ce4bcdf146b53374991844f5f85dd840, type: 2}
   m_SchemaSet:

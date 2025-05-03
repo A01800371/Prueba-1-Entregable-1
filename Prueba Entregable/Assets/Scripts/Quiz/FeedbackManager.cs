@@ -1,4 +1,6 @@
-// Hace falta mejorar este sistema, es solo provisional
+// Script para gestionar el feedback de respuestas correctas e incorrectas en Unity
+// Este script se encarga de mostrar mensajes de feedback al jugador dependiendo de su rendimiento
+// Autor: Brian Axel
 using System;
 using UnityEngine;
 using UnityEngine.UI;

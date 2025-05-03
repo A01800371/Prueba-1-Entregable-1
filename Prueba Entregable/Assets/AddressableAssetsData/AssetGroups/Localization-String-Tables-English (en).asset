@@ -15,8 +15,32 @@ MonoBehaviour:
   m_GroupName: Localization-String-Tables-English (en)
   m_GUID: cf3c781ade40525429a30f8edea69546
   m_SerializeEntries:
+  - m_GUID: 2da394df4c45e2e46bdaf4a16bce8b9b
+    m_Address: Web 1, 2 & 3_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 30262c2c67b5011429a2125bb3912319
     m_Address: Selectores_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 35981e82dac2abc448fb80e71b6490c0
+    m_Address: Blockchain_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3fb4d46e96ab8164bb257cc0fad7c287
+    m_Address: "Centralizaci\xF3n_en"
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4262da76482900e46a6ef33df3b31dab
+    m_Address: Cryptography_en
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-en
@@ -27,14 +51,44 @@ MonoBehaviour:
     m_SerializedLabels:
     - Locale-en
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 44ebe860c25c86943947be9de0be3de6
+    m_Address: Scams_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 607737bbc462d9b449ea150c2dc6cdc5
+    m_Address: Cryptocurrency_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 7e5b595b5f7ad2045b1106ecc50730ce
     m_Address: PreguntasRespuestas_en
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-en
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a2fba777e534e87409f48692728cb7c4
+    m_Address: Wallet_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: b9a9080e0e31997489110eab23b2330e
     m_Address: Inicio_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e5c860c2995c39741aac05e86b444f79
+    m_Address: Base de Datos_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e5dc79d52f5253c468aead02f1ead5ee
+    m_Address: "Decentralizaci\xF3n_en"
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-en

@@ -1,0 +1,138 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Cryptocurrency_es
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: es
+  m_SharedData: {fileID: 11400000, guid: dfbb521cbde72ed4498b68144c80f195, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 9991147520
+    m_Localized: "NPC: Vamos a lo b\xE1sico: \xBFqu\xE9 es una criptomoneda? Es dinero
+      digital protegido por criptograf\xEDa."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19945916518400
+    m_Localized: "NPC: No es una moneda f\xEDsica ni est\xE1 controlada por un banco
+      central.\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19978632089600
+    m_Localized: "NPC: Funciona gracias a la tecnolog\xEDa blockchain, donde todo
+      queda registrado.\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20327963086848
+    m_Localized: 'NPC: Puedes usarla para enviar, recibir o guardar valor, sin intermediarios.
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20343037415424
+    m_Localized: "NPC: \xBFLo mejor? Puedes hacer una transacci\xF3n sin necesidad
+      de bancos.\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20358287904768
+    m_Localized: 'NPC: Eso ayuda a personas sin acceso a sistemas financieros tradicionales.
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20381616623616
+    m_Localized: 'NPC: Muchas criptomonedas son descentralizadas. Nadie tiene control
+      total sobre ellas.
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20396498014208
+    m_Localized: "NPC: En lugar de un gobierno, la confianza se basa en el c\xF3digo
+      y en la comunidad.\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20411954024448
+    m_Localized: "NPC: Bitcoin, por ejemplo, tiene un l\xEDmite de monedas que pueden
+      existir.\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20429893062656
+    m_Localized: 'NPC: Su valor no lo decide un banco, sino la oferta y la demanda
+      del mercado.
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20512504074240
+    m_Localized: "NPC: Mientras m\xE1s \xFAtil o confiable sea una cripto, m\xE1s
+      valor puede tener.\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20629382549504
+    m_Localized: 'NPC: Pero ojo: no todas las criptomonedas son iguales ni sirven
+      para lo mismo.
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20643936784384
+    m_Localized: 'NPC: Algunas se usan como dinero, otras para acceder a servicios
+      o participar en votaciones.
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20655173324800
+    m_Localized: "NPC: En Web3, las criptomonedas permiten que t\xFA tengas control
+      sobre tu econom\xEDa digital.\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20666435031040
+    m_Localized: "NPC: A diferencia del dinero fiat, las cripto no dependen de la
+      impresi\xF3n de billetes.\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20680200736768
+    m_Localized: "NPC: Est\xE1n protegidas por criptograf\xEDa, no por la promesa
+      de un gobierno.\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20692360024064
+    m_Localized: 'NPC: Puedes tener tu propia wallet y mover tu dinero sin pedir
+      permiso a nadie.
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20780050337792
+    m_Localized: "NPC: Pero tambi\xE9n debes cuidarlo bien, porque t\xFA eres quien
+      lo administra.\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20817589358592
+    m_Localized: "NPC: Es m\xE1s libertad\u2026 pero tambi\xE9n m\xE1s responsabilidad.\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20868193636352
+    m_Localized: "NPC: \xBFLista para usar tu primera criptomoneda? Vamos paso a
+      paso.\n\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20885549666304
+    m_Localized: "\xA1Bienvenido a la explicaci\xF3n de Cryptocurrency!"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

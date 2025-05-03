@@ -26,11 +26,7 @@ public class QuizManager : MonoBehaviour
     public Animator GloboAnimator; // Referencia globo de diálogo
     [SerializeField] public AudioSource error; // Referencia al AudioSource para reproducir sonidos
     [SerializeField] public AudioSource correcto; // Referencia al AudioSource para reproducir sonidos
-
     
-    
-
-
     private void Start()
     {
         timer = GetComponent<TimerManager>(); 
@@ -39,6 +35,7 @@ public class QuizManager : MonoBehaviour
         NumeroDePreguntas = QnA.Count; // Guardamos el número total de preguntas para usarlo 
         ActivarAnimacionHablar(); // Activamos la animación de hablar al inicio
         GeneraPregunta(); // Genera la primera pregunta
+
     }
 
     void EstableceRespuestas()
@@ -61,11 +58,11 @@ public class QuizManager : MonoBehaviour
                 // Verificamos si la respuesta es correcta
                 if (preguntaActual.RespuestaCorrecta == i + 1)
                 {
-                    options[i].GetComponent<AnswerScript>().isCorrect = true;
+                    options[i].GetComponent<AnswerScript>().isCorrect = true; // Marcamos la respuesta como correcta
                 }
                 else
                 {
-                    options[i].GetComponent<AnswerScript>().isCorrect = false;
+                    options[i].GetComponent<AnswerScript>().isCorrect = false; // Marcamos la respuesta como incorrecta
                 }
             }
         }
@@ -102,7 +99,7 @@ public class QuizManager : MonoBehaviour
         globoAnimacion(); 
         correcto.Play(); // Reproducimos el sonido de respuesta correcta
 
-        ScoreManager.instance.historialUsuario.Add(new RespuestaUsuario(QnA[currentQuestion], true));
+        ScoreManager.instance.historialUsuario.Add(new RespuestaUsuario(QnA[currentQuestion], true)); // Guardamos la respuesta correcta
         
         QnA.RemoveAt(currentQuestion); // Quitamos la pregunta respondida
         score.AgregarPunto(); // Sumamos un punto
@@ -120,7 +117,7 @@ public class QuizManager : MonoBehaviour
         globoAnimacion(); 
         error.Play(); // Reproducimos el sonido de respuesta incorrecta
 
-        ScoreManager.instance.historialUsuario.Add(new RespuestaUsuario(QnA[currentQuestion], false));
+        ScoreManager.instance.historialUsuario.Add(new RespuestaUsuario(QnA[currentQuestion], false)); // Guardamos la respuesta incorrecta
 
 
         QnA.RemoveAt(currentQuestion); // Quitamos la pregunta respondida
@@ -137,7 +134,7 @@ public class QuizManager : MonoBehaviour
         globoAnimacion(); 
         error.Play();
 
-        ScoreManager.instance.historialUsuario.Add(new RespuestaUsuario(QnA[currentQuestion], false));
+        ScoreManager.instance.historialUsuario.Add(new RespuestaUsuario(QnA[currentQuestion], false)); // Guardamos la respuesta incorrecta
         
         QnA.RemoveAt(currentQuestion); // Quitamos la pregunta
         feedbackManager.RegistrarRespuesta(false); // Retroalimentación de tiempo agotado
@@ -180,9 +177,9 @@ public class QuizManager : MonoBehaviour
     }
     private void DesactivarAnimacionHablar() // Desactivamos la animación de hablar
     {
-        if (personajeAnimator != null)
+        if (personajeAnimator != null) // Verificamos que el animator no sea nulo
     {
-        personajeAnimator.SetBool("IsTalk", false);
+        personajeAnimator.SetBool("IsTalk", false); // Desactivamos la animación de hablar
     }
     }
 
@@ -194,9 +191,9 @@ public class QuizManager : MonoBehaviour
 
     private void DesactivarAnimacionGlobo() // Desactivamos la animación del globo de diálogo
     {
-        if (personajeAnimator != null)
+        if (personajeAnimator != null) // Verificamos que el animator no sea nulo
     {
-        GloboAnimator.SetBool("IsGlobe", false);
+        GloboAnimator.SetBool("IsGlobe", false); // Desactivamos la animación del globo
     }
         
     }
@@ -204,17 +201,17 @@ public class QuizManager : MonoBehaviour
     // metodo para bloquear los botones de respuesta
     void BloquearBotones()
     {
-        foreach (GameObject boton in options)
+        foreach (GameObject boton in options) // Iteramos sobre cada botón de respuesta
         {
-            boton.GetComponent<Button>().interactable = false;
+            boton.GetComponent<Button>().interactable = false; // Bloqueamos el botón para evitar múltiples clics
         }
     }
 
     void DesbloquearBotones()
     {
-        foreach (GameObject boton in options)
+        foreach (GameObject boton in options) // Iteramos sobre cada botón de respuesta
         {
-            boton.GetComponent<Button>().interactable = true;
+            boton.GetComponent<Button>().interactable = true; // Desbloqueamos el botón para permitir clics
         }
     }
 }
