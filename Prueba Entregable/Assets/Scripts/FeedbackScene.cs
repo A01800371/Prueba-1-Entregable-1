@@ -9,7 +9,7 @@ public class FeedbackScene : MonoBehaviour
 {
     public Text calificacionText;
     private string respuesta = ""; // Respuesta del servidor
-    private int nota = 0;
+    private int nota = 0; // calificación inicial del examen
     private int idSend = 0; // ID del examen
     private int idpregunta; // ID del jugador, puedes cambiarlo según tu lógica
     private int totalPreguntas = 0;// Cambia esto al número total de preguntas que tienes en tu quiz
@@ -32,7 +32,7 @@ public class FeedbackScene : MonoBehaviour
     {
         public int pregunta;
         public int correcto;
-        //public int id_jugador;
+        //public int id_jugador; //ID de pruebas
     }
 
     private List<ResultadoFinal> resultados = new List<ResultadoFinal>();
@@ -83,7 +83,7 @@ public class FeedbackScene : MonoBehaviour
             {
                 pregunta = idpregunta,
                 correcto = correcta,
-                //id_jugador = 15
+                //id_jugador = 15 // Id de pruebas
             };
             
             preguntas.Add(pregunta);
@@ -120,8 +120,8 @@ public class FeedbackScene : MonoBehaviour
         // Asegúrate de que el ScoreManager se destruya al salir de la escena
         if (ScoreManager.instance != null)
         {
-            Destroy(ScoreManager.instance.gameObject);
-            ScoreManager.instance = null;
+            Destroy(ScoreManager.instance.gameObject); // Destruye el objeto ScoreManager
+            ScoreManager.instance = null;  // Asegúrate de que la referencia se elimine
         }
     }
 
@@ -132,9 +132,9 @@ public class FeedbackScene : MonoBehaviour
 
         resultados.Add(new ResultadoFinal
         {
-            examen = idSend,
-            calificacion = nota,
-            //id_jugador = 15
+            examen = idSend, // ID del examen
+            calificacion = nota, // Calificación del examen
+            //id_jugador = 15 // Id de pruebas
         });
 
         if (resultados.Count == 0)
@@ -144,21 +144,21 @@ public class FeedbackScene : MonoBehaviour
 
         ResultadoFinal resultado = new ResultadoFinal
         {
-            examen = idSend,
-            calificacion = nota,
-            //id_jugador = 15 // Cambia esto por el ID del jugador real
+            examen = idSend, // ID del examen
+            calificacion = nota, // Calificación del examen
+            //id_jugador = 15 // Id de pruebas
         };
         string resultadosJson = JsonUtility.ToJson(resultado); // Convertimos la lista de resultados a JSON
         //Debug.Log("JSON a enviar: " + resultadosJson); // Verifica el JSON en consola
 
-        UnityWebRequest request = UnityWebRequest.Post("http://35.169.93.195:8080/juego/guardar-examen", resultadosJson, "application/json");
+        UnityWebRequest request = UnityWebRequest.Post("http://35.169.93.195:8080/juego/guardar-examen", resultadosJson, "application/json"); // URL del servidor
 
-        yield return request.SendWebRequest();
+        yield return request.SendWebRequest(); // Espera a que se complete la solicitud
 
         if (request.result == UnityWebRequest.Result.Success)
         {
             Debug.Log("Resultados enviados correctamente.");
-            Debug.Log("Respuesta del servidor: " + request.downloadHandler.text);
+            Debug.Log("Respuesta del servidor: " + request.downloadHandler.text); // Muestra la respuesta del servidor en consola
         }
         else
         {
@@ -168,7 +168,7 @@ public class FeedbackScene : MonoBehaviour
         request.Dispose(); // Liberar recursos del request
 
     }
-    private IEnumerator MandarRespuestas()
+    private IEnumerator MandarRespuestas() // Método para enviar las respuestas al servidor
     {
         foreach (var pregunta in preguntas)
         {
@@ -194,3 +194,4 @@ public class FeedbackScene : MonoBehaviour
     }
 
 }
+    

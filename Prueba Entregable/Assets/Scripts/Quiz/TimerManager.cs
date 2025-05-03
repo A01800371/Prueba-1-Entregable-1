@@ -1,3 +1,8 @@
+/* Script para gestionar un temporizador en Unity. 
+   Este script controla el tiempo restante, actualiza la UI y se comunica con el QuizManager.
+   El temporizador se reinicia automáticamente al finalizar el tiempo o al iniciar una nueva pregunta.
+   Auor: Brian Axel
+*/
 using UnityEngine;
 using UnityEngine.Localization;
 using UnityEngine.UI;

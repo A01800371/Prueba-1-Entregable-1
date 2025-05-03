@@ -5,7 +5,7 @@ using UnityEngine;
     * La función de este script es gestionar las respuestas del quiz.
     * Al hacer click en una respuesta, se llama al método 
     * Respuesta() que verifica si la respuesta es correcta o incorrecta.
-    * Autores: 
+    * Autores: Erick Owen y Brian Axel
 
 */
 

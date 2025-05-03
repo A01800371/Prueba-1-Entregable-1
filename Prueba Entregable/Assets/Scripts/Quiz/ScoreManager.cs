@@ -1,6 +1,8 @@
 /*
  * ScoreManager.cs
  * Este script gestiona el puntaje del jugador, mostrando el número de preguntas correctas y el total de preguntas.
+ * Se asegura de que la instancia del ScoreManager no se destruya al cambiar de escena, permitiendo que el puntaje persista a través de diferentes niveles.
+ * Autor: Brian Axel
  */
 
 
@@ -11,12 +13,12 @@ using UnityEngine.UI;
 
 public class ScoreManager : MonoBehaviour
 {
-    public static ScoreManager instance;
+    public static ScoreManager instance; // Instancia única del ScoreManager
     public int preguntasCorrectas = 0; // numero de preguntas correctas
-    public Text scoreText; 
-    public QuizManager NumeroDePrguntas;
+    public Text scoreText; // Texto UI para mostrar el puntaje
+    public QuizManager NumeroDePrguntas; // Referencia al QuizManager para obtener el número total de preguntas
     public int quizID; // ID del quiz actual
-    public List<RespuestaUsuario> historialUsuario = new List<RespuestaUsuario>();
+    public List<RespuestaUsuario> historialUsuario = new List<RespuestaUsuario>(); // Lista para almacenar las respuestas del usuario
 
     public void Awake()
     {
