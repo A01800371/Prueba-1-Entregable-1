@@ -1,11 +1,15 @@
+/*‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾*\
+| Este scipt es esencial para la dinámica del Sistema de dialogos, es completamente  |
+| compatible con las localizaciones del juego. Permite al Usuario escuchar y skipear |
+| diálogos dichos por un NPC.                                                        |
+|                                                                                    |
+| Autor: Daniel Díaz Romero                                                          |
+\*_________________________________________________________________________________*/
+
 using System.Collections;
 using UnityEngine;
 using TMPro;
 using UnityEngine.EventSystems; // Necesario para detectar interacciones con la UI
-
-/*
-    * Autor: Daniel Díaz
-*/
 
 public class Dialogue : MonoBehaviour
 {

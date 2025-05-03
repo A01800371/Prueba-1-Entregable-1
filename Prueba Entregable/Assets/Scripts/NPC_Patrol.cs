@@ -1,6 +1,12 @@
-/*
-    * Autor: Daniel Díaz
-*/
+/*‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾*\
+| Un script que le permite a un objeto de Unity, (en este caso un NPC) asignarle     |
+| dos puntos, en los cuales va a trazar un comino, sin la necedad de utilizar el     |
+| componente de animator para mover su pocisión (usarlo directamente en unity).      |
+| Permite recibir otros componentes, como los de animación, que permiten la ejecuc-  |
+| ción de las animaciones.                                                           |
+|                                                                                    |
+| Autor: Daniel Díaz Romero                                                          |
+\*_________________________________________________________________________________*/
 
 using System.Collections;
 using System.Collections.Generic;

@@ -1,6 +1,12 @@
-/*
-    * Autor: Daniel Díaz
-*/
+/*‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾*\
+| Este script es asistido por el de los datos de "LevelData.cs" y se le asigna al    |
+| objeto de MenuManager en Unity, se encarga de hacer cada apartado de nivel en el   |
+| Selector de niveles, al igual que asigna funciones a los botones de navegación y   |
+| los botones de los niveles, también carga escenas y permite un cambio de descripc- |
+| ión según el nivel seleccionado.                                                   |
+|                                                                                    |
+| Autor: Daniel Díaz Romero                                                          |
+\*_________________________________________________________________________________*/
 
 using UnityEngine;
 using UnityEngine.UI;

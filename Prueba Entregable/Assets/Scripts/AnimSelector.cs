@@ -1,13 +1,13 @@
+/*‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾*\
+| Este script es un selector de animaciones para Unity. Carga animaciones según un  |
+| ID.                                                                               |
+|                                                                                   |
+| Autor: Daniel Díaz Romero                                                         |
+\*_________________________________________________________________________________*/
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
-/*
-    * Este script es un selector de animaciones para Unity.
-    * Permite cargar diferentes escenas de animación basadas en un ID de animación.
-    * Autores: 
-*/
 
 public class AnimSelector : MonoBehaviour
 {

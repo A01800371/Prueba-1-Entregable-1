@@ -1,6 +1,10 @@
-/*
-    * Autor: Daniel Díaz
-*/
+/*‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾*\
+| Script sencillo que permite el movimiento del NPC por el mapa al recibir los       |
+| inputs de movimiento del jugador, según los valores prestablecidos de velocidad.   |
+|                                                                                    |
+| Autor: Daniel Díaz Romero                                                          |
+\*_________________________________________________________________________________*/
+
 
 using UnityEngine;
 
