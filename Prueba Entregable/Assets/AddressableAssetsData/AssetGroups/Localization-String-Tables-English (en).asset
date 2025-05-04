@@ -33,6 +33,12 @@ MonoBehaviour:
     m_SerializedLabels:
     - Locale-en
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 37bbab5d90c1b974abfee78fbc0958fb
+    m_Address: Mapa Pueblo_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 3fb4d46e96ab8164bb257cc0fad7c287
     m_Address: "Centralizaci\xF3n_en"
     m_ReadOnly: 1

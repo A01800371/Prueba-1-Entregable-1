@@ -4,7 +4,6 @@
 | Autor: Daniel Díaz Romero                                                          |
 \*_________________________________________________________________________________*/
 
-
 using UnityEngine;
 using UnityEngine.SceneManagement;
 

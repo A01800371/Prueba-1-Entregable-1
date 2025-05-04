@@ -25,6 +25,11 @@ MonoBehaviour:
     m_ReadOnly: 1
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3d91a70ec1f89d54d8cf224f6e0396fa
+    m_Address: Assets/Localizacion/Tablas/Mapa Pueblo Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 4ae7ae1783218064eaa0b9b1d1315842
     m_Address: Assets/Localizacion/Tablas/Escenas/Scams/Scams Shared Data.asset
     m_ReadOnly: 1

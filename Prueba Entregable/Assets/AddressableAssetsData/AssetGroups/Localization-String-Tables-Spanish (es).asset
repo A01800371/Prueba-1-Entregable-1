@@ -27,6 +27,12 @@ MonoBehaviour:
     m_SerializedLabels:
     - Locale-es
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2b95f94da1dedb34bbb851f3e44893be
+    m_Address: Mapa Pueblo_es
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-es
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 2f80305b0825bae4db14691b4394d74c
     m_Address: Cryptography_es
     m_ReadOnly: 1
