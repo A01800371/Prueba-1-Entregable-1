@@ -310,6 +310,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioMixer: {fileID: 24100000, guid: 3a939c1ac2dd4c3469596d2af0511de6, type: 2}
+  defaultVolume: 0.5
 --- !u!1 &106240649
 GameObject:
   m_ObjectHideFlags: 0
@@ -1495,6 +1496,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 213896818406320065, guid: 06974f3da5a5a9849bd7c096c36839fd, type: 3}
+      propertyPath: m_Resource
+      value: 
+      objectReference: {fileID: 8300000, guid: 660599799653a9e40bbdf5574fd873c0, type: 3}
+    - target: {fileID: 213896818406320065, guid: 06974f3da5a5a9849bd7c096c36839fd, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 660599799653a9e40bbdf5574fd873c0, type: 3}
     - target: {fileID: 2248920754665430692, guid: 06974f3da5a5a9849bd7c096c36839fd, type: 3}
       propertyPath: m_Name
       value: MusicManager

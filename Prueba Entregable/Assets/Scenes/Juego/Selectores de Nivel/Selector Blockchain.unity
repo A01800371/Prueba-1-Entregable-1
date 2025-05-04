@@ -3093,7 +3093,7 @@ MonoBehaviour:
       m_FallbackState: 0
       m_WaitForCompletion: 0
       m_LocalVariables: []
-    previewImage: {fileID: -855298285791758126, guid: e664c9fddd8ca9043b57a297647ee6dd, type: 3}
+    previewImage: {fileID: 1349961212714202092, guid: 99a8094f2ace46244961438a7e5b64f2, type: 3}
     sceneName: Quiz 4
     introSceneName: Blockchain
   - levelName: Base de datos
@@ -3106,7 +3106,7 @@ MonoBehaviour:
       m_FallbackState: 0
       m_WaitForCompletion: 0
       m_LocalVariables: []
-    previewImage: {fileID: 6937817954938267909, guid: be7494ec078219f4fb4ccc85bac13dbd, type: 3}
+    previewImage: {fileID: 1885205930394917474, guid: 7c6f79981fddfff47bcc1dd4ce2acc47, type: 3}
     sceneName: Quiz 5
     introSceneName: Base de Datos
   - levelName: "Cryptograf\xEDa"
@@ -3119,7 +3119,7 @@ MonoBehaviour:
       m_FallbackState: 0
       m_WaitForCompletion: 0
       m_LocalVariables: []
-    previewImage: {fileID: -6470460504253458178, guid: b19e4c36643789849beca8216932c368, type: 3}
+    previewImage: {fileID: 7407239417492782086, guid: 37cf808a8bf361b4d8dbe939bf1da63d, type: 3}
     sceneName: Quiz 6
     introSceneName: Cryptography
   titleText: {fileID: 2007646775}
