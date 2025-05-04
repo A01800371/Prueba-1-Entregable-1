@@ -4,7 +4,7 @@
             {
                 "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
                 "key": "buildOutputDirList",
-                "value": "{\"m_Value\":\"C:/Users/brian/Desktop/UnityProyects/Prueba-1-Entregable-1/Prueba Entregable/Web;C:/Users/acer nitro/Desktop/CryptoAdventures web;;;;;;;;\"}"
+                "value": "{\"m_Value\":\"C:/Users/brian/Desktop/Web;C:/Users/brian/Desktop/UnityProyects/Prueba-1-Entregable-1/Prueba Entregable/Web;C:/Users/acer nitro/Desktop/CryptoAdventures web;;;;;;;\"}"
             },
             {
                 "type": "System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",

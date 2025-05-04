@@ -6,8 +6,10 @@
  * Autores: Erick Owen, Brian Axel Velarde.
   */
 
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Localization.Settings;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
@@ -34,9 +36,30 @@ public class QuizManager : MonoBehaviour
         feedbackManager = GetComponent<FeedbackManager>();
         NumeroDePreguntas = QnA.Count; // Guardamos el número total de preguntas para usarlo 
         ActivarAnimacionHablar(); // Activamos la animación de hablar al inicio
-        GeneraPregunta(); // Genera la primera pregunta
+        // GeneraPregunta(); // Genera la primera pregunta
+        StartCoroutine(PreloadLocalizedStrings());
+
 
     }
+
+    private IEnumerator PreloadLocalizedStrings()
+    {
+        // Espera a que el sistema de localización esté listo
+        yield return LocalizationSettings.InitializationOperation;
+        // Si quieres forzar precarga puedes iterar sobre tus preguntas:
+        foreach (var pregunta in QnA)
+        {
+            pregunta.Pregunta.GetLocalizedStringAsync(); // empieza la carga
+            foreach (var respuesta in pregunta.Respuestas)
+            {
+                respuesta.GetLocalizedStringAsync(); // empieza la carga
+            }
+        }
+
+        yield return new WaitForSeconds(0.1f); // ligera espera opcional para dar tiempo a cargar
+        GeneraPregunta(); // ahora sí generamos la primera pregunta
+    }
+
 
     void EstableceRespuestas()
     {
