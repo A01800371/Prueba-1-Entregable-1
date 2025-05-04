@@ -152,6 +152,8 @@ public class FeedbackScene : MonoBehaviour
         //Debug.Log("JSON a enviar: " + resultadosJson); // Verifica el JSON en consola
 
         UnityWebRequest request = UnityWebRequest.Post("http://35.169.93.195:8080/juego/guardar-examen", resultadosJson, "application/json"); // URL del servidor
+        string cookies = PlayerPrefs.GetString("cookies", "");
+        request.SetRequestHeader("Cookie", cookies);
 
         yield return request.SendWebRequest(); // Espera a que se complete la solicitud
 
@@ -176,6 +178,9 @@ public class FeedbackScene : MonoBehaviour
             //Debug.Log("Enviando pregunta JSON: " + jsonPregunta);
 
             UnityWebRequest request = UnityWebRequest.Post("http://35.169.93.195:8080/juego/guardar-pregunta", jsonPregunta, "application/json");
+            string cookies = PlayerPrefs.GetString("cookies", "");
+            request.SetRequestHeader("Cookie", cookies);
+            
             yield return request.SendWebRequest();
 
             if (request.result == UnityWebRequest.Result.Success)

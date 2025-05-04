@@ -84,7 +84,16 @@ public class JoinBoton : MonoBehaviour
             if (request.result == UnityWebRequest.Result.Success)
             {
                 Debug.Log("Respuesta del servidor: " + request.downloadHandler.text);
-                // Carga la escena del menú principal si es exitoso
+
+                // Guardar la cookie de sesión
+                string cookies = request.GetResponseHeader("Set-Cookie");
+                if (!string.IsNullOrEmpty(cookies))
+                {
+                    PlayerPrefs.SetString("cookies", cookies.Split(';')[0]); // Guarda solo la cookie (sin flags extra)
+                    Debug.Log("Cookie guardada: " + PlayerPrefs.GetString("cookies"));
+                }
+
+                // Cargar la siguiente escena
                 SceneManager.LoadScene("MenuJ");
             }
             else
